@@ -1,0 +1,23 @@
+Package: bootmean
+Title: Percentile Bootstrap Confidence Intervals for a Mean
+Version: 0.1.0
+Authors@R: c(
+    person("Silas", "Bambil", , "sbambil1@student.gsu.edu", role = c("aut", "cre")),
+    person("Yasmeen", "Babagana", role = "aut")
+  )
+Description: Constructs percentile bootstrap confidence intervals for a
+    population mean using resampling with replacement. Returns the sample
+    mean, interval endpoints, and bootstrap means, with checks for invalid
+    inputs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    stats
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
