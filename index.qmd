@@ -7,14 +7,14 @@ description: "Statistics graduate student at Georgia State University, researchi
 :::: {.academic-layout}
 ::: {.profile-rail}
 ```{=html}
-<aside aria-label="About Silas Bambil">
+<div class="profile-bio" role="complementary" aria-label="About Silas Bambil">
 <img class="profile-portrait" src="assets/silas-bambil-portrait.jpeg" alt="Portrait of Silas Bambil" width="1280" height="1920" fetchpriority="high">
 <p class="profile-name">Silas Bambil</p>
 <p class="profile-role">Graduate student in Statistics<br>Georgia State University</p>
 <p class="profile-location">Atlanta, Georgia</p>
 <div class="profile-contact"><a href="mailto:sdbambil98@gmail.com">Email me</a><a href="https://github.com/sdbambil1">GitHub ↗</a><a href="files/Silas_Bambil_PhD_CV.pdf">CV · PDF ↓</a></div>
 <div class="rail-note"><span class="eyebrow">Areas of interest</span><p>Statistical prediction<br>Model calibration<br>Extreme value theory<br>Quantitative risk</p></div>
-</aside>
+</div>
 ```
 :::
 

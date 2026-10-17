@@ -12,7 +12,7 @@ The GitHub Actions workflow renders the Quarto website and deploys only `_site/`
 
 ## Editing
 
-Edit the `.qmd` files and `styles-academic.css`, then commit to `main`. Photos are in `assets/` and the original CV is in `files/`. No local server is needed to visit the published site. For local editing, open `Silas-Bambil.Rproj` and use RStudio's Render button or `source("preview.R")`.
+Edit the `.qmd` files and `styles-academic-v2.css`, then commit to `main`. Photos are in `assets/` and the original CV is in `files/`. No local server is needed to visit the published site. For local editing, open `Silas-Bambil.Rproj` and use RStudio's Render button or `source("preview.R")`.
 
 ## Security and hosting differences
 
