@@ -4,105 +4,72 @@ body-classes: home-page
 description: "Statistics graduate student at Georgia State University, researching predictive model adaptation and extreme risk."
 ---
 
-::: {.hero}
-::: {.hero-copy}
-<p class="eyebrow">Statistics · Prediction · Risk</p>
-
-# Silas Bambil
-
-<p class="role-line">Graduate student in Statistics<br>Georgia State University · Atlanta, Georgia</p>
-
-<p class="lead">Understanding predictions under change.<br>Quantifying risk at the extremes.</p>
-
-I am pursuing an MS in Mathematics with a concentration in Statistics at Georgia State University. I study how predictive models behave when conditions change, and how statistical methods help us understand rare, consequential losses.
-
-<div class="actions"><a class="button primary" href="research.html">Explore my research <span aria-hidden="true">↗</span></a><a class="button" href="cv.html">View my CV</a></div>
-
-<div class="profile-links"><a href="mailto:sdbambil98@gmail.com">Email</a><span aria-hidden="true">/</span><a href="https://github.com/sdbambil1">GitHub</a></div>
-:::
-::: {.portrait-panel}
-<figure class="portrait-frame"><img src="assets/silas-bambil-portrait.jpeg" alt="Portrait of Silas Bambil" width="1280" height="1920" fetchpriority="high"><figcaption>Silas Bambil · Georgia State University</figcaption></figure>
-<p class="portrait-note">MS Mathematics, Statistics concentration<br>MS Quantitative Risk Analysis and Management</p>
-:::
-:::
-
+:::: {.academic-layout}
+::: {.profile-rail}
 ```{=html}
-<div class="interest-strip" role="group" aria-label="Research interests">
-<span class="eyebrow">Research interests</span>
-<span>Distribution shift</span>
-<span>Probability calibration</span>
-<span>Extreme value theory</span>
-<span>Statistical computing</span>
-</div>
+<aside aria-label="About Silas Bambil">
+<img class="profile-portrait" src="assets/silas-bambil-portrait.jpeg" alt="Portrait of Silas Bambil" width="1280" height="1920" fetchpriority="high">
+<p class="profile-name">Silas Bambil</p>
+<p class="profile-role">Graduate student in Statistics<br>Georgia State University</p>
+<p class="profile-location">Atlanta, Georgia</p>
+<div class="profile-contact"><a href="mailto:sdbambil98@gmail.com">Email me</a><a href="https://github.com/sdbambil1">GitHub ↗</a><a href="files/Silas_Bambil_PhD_CV.pdf">CV · PDF ↓</a></div>
+<div class="rail-note"><span class="eyebrow">Areas of interest</span><p>Statistical prediction<br>Model calibration<br>Extreme value theory<br>Quantitative risk</p></div>
+</aside>
 ```
-
-<p class="eyebrow section-label">An overview of my work</p>
-
-## Selected research & software
-
-::: {.feature-row}
-::: {.feature-number}
-01
-:::
-::: {}
-<p class="meta">Research manuscript · 2026 · Unpublished</p>
-
-### Reliable prediction under distribution shift
-
-How do calibration, discrimination, and decision thresholds change when a model encounters a different population? This research compares model updating strategies using controlled simulations and a credit-risk benchmark.
-
-[Explore the study →](research.qmd#distribution-shift)
-:::
 :::
 
-::: {.feature-row}
-::: {.feature-number}
-02
-:::
-::: {}
-<p class="meta">Independent research · 2026 · Unpublished</p>
+::: {.academic-main}
+<p class="eyebrow">Statistics & quantitative risk</p>
 
-### Stable fire-loss quantiles and far-tail uncertainty
+# About me
 
-An extreme-value analysis of approximately 1.25 million U.S. structure-fire loss records, examining the stability of extreme quantiles and the sensitivity of Expected Shortfall.
+I am a graduate student at **Georgia State University**, pursuing an MS in Mathematics with a concentration in Statistics. My research interests lie in statistical prediction, model evaluation, and the analysis of extreme risks.
 
-[Read about the fire-loss research →](research.qmd#fire-loss)
-:::
+I study how predictive models behave when the population they serve changes, with particular attention to **probability calibration and model adaptation**. I also use extreme value methods to understand rare, high-impact losses.
+
+My background spans actuarial science and quantitative risk. I hold an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from Kwame Nkrumah University of Science and Technology.
+
+[Full curriculum vitae →](cv.qmd){.text-link}
+
+## Current work
+
+::: {.work-entry}
+<p class="meta">01 / Predictive modeling · Unpublished manuscript, 2026</p>
+
+### Prediction under distribution shift
+
+With Shudeshna Nandy, I examine calibration, discrimination, and decision thresholds in credit-risk models, comparing updating strategies through simulation and a loan-default benchmark.
+
+[Research summary](research.qmd#distribution-shift) · [Related software](projects.qmd#shiftadapt)
 :::
 
-::: {.feature-row}
-::: {.feature-number}
-03
+::: {.work-entry}
+<p class="meta">02 / Extreme value theory · Unpublished manuscript, 2026</p>
+
+### Fire-loss severity and far-tail uncertainty
+
+An analysis of approximately 1.25 million U.S. structure-fire loss records, exploring the stability of extreme quantiles and the sensitivity of Expected Shortfall.
+
+[Research summary](research.qmd#fire-loss) · [Analysis code ↗](https://github.com/sdbambil1/nfirs-extreme-value-analysis)
 :::
-::: {}
-<p class="meta">Statistical software · R · In development</p>
+
+::: {.work-entry}
+<p class="meta">03 / Statistical computing · In development</p>
 
 ### shiftadapt
 
-An R package implementing logistic model updating and intervention selection under distribution shift, with separate data for fitting, selection, and final evaluation.
+An R package for logistic model updating and intervention selection under distribution shift, with separate data for fitting, selection, and final evaluation.
 
-[View projects & software →](projects.qmd#shiftadapt)
-:::
+[Software & projects →](projects.qmd)
 :::
 
-::: {.two-column .background-section}
-::: {}
-## Teaching & learning
+## Teaching
 
 I support College Algebra students as a Graduate Lab Assistant at Georgia State University. Previously, I taught AP Calculus, AP Precalculus, and AP Statistics at Osceola School for the Arts.
 
-[Teaching experience →](cv.qmd#teaching-experience)
-:::
-::: {}
-## Academic background
+[Courses & teaching experience →](teaching.qmd)
 
-My training spans actuarial science, quantitative risk, and statistics. I hold an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from KNUST.
-
-[Education & experience →](cv.qmd)
-:::
-:::
-
-## Conferences & community {#conferences}
+## Beyond the desk {#conferences}
 
 ::: {.conference-feature}
 ::: {.conference-photo}
@@ -122,14 +89,16 @@ My training spans actuarial science, quantitative risk, and statistics. I hold a
 
 I recently attended Georgia Statistics Day.
 
-[View the full photograph ↗](assets/georgia-statistics-day.jpeg){target="_blank" rel="noopener noreferrer"}
+[View photograph ↗](assets/georgia-statistics-day.jpeg){target="_blank" rel="noopener noreferrer"}
 :::
 :::
 
 ::: {.contact-band}
-### Let's discuss research.
+### Get in touch
 
-I welcome conversations about predictive model evaluation, quantitative risk, and potential collaborations.
+I welcome conversations about statistical prediction, quantitative risk, and potential research collaborations.
 
-[Get in touch →](contact.qmd){.button .primary}
+[Contact me →](contact.qmd)
 :::
+:::
+::::

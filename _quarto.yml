@@ -14,8 +14,8 @@ website:
   site-url: "https://sdbambil1.github.io"
   favicon: assets/favicon.svg
   navbar:
-    background: "#112b3c"
-    foreground: "#ffffff"
+    background: "#ffffff"
+    foreground: "#233b40"
     pinned: true
     left:
       - href: index.qmd
@@ -23,7 +23,9 @@ website:
       - href: research.qmd
         text: Research
       - href: projects.qmd
-        text: Projects
+        text: Software
+      - href: teaching.qmd
+        text: Teaching
       - href: cv.qmd
         text: CV
       - href: contact.qmd
@@ -52,4 +54,4 @@ format:
     anchor-sections: true
     smooth-scroll: true
     mainfont: "Arial, sans-serif"
-    fontsize: 17px
+    fontsize: 16px

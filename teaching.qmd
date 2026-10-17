@@ -1,0 +1,29 @@
+---
+title: "Teaching"
+description: "Silas Bambil's teaching experience in college algebra, calculus, precalculus, and statistics."
+---
+
+<p class="eyebrow">Mathematics & statistics education</p>
+<p class="lede">My teaching experience spans foundational college mathematics and Advanced Placement courses in calculus, precalculus, and statistics.</p>
+
+## Georgia State University
+
+::: {.cv-entry}
+<p class="meta">August 2026–present · Atlanta, Georgia</p>
+
+### Graduate Lab Assistant
+
+I teach and support students in **College Algebra (MATH 1111)** and **Support for College Algebra (MATH 0999)**, assisting with mathematical reasoning, problem solving, and foundational algebraic concepts.
+:::
+
+## Osceola School for the Arts
+
+::: {.cv-entry}
+<p class="meta">January–June 2026 · Osceola County, Florida</p>
+
+### AP Mathematics Teacher
+
+I taught **AP Calculus, AP Precalculus, and AP Statistics**, prepared lessons and assessments, and supported students in solving quantitative problems. Students I taught achieved a 70% AP examination pass rate.
+:::
+
+[View complete experience in my CV →](cv.qmd#teaching-experience)
