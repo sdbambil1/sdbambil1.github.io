@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download CV (PDF)\nAtlanta, Georgia · sdbambil98@gmail.com · GitHub"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nGeorgia State University\nMS Mathematics, concentration in Statistics\nAugust 2026–present · Atlanta, Georgia\n\n\nGeorgia State University\nMS Quantitative Risk Analysis and Management\nMay 2025 · Atlanta, Georgia\n\n\nKwame Nkrumah University of Science and Technology\nBSc Actuarial Science\nJuly 2020 · Kumasi, Ghana"
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "Curriculum Vitae",
+    "section": "Research interests",
+    "text": "Research interests\nStatistical prediction and model evaluation; probability calibration; distribution shift and model adaptation; extreme value theory and tail-risk modeling; Monte Carlo methods; credit risk; statistical and quantitative risk modeling."
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research experience",
+    "text": "Research experience\n\nStable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps — Independent research manuscript, unpublished, 2026. Analysis of NFIRS fire-loss records using tail-risk estimation and extensive robustness checks.\nPredictive stability and adaptation under distribution shift — With Shudeshna Nandy. Unpublished research manuscript, 2026. Evaluation of calibration, discrimination, probability accuracy, and updating methods using a loan-default benchmark and Monte Carlo experiments.\nGreenberg Sprint predictive enrollment model — Graduate research project, Georgia State University, 2024. Applicant-data preparation, predictor development, and support for model evaluation.\nApplication of extreme value theory to fire insurance — Undergraduate thesis, KNUST, 2020. Severe fire-insurance losses and tail-risk behavior.\n\nResearch descriptions and available code →"
+  },
+  {
+    "objectID": "cv.html#teaching-experience",
+    "href": "cv.html#teaching-experience",
+    "title": "Curriculum Vitae",
+    "section": "Teaching experience",
+    "text": "Teaching experience\n\nGraduate Lab Assistant · Georgia State University\nAugust 2026–present · Atlanta, Georgia\nTeach and support students in College Algebra (MATH 1111) and Support for College Algebra (MATH 0999). Assist with mathematical reasoning, problem solving, and foundational algebraic concepts.\n\n\nAP Mathematics Teacher · Osceola School for the Arts\nJanuary–June 2026 · Osceola County, Florida\nTaught AP Calculus, AP Precalculus, and AP Statistics. Prepared lessons and assessments and supported students in solving quantitative problems. Achieved a 70% AP examination pass rate among students taught."
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "Professional experience",
+    "text": "Professional experience\n\nGraduate Assistant · Georgia State University\nAugust 2023–June 2025 · Atlanta, Georgia\nSupported predictive enrollment analysis and faculty risk-analysis projects through statistical analysis, research assistance, and data management.\n\n\nFinance Associate · OPH CHEM CONSULT\nMay 2022–August 2023 · Ghana\nConducted financial research on misappropriation risks and community financial challenges, and contributed to analytical reports and briefs.\n\n\nResearch Assistant · Ghana Statistical Services\nSeptember 2020–August 2021 · Ghana\nContributed research, statistical analysis, and data-management support to population and economic studies."
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical skills",
+    "text": "Technical skills\nProgramming and software: R, Python, SAS, Microsoft Excel, and Microsoft Office Suite.\nStatistical methods: logistic regression, multiple regression, Monte Carlo simulation, predictive model evaluation, probability calibration, bootstrap methods, data cleaning, and statistical visualization.\nRisk and actuarial methods: extreme value theory, Peaks-Over-Threshold modeling, Generalized Pareto models, Value-at-Risk, Expected Shortfall, credit-risk analysis, stress testing, and scenario analysis."
+  },
+  {
+    "objectID": "cv.html#awards-and-examinations",
+    "href": "cv.html#awards-and-examinations",
+    "title": "Curriculum Vitae",
+    "section": "Awards and examinations",
+    "text": "Awards and examinations\n\nGraduate Merit Scholarship, Department of Mathematics and Statistics, Georgia State University · August 2026.\nGraduate Merit Scholarship, Robinson College of Business, Georgia State University · August 2023–May 2025.\nFINRA Securities Industry Essentials (SIE) Examination · January 2025.\nFINRA Uniform Securities Agent State Law Examination (Series 63) · August 2025."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects & Software",
+    "section": "",
+    "text": "My projects connect statistical methods with reproducible computation. They span model adaptation, simulation, and the analysis of extreme losses."
+  },
+  {
+    "objectID": "projects.html#shiftadapt",
+    "href": "projects.html#shiftadapt",
+    "title": "Projects & Software",
+    "section": "shiftadapt",
+    "text": "shiftadapt\n\nR package · In development\n\nAn R package for adapting and evaluating logistic prediction models under distribution shift.\nImplemented updating strategies:\n\nRetain the original model.\nRecalibrate the intercept.\nRecalibrate the intercept and slope.\nRefit the full logistic model.\n\nIntervention selection: Choose the strategy with minimum validation log loss, or use a paired one-standard-error rule to favor a simpler strategy whose validation performance is within one paired standard error of the minimum.\nEvaluation: Separate adaptation, validation, and test samples support model fitting, intervention selection, and final performance assessment. Evaluation includes log loss, Brier score, ROC-AUC, and calibration diagnostics.\nRelated research"
+  },
+  {
+    "objectID": "projects.html#bambaganaci",
+    "href": "projects.html#bambaganaci",
+    "title": "Projects & Software",
+    "section": "bambaganaCI",
+    "text": "bambaganaCI\n\nR package · Statistical inference\n\nAn R package for descriptive statistics and confidence-interval analysis.\nImplemented functionality:\n\nDescriptive numerical summaries, including mean, median, standard deviation, variance, minimum, maximum, and quartiles.\nConfidence-interval estimation for statistical comparisons.\nReusable R functions for applied statistical analysis.\n\nSoftware: R"
+  },
+  {
+    "objectID": "projects.html#nfirs-extreme-value-analysis",
+    "href": "projects.html#nfirs-extreme-value-analysis",
+    "title": "Projects & Software",
+    "section": "NFIRS extreme-value analysis",
+    "text": "NFIRS extreme-value analysis\n\nReproducible research · R · Extreme value theory\n\nAnalysis code and reproducibility materials for the study of catastrophic U.S. structure-fire losses. The project includes tail modeling, uncertainty estimation, and sensitivity analyses.\nMethods: Peaks-Over-Threshold; Generalized Pareto models; Value-at-Risk; Expected Shortfall; bootstrap.\nExplore the repository"
+  },
+  {
+    "objectID": "projects.html#logistic-model-recalibration",
+    "href": "projects.html#logistic-model-recalibration",
+    "title": "Projects & Software",
+    "section": "Logistic model recalibration",
+    "text": "Logistic model recalibration\n\nComputational project · Planned\n\nComputational Accuracy and Efficiency of Logistic Model Recalibration Under Distribution Shift\nA planned project focused on the numerical accuracy and computational efficiency of logistic recalibration under changing data distributions."
+  },
+  {
+    "objectID": "projects.html#tools-i-work-with",
+    "href": "projects.html#tools-i-work-with",
+    "title": "Projects & Software",
+    "section": "Tools I work with",
+    "text": "Tools I work with\nProgramming and software: R, Python, SAS, and Microsoft Excel.\nStatistical computing: Monte Carlo simulation, bootstrap methods, regression, predictive model evaluation, data cleaning, and visualization.\nBrowse my GitHub profile →"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research examines how predictive models behave when conditions change and how statistical methods quantify uncertainty in extreme losses."
+  },
+  {
+    "objectID": "research.html#research-manuscripts",
+    "href": "research.html#research-manuscripts",
+    "title": "Research",
+    "section": "Research Manuscripts",
+    "text": "Research Manuscripts\n\n\n2026 · Unpublished research manuscript\n\n\nPredictive Stability and Adaptation Under Distribution Shift: Calibration, Discrimination, and Decision Thresholds in Credit-Risk Modeling\nAuthors: Silas Bambil and Shudeshna Nandy.\nA model can continue to rank cases well even when its predicted probabilities become unreliable. This study examines calibration, discrimination, probability accuracy, and decision thresholds using a loan-default benchmark and controlled Monte Carlo experiments.\nThe experiments consider covariate shift with model misspecification, baseline-risk changes, and changes in predictor effects. Updating strategies include intercept-only recalibration, intercept-and-slope recalibration, importance-weighted refitting, and full deployment refitting. Threshold revision is evaluated separately.\nMain finding: The appropriate response depends on how the distribution changes. Intercept recalibration can address baseline-risk changes, while changes in predictor effects may require full refitting. Revising a decision threshold addresses classification decisions rather than probability calibration.\nMethods: Logistic regression, Monte Carlo simulation, probability calibration, and evaluation on independent samples.\n\n\n\n\n2026 · Independent research manuscript · Unpublished\n\n\nStable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps\nAuthor: Silas Bambil.\nThis study analyzes approximately 1.25 million positive-loss U.S. structure-fire records from NFIRS, covering 2016–2025. Peaks-Over-Threshold methods and Generalized Pareto models are used to estimate extreme loss severity through Value-at-Risk and Expected Shortfall.\nRobustness analyses include threshold sensitivity, parametric bootstrap, annual tail estimation, leave-one-year-out analysis, event-level aggregation, goodness-of-fit diagnostics, and competing tail models.\nMain finding: Extreme-loss quantiles were comparatively stable across modeling choices, while Expected Shortfall was more sensitive to threshold selection and uncertainty in the far tail.\nCode and reproducibility materials"
+  },
+  {
+    "objectID": "research.html#earlier-research",
+    "href": "research.html#earlier-research",
+    "title": "Research",
+    "section": "Earlier research",
+    "text": "Earlier research\n\nGreenberg Sprint predictive enrollment model\n\n2024 · Graduate research project · Georgia State University\n\nContributed to a model of graduate-student enrollment probabilities using behavioral and demographic data. My contributions included cleaning applicant data, developing predictor variables, and supporting model evaluation for graduate recruitment analysis.\n\n\nApplication of extreme value theory to fire insurance\n\n2020 · Undergraduate thesis · KNUST\n\nExamined extreme value methods for modeling severe fire-insurance losses and tail-risk behavior."
+  },
+  {
+    "objectID": "research.html#research-in-development",
+    "href": "research.html#research-in-development",
+    "title": "Research",
+    "section": "Research in development",
+    "text": "Research in development\n\nAllocating deployment labels\nAllocating Deployment Labels Between Model Updating and Intervention Selection Under Distribution Shift\nA planned follow-up study asking how a fixed labeling budget should be divided between updating a model and selecting an updating intervention. Planned comparisons include allocating all labels to refitting, fixed fitting–validation splits, cross-fitting, and adaptive allocation, with final evaluation on untouched test data.\n\n\nComputational accuracy and efficiency\nComputational Accuracy and Efficiency of Logistic Model Recalibration Under Distribution Shift\nA planned computational project examining the numerical accuracy and computational efficiency of logistic recalibration methods."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I welcome conversations about statistical research, predictive model evaluation, quantitative risk, and potential collaborations.\n\n\nsdbambil98@gmail.com\n\n\n\nsdbambil1\n\n\n\nAtlanta, Georgia\n\nEmail meDownload my CV"
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "sdbambil98@gmail.com"
+  },
+  {
+    "objectID": "contact.html#github",
+    "href": "contact.html#github",
+    "title": "Contact",
+    "section": "",
+    "text": "sdbambil1"
+  },
+  {
+    "objectID": "contact.html#location",
+    "href": "contact.html#location",
+    "title": "Contact",
+    "section": "",
+    "text": "Atlanta, Georgia\n\nEmail meDownload my CV"
+  },
+  {
+    "objectID": "index.html#selected-research",
+    "href": "index.html#selected-research",
+    "title": "Silas Bambil",
+    "section": "Selected Research",
+    "text": "Selected Research\n:::\nResearch in predictive modeling, statistical computation, and quantitative risk.\n:::\n\n\n01\n\n\nPredictive stability under distribution shift\nHow do calibration, discrimination, and decision thresholds respond when a model encounters a different population? My research compares ways to adapt logistic models and evaluates them on independent data.\nRead about the study →\n\n\n\n\n02\n\n\nCatastrophic fire-loss severity\nAn extreme-value analysis of U.S. structure-fire losses, examining how threshold selection and far-tail uncertainty affect Value-at-Risk and Expected Shortfall.\nExplore the fire-loss research →\n\n\n\n\n03\n\n\nStatistical software in R\nDeveloping shiftadapt, an R package connected to my research on logistic model adaptation under distribution shift.\nView projects and software →"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Silas Bambil",
+    "section": "Teaching",
+    "text": "Teaching\nMy teaching experience spans college algebra, AP Calculus, AP Precalculus, and AP Statistics. I currently support mathematics students as a Graduate Lab Assistant at Georgia State University."
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Silas Bambil",
+    "section": "Background",
+    "text": "Background\nI hold an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from KNUST.\nEducation and experience →"
+  }
+]
