@@ -1,0 +1,106 @@
+---
+title: "Curriculum Vitae"
+body-classes: cv-page
+description: "Silas Bambil's education, research, teaching, experience, and technical skills."
+---
+
+[Download CV (PDF)](files/Silas_Bambil_PhD_CV.pdf){.button .primary}
+
+Atlanta, Georgia · [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com) · [GitHub](https://github.com/sdbambil1)
+
+<nav class="jump-links" aria-label="CV sections"><a href="#education">Education</a><a href="#research-experience">Research</a><a href="#teaching-experience">Teaching</a><a href="#professional-experience">Experience</a><a href="#technical-skills">Skills</a><a href="#awards-and-examinations">Awards</a></nav>
+
+## Education
+
+::: {.cv-entry}
+### Georgia State University
+
+**MS Mathematics, concentration in Statistics**  
+August 2026–present · Atlanta, Georgia
+:::
+
+::: {.cv-entry}
+### Georgia State University
+
+**MS Quantitative Risk Analysis and Management**  
+May 2025 · Atlanta, Georgia
+:::
+
+::: {.cv-entry}
+### Kwame Nkrumah University of Science and Technology
+
+**BSc Actuarial Science**  
+July 2020 · Kumasi, Ghana
+:::
+
+## Research interests
+
+Statistical prediction and model evaluation; probability calibration; distribution shift and model adaptation; extreme value theory and tail-risk modeling; Monte Carlo methods; credit risk; statistical and quantitative risk modeling.
+
+## Research experience
+
+- **Stable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps** — Independent research manuscript, unpublished, 2026. Analysis of NFIRS fire-loss records using tail-risk estimation and extensive robustness checks.
+- **Predictive stability and adaptation under distribution shift** — With Shudeshna Nandy. Unpublished research manuscript, 2026. Evaluation of calibration, discrimination, probability accuracy, and updating methods using a loan-default benchmark and Monte Carlo experiments.
+- **Greenberg Sprint predictive enrollment model** — Graduate research project, Georgia State University, 2024. Applicant-data preparation, predictor development, and support for model evaluation.
+- **Application of extreme value theory to fire insurance** — Undergraduate thesis, KNUST, 2020. Severe fire-insurance losses and tail-risk behavior.
+
+[Research descriptions and available code →](research.qmd)
+
+## Teaching experience
+
+::: {.cv-entry}
+### Graduate Lab Assistant · Georgia State University
+
+**August 2026–present · Atlanta, Georgia**
+
+Teach and support students in College Algebra (MATH 1111) and Support for College Algebra (MATH 0999). Assist with mathematical reasoning, problem solving, and foundational algebraic concepts.
+:::
+
+::: {.cv-entry}
+### AP Mathematics Teacher · Osceola School for the Arts
+
+**January–June 2026 · Osceola County, Florida**
+
+Taught AP Calculus, AP Precalculus, and AP Statistics. Prepared lessons and assessments and supported students in solving quantitative problems. Achieved a 70% AP examination pass rate among students taught.
+:::
+
+## Professional experience
+
+::: {.cv-entry}
+### Graduate Assistant · Georgia State University
+
+**August 2023–June 2025 · Atlanta, Georgia**
+
+Supported predictive enrollment analysis and faculty risk-analysis projects through statistical analysis, research assistance, and data management.
+:::
+
+::: {.cv-entry}
+### Finance Associate · OPH CHEM CONSULT
+
+**May 2022–August 2023 · Ghana**
+
+Conducted financial research on misappropriation risks and community financial challenges, and contributed to analytical reports and briefs.
+:::
+
+::: {.cv-entry}
+### Research Assistant · Ghana Statistical Services
+
+**September 2020–August 2021 · Ghana**
+
+Contributed research, statistical analysis, and data-management support to population and economic studies.
+:::
+
+## Technical skills
+
+**Programming and software:** R, Python, SAS, Microsoft Excel, and Microsoft Office Suite.
+
+**Statistical methods:** logistic regression, multiple regression, Monte Carlo simulation, predictive model evaluation, probability calibration, bootstrap methods, data cleaning, and statistical visualization.
+
+**Risk and actuarial methods:** extreme value theory, Peaks-Over-Threshold modeling, Generalized Pareto models, Value-at-Risk, Expected Shortfall, credit-risk analysis, stress testing, and scenario analysis.
+
+## Awards and examinations
+
+- **Graduate Merit Scholarship**, Department of Mathematics and Statistics, Georgia State University · August 2026.
+- **Graduate Merit Scholarship**, Robinson College of Business, Georgia State University · August 2023–May 2025.
+- **FINRA Securities Industry Essentials (SIE) Examination** · January 2025.
+- **FINRA Uniform Securities Agent State Law Examination (Series 63)** · August 2025.

@@ -1,0 +1,106 @@
+---
+title: "Research"
+description: "Predictive model adaptation, probability calibration, and extreme risk."
+---
+
+<p class="eyebrow">Questions, methods & findings</p>
+<p class="lede">How can we trust predictions when conditions change? How much can we learn about the most extreme losses? These questions connect my work in model evaluation and quantitative risk.</p>
+
+<nav class="jump-links" aria-label="Research sections"><a href="#distribution-shift">Distribution shift</a><a href="#fire-loss">Extreme risk</a><a href="#earlier-research">Earlier research</a><a href="#in-development">In development</a></nav>
+
+::: {.paper}
+<div class="status-line"><span class="badge">Unpublished manuscript</span><span>2026 · Predictive modeling</span></div>
+
+## Predictive Stability and Adaptation Under Distribution Shift: Calibration, Discrimination, and Decision Thresholds in Credit-Risk Modeling {#distribution-shift}
+
+<p class="authors">Silas Bambil and Shudeshna Nandy</p>
+
+A model can still rank cases well while its predicted probabilities become unreliable. This study examines how changes in the deployment population affect calibration, discrimination, probability accuracy, and classification decisions.
+
+::: {.finding}
+**What the study shows**
+
+The appropriate updating strategy depends on what changes. Intercept recalibration can address baseline-risk changes, while changes in predictor effects may require full refitting. Adjusting a decision threshold addresses classification decisions rather than probability calibration.
+:::
+
+<details class="methods"><summary>Study design & methods</summary>
+
+The study combines a loan-default benchmark with controlled Monte Carlo experiments. Scenarios include covariate shift with model misspecification, baseline-risk changes, and changes in predictor effects.
+
+Comparisons include retaining the original model, intercept-only recalibration, intercept-and-slope recalibration, importance-weighted refitting, and full deployment refitting. Threshold revision is evaluated separately, with independent data used for final performance assessment.
+
+</details>
+
+<div class="tags"><span>Logistic regression</span><span>Calibration</span><span>Monte Carlo</span><span>Credit risk</span></div>
+
+[Related software: shiftadapt →](projects.qmd#shiftadapt)
+:::
+
+::: {.paper}
+<div class="status-line"><span class="badge">Unpublished manuscript</span><span>2026 · Independent research</span></div>
+
+## Stable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps {#fire-loss}
+
+<p class="authors">Silas Bambil</p>
+
+An analysis of approximately 1.25 million positive-loss U.S. structure-fire records from NFIRS, covering 2016–2025. The study uses extreme value methods to examine catastrophic loss severity and uncertainty in the far tail.
+
+::: {.finding}
+**What the study shows**
+
+Extreme-loss quantiles were comparatively stable across modeling choices. Expected Shortfall was more sensitive to threshold selection and uncertainty in the far tail, making the distinction between these risk measures consequential.
+:::
+
+<details class="methods"><summary>Data, modeling & robustness</summary>
+
+Peaks-Over-Threshold methods and Generalized Pareto models are used to estimate Value-at-Risk and Expected Shortfall. Robustness checks include threshold sensitivity, parametric bootstrap, annual tail estimation, leave-one-year-out analysis, event-level aggregation, goodness-of-fit diagnostics, and competing tail models.
+
+</details>
+
+<div class="tags"><span>Extreme value theory</span><span>Tail risk</span><span>Bootstrap</span><span>NFIRS</span></div>
+
+[Code & reproducibility materials](https://github.com/sdbambil1/nfirs-extreme-value-analysis){.button}
+:::
+
+## Earlier research {#earlier-research}
+
+::: {.timeline}
+::: {}
+<p class="meta">2024 · Georgia State University</p>
+
+### Greenberg Sprint predictive enrollment model
+
+Contributed to a graduate-student enrollment model using behavioral and demographic data. My work included cleaning applicant data, developing predictor variables, and supporting model evaluation for recruitment analysis.
+:::
+::: {}
+<p class="meta">2020 · Undergraduate thesis · KNUST</p>
+
+### Application of extreme value theory to fire insurance
+
+Examined extreme value methods for modeling severe fire-insurance losses and tail-risk behavior.
+:::
+:::
+
+## In development {#in-development}
+
+::: {.planned-study}
+<span class="badge planned">Planned follow-up study</span>
+
+### Allocating Deployment Labels Between Model Updating and Intervention Selection Under Distribution Shift
+
+How should a fixed labeling budget be divided between updating a model and selecting an updating intervention? Planned comparisons include all-label refitting, fixed fitting–validation splits, cross-fitting, and adaptive allocation, with final evaluation on untouched test data.
+:::
+
+::: {.planned-study}
+<span class="badge planned">Planned computational project</span>
+
+### Computational Accuracy and Efficiency of Logistic Model Recalibration Under Distribution Shift
+
+A project examining the numerical accuracy and computational efficiency of logistic recalibration methods under changing data distributions.
+:::
+
+::: {.contact-band}
+### Interested in this work?
+
+[Get in touch](contact.qmd){.button .primary}
+:::

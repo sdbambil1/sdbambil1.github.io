@@ -1,0 +1,135 @@
+---
+title: "Silas Bambil"
+body-classes: home-page
+description: "Statistics graduate student at Georgia State University, researching predictive model adaptation and extreme risk."
+---
+
+::: {.hero}
+::: {.hero-copy}
+<p class="eyebrow">Statistics · Prediction · Risk</p>
+
+# Silas Bambil
+
+<p class="role-line">Graduate student in Statistics<br>Georgia State University · Atlanta, Georgia</p>
+
+<p class="lead">Understanding predictions under change.<br>Quantifying risk at the extremes.</p>
+
+I am pursuing an MS in Mathematics with a concentration in Statistics at Georgia State University. I study how predictive models behave when conditions change, and how statistical methods help us understand rare, consequential losses.
+
+<div class="actions"><a class="button primary" href="research.html">Explore my research <span aria-hidden="true">↗</span></a><a class="button" href="cv.html">View my CV</a></div>
+
+<div class="profile-links"><a href="mailto:sdbambil98@gmail.com">Email</a><span aria-hidden="true">/</span><a href="https://github.com/sdbambil1">GitHub</a></div>
+:::
+::: {.portrait-panel}
+<figure class="portrait-frame"><img src="assets/silas-bambil-portrait.jpeg" alt="Portrait of Silas Bambil" width="1280" height="1920" fetchpriority="high"><figcaption>Silas Bambil · Georgia State University</figcaption></figure>
+<p class="portrait-note">MS Mathematics, Statistics concentration<br>MS Quantitative Risk Analysis and Management</p>
+:::
+:::
+
+```{=html}
+<div class="interest-strip" role="group" aria-label="Research interests">
+<span class="eyebrow">Research interests</span>
+<span>Distribution shift</span>
+<span>Probability calibration</span>
+<span>Extreme value theory</span>
+<span>Statistical computing</span>
+</div>
+```
+
+<p class="eyebrow section-label">An overview of my work</p>
+
+## Selected research & software
+
+::: {.feature-row}
+::: {.feature-number}
+01
+:::
+::: {}
+<p class="meta">Research manuscript · 2026 · Unpublished</p>
+
+### Reliable prediction under distribution shift
+
+How do calibration, discrimination, and decision thresholds change when a model encounters a different population? This research compares model updating strategies using controlled simulations and a credit-risk benchmark.
+
+[Explore the study →](research.qmd#distribution-shift)
+:::
+:::
+
+::: {.feature-row}
+::: {.feature-number}
+02
+:::
+::: {}
+<p class="meta">Independent research · 2026 · Unpublished</p>
+
+### Stable fire-loss quantiles and far-tail uncertainty
+
+An extreme-value analysis of approximately 1.25 million U.S. structure-fire loss records, examining the stability of extreme quantiles and the sensitivity of Expected Shortfall.
+
+[Read about the fire-loss research →](research.qmd#fire-loss)
+:::
+:::
+
+::: {.feature-row}
+::: {.feature-number}
+03
+:::
+::: {}
+<p class="meta">Statistical software · R · In development</p>
+
+### shiftadapt
+
+An R package implementing logistic model updating and intervention selection under distribution shift, with separate data for fitting, selection, and final evaluation.
+
+[View projects & software →](projects.qmd#shiftadapt)
+:::
+:::
+
+::: {.two-column .background-section}
+::: {}
+## Teaching & learning
+
+I support College Algebra students as a Graduate Lab Assistant at Georgia State University. Previously, I taught AP Calculus, AP Precalculus, and AP Statistics at Osceola School for the Arts.
+
+[Teaching experience →](cv.qmd#teaching-experience)
+:::
+::: {}
+## Academic background
+
+My training spans actuarial science, quantitative risk, and statistics. I hold an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from KNUST.
+
+[Education & experience →](cv.qmd)
+:::
+:::
+
+## Conferences & community {#conferences}
+
+::: {.conference-feature}
+::: {.conference-photo}
+```{=html}
+<figure>
+<a href="assets/georgia-statistics-day.jpeg" target="_blank" rel="noopener noreferrer" aria-label="View the full Georgia Statistics Day photograph">
+<img src="assets/georgia-statistics-day.jpeg" alt="Group photograph at Georgia Statistics Day beside conference posters" width="1152" height="1536" loading="lazy" decoding="async">
+</a>
+<figcaption>Attending Georgia Statistics Day.</figcaption>
+</figure>
+```
+:::
+::: {.conference-copy}
+<p class="eyebrow">Conference attendance</p>
+
+### Georgia Statistics Day
+
+I recently attended Georgia Statistics Day.
+
+[View the full photograph ↗](assets/georgia-statistics-day.jpeg){target="_blank" rel="noopener noreferrer"}
+:::
+:::
+
+::: {.contact-band}
+### Let's discuss research.
+
+I welcome conversations about predictive model evaluation, quantitative risk, and potential collaborations.
+
+[Get in touch →](contact.qmd){.button .primary}
+:::

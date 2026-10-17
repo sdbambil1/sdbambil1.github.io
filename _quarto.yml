@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: _site
+  post-render:
+    - python3 scripts/harden_site.py
+  resources:
+    - files/Silas_Bambil_PhD_CV.pdf
+    - assets/favicon.svg
+    - assets/silas-bambil-portrait.jpeg
+    - assets/georgia-statistics-day.jpeg
+website:
+  title: "Silas Bambil"
+  description: "Statistics, predictive model evaluation, and quantitative risk research."
+  site-url: "https://sdbambil1.github.io"
+  favicon: assets/favicon.svg
+  navbar:
+    background: "#112b3c"
+    foreground: "#ffffff"
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/sdbambil1
+        aria-label: GitHub profile
+  page-footer:
+    left: "Silas Bambil · Statistics & quantitative risk"
+    right:
+      - text: "Research"
+        href: research.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+  search: true
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    lang: en
+    link-external-newwindow: true
+    anchor-sections: true
+    smooth-scroll: true
+    mainfont: "Arial, sans-serif"
+    fontsize: 17px

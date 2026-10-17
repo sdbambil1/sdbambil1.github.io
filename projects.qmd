@@ -1,0 +1,88 @@
+---
+title: "Projects & Software"
+description: "Statistical software and reproducible research projects."
+---
+
+<p class="eyebrow">From statistical questions to working tools</p>
+<p class="lede">Software and analysis projects that connect model evaluation, simulation, and quantitative risk with reproducible computation.</p>
+
+<nav class="jump-links" aria-label="Project sections"><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#computational-project">Planned work</a></nav>
+
+::: {.software-header}
+<div class="status-line"><span class="badge">In development</span><span>R package · Model adaptation</span></div>
+
+## shiftadapt {#shiftadapt}
+
+An R package for adapting and evaluating logistic prediction models under distribution shift. It connects model updating with intervention selection and independent performance assessment.
+:::
+
+### Four updating strategies
+
+| Strategy | What it does |
+|---|---|
+| Retain | Uses the original model without updating |
+| Intercept-only recalibration | Updates the baseline risk |
+| Intercept-and-slope recalibration | Updates the intercept and the scale of the original linear predictor |
+| Full logistic refit | Re-estimates the model coefficients |
+
+### A separated evaluation workflow
+
+::: {.workflow}
+::: {}
+<span class="eyebrow">01 · Adaptation data</span>
+
+### Fit the updates
+
+Estimate the candidate updating strategies.
+:::
+::: {}
+<span class="eyebrow">02 · Validation data</span>
+
+### Select a strategy
+
+Compare candidates using validation log loss.
+:::
+::: {}
+<span class="eyebrow">03 · Test data</span>
+
+### Evaluate performance
+
+Assess the selected strategy on untouched observations.
+:::
+:::
+
+<details class="methods"><summary>Selection rules & performance measures</summary>
+
+The package supports minimum validation log loss and a paired one-standard-error rule. The latter favors a simpler strategy whose validation performance is within one paired standard error of the minimum.
+
+Evaluation includes log loss, Brier score, ROC-AUC, and calibration diagnostics.
+
+</details>
+
+[Read the related research →](research.qmd#distribution-shift)
+
+## NFIRS extreme-value analysis {#nfirs-analysis}
+
+<div class="status-line"><span class="badge">Research repository</span><span>R · Extreme value theory</span></div>
+
+Analysis code and reproducibility materials for **Stable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps**. The project includes tail modeling, uncertainty estimation, and sensitivity analyses of catastrophic U.S. structure-fire losses.
+
+<div class="tags"><span>Peaks-Over-Threshold</span><span>Generalized Pareto</span><span>VaR & Expected Shortfall</span><span>Bootstrap</span></div>
+
+<div class="actions"><a class="button primary" href="https://github.com/sdbambil1/nfirs-extreme-value-analysis">Explore the repository ↗</a><a class="button" href="research.html#fire-loss">Research summary</a></div>
+
+## Computational work in development {#computational-project}
+
+<span class="badge planned">Planned project</span>
+
+### Computational Accuracy and Efficiency of Logistic Model Recalibration Under Distribution Shift
+
+A planned project focused on the numerical accuracy and computational efficiency of logistic recalibration methods.
+
+## Tools & methods
+
+**Programming:** R, Python, SAS, and Microsoft Excel.
+
+**Statistical computing:** Monte Carlo simulation, bootstrap methods, regression, predictive model evaluation, data cleaning, and visualization.
+
+[Browse my GitHub profile →](https://github.com/sdbambil1)

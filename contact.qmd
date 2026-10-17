@@ -1,0 +1,38 @@
+---
+title: "Contact"
+description: "Contact Silas Bambil about research and collaboration."
+---
+
+<p class="eyebrow">Start a conversation</p>
+<p class="lede">I welcome conversations about statistical research, predictive model evaluation, quantitative risk, and potential collaborations.</p>
+
+::: {.contact-layout}
+::: {}
+::: {.contact-item}
+## Email
+
+[sdbambil98@gmail.com](mailto:sdbambil98@gmail.com)
+:::
+::: {.contact-item}
+## GitHub
+
+[sdbambil1](https://github.com/sdbambil1)
+:::
+::: {.contact-item}
+## Based in
+
+Atlanta, Georgia
+:::
+
+<div class="actions"><a class="button primary" href="mailto:sdbambil98@gmail.com">Send an email ↗</a><a class="button" href="files/Silas_Bambil_PhD_CV.pdf">Download CV (PDF)</a></div>
+:::
+::: {.contact-panel}
+## Research connections
+
+My current work brings together statistical prediction, probability calibration, model adaptation, and extreme value theory.
+
+[Explore my research →](research.qmd)
+
+[View projects & software →](projects.qmd)
+:::
+:::
