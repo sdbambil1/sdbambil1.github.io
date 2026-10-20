@@ -23,7 +23,7 @@ description: "Statistics graduate student at Georgia State University, researchi
 
 # About me
 
-I am a graduate student in Mathematics at **Georgia State University**, specialising in Statistics. My work begins with a deceptively simple question: **how much confidence should we place in a prediction when the world around it changes?**
+My work begins with a deceptively simple question: **how much confidence should we place in a prediction when the world around it changes?**
 
 I study probability calibration, model adaptation, and extreme risk. A model may still distinguish higher risks from lower ones while assigning unreliable probabilities—a subtle distinction with substantial consequences. Alongside this work, I use extreme value theory to examine rare losses and the uncertainty that gathers in the far tail.
 
