@@ -27,7 +27,6 @@ My work begins with a deceptively simple question: **how much confidence should 
 
 I study probability calibration, model adaptation, and extreme risk. A model may still distinguish higher risks from lower ones while assigning unreliable probabilities—a subtle distinction with substantial consequences. Alongside this work, I use extreme value theory to examine rare losses and the uncertainty that gathers in the far tail.
 
-My path to statistics runs through actuarial science and quantitative risk: a BSc from Kwame Nkrumah University of Science and Technology, followed by an MS in Quantitative Risk Analysis and Management at Georgia State University. These disciplines shape how I approach a problem—with mathematical care, computational scrutiny, and an eye for the decisions the numbers are meant to inform.
 
 [Full curriculum vitae →](cv.qmd){.text-link}
 
