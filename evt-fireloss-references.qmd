@@ -1,0 +1,76 @@
+---
+title: "References"
+subtitle: "Beyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models"
+description: "References cited in the EVT fire-loss research poster and accompanying manuscript."
+toc: false
+---
+
+**Research poster:** *Beyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models*
+
+**Affiliation:** Department of Mathematics and Statistics, Georgia State University
+
+This page provides the bibliography accompanying the research poster. Entries are transcribed from the reference section of the 60-page research document (pp. 58–60). It does not provide access to unpublished manuscript files or private research data.
+
+## References
+
+1. Akaike, H. (1974). A new look at the statistical model identification. *IEEE Transactions on Automatic Control*, **19**, 716–723.
+
+2. Balkema, A. A., & de Haan, L. (1974). Residual life time at great age. *The Annals of Probability*, **2**, 792–804.
+
+3. Baringhaus, L., & Grübel, R. (2009). Nonparametric two-sample tests for increasing convex order. *Bernoulli*, **15**, 99–123.
+
+4. Baysal, R. E., & Staum, J. (2008). Empirical likelihood for value-at-risk and expected shortfall. *Journal of Risk*, **11**, 3–32. [Publisher page](https://www.risk.net/journal-risk/2161031/empirical-likelihood-value-risk-and-expected-shortfall).
+
+5. Blanchet, J., Lam, H., Tang, Q., & Yuan, Z. (2019). Robust actuarial risk analysis. *North American Actuarial Journal*, **23**, 33–63.
+
+6. Brazauskas, V. (2009). Robust and efficient fitting of loss models: Diagnostic tools and insights. *North American Actuarial Journal*, **13**, 356–369.
+
+7. Chen, J., Variyath, A. M., & Abraham, B. (2008). Adjusted empirical likelihood and its properties. *Journal of Computational and Graphical Statistics*, **17**, 426–443.
+
+8. Coles, S. (2001). *An Introduction to Statistical Modeling of Extreme Values*. Springer.
+
+9. Davison, A. C., & Hinkley, D. V. (1997). *Bootstrap Methods and Their Application*. Cambridge University Press.
+
+10. Field, C. A., & Welsh, A. H. (2007). Bootstrapping clustered data. *Journal of the Royal Statistical Society: Series B (Statistical Methodology)*, **69**, 369–390.
+
+11. Fissler, T., & Ziegel, J. F. (2016). Higher order elicitability and Osband's principle. *The Annals of Statistics*, **44**, 1680–1707.
+
+12. Hill, J. B. (2015). Expected shortfall estimation and Gaussian inference for infinite variance time series. *Journal of Financial Econometrics*, **13**, 1–44.
+
+13. Hyndman, R. J., & Fan, Y. (1996). Sample quantiles in statistical packages. *The American Statistician*, **50**, 361–365.
+
+14. Linton, O., & Xiao, Z. (2013). Estimation of and inference about the expected shortfall for time series with infinite variance. *Econometric Theory*, **29**, 771–807.
+
+15. MacKinnon, J. G., Nielsen, M. Ø., & Webb, M. D. (2023). Cluster-robust inference: A guide to empirical practice. *Journal of Econometrics*, **232**, 272–299.
+
+16. McNeil, A. J. (1997). Estimating the tails of loss severity distributions using extreme value theory. *ASTIN Bulletin*, **27**, 117–137.
+
+17. McNeil, A. J., & Frey, R. (2000). Estimation of tail-related risk measures for heteroscedastic financial time series: An extreme value approach. *Journal of Empirical Finance*, **7**, 271–300.
+
+18. Peng, L. (2004). Empirical-likelihood-based confidence interval for the mean with a heavy-tailed distribution. *The Annals of Statistics*, **32**, 1192–1214.
+
+19. Pickands, J. (1975). Statistical inference using extreme order statistics. *The Annals of Statistics*, **3**, 119–131.
+
+20. Qin, J., & Lawless, J. (1994). Empirical likelihood and general estimating equations. *The Annals of Statistics*, **22**, 300–325.
+
+21. Rockafellar, R. T., & Uryasev, S. (2002). Conditional value-at-risk for general loss distributions. *Journal of Banking and Finance*, **26**, 1443–1471.
+
+22. Schwarz, G. (1978). Estimating the dimension of a model. *The Annals of Statistics*, **6**, 461–464.
+
+23. Shorrocks, A. F. (2013). Decomposition procedures for distributional analysis: A unified framework based on the Shapley value. *The Journal of Economic Inequality*, **11**, 99–126.
+
+24. U.S. Bureau of Labor Statistics. (2026). Summary of annual and semi-annual indexes. [Source](https://www.bls.gov/regions/mid-atlantic/data/consumerpriceindexannualandsemiannual_table.htm).
+
+25. U.S. Census Bureau. (2025). 2024 cartographic boundary files: State and equivalent entities. 2024 boundary vintage, 1:500,000 shapefile. [Source](https://www.census.gov/geographies/mapping-files/2024/geo/carto-boundary-file.html). Retrieved November 7, 2026.
+
+26. U.S. Fire Administration. (2026). NFIRS sunset. [Source](https://www.usfa.fema.gov/nfirs/sunset/).
+
+27. U.S. Fire Administration. (n.d.-b). NFIRS public data release: Annual public-release data [data set]. U.S. Fire Administration / Federal Emergency Management Agency. [Source](https://www.fema.gov/about/openfema/data-sets/fema-usfa-nfirs-annual-data). Retrieved November 7, 2026.
+
+28. Varin, C., Reid, N., & Firth, D. (2011). An overview of composite likelihood methods. *Statistica Sinica*, **21**, 5–42.
+
+29. White, H. (1982). Maximum likelihood estimation of misspecified models. *Econometrica*, **50**, 1–25.
+
+30. Worms, J., & Worms, R. (2011). Empirical likelihood based confidence regions for first order parameters of heavy-tailed distributions. *Journal of Statistical Planning and Inference*. [Preprint](https://arxiv.org/abs/1008.3229).
+
+31. Zhang, X., & Shao, X. (2014). On the coverage bound problem of empirical likelihood methods for time series. arXiv:1401.5002 (author preprint, version 2). [Preprint](https://arxiv.org/abs/1401.5002).
