@@ -309,3 +309,33 @@ input:focus-visible,select:focus-visible,[tabindex]:focus-visible{
 :root{--bs-body-font-family:"Latin Modern Roman","Times New Roman",serif;--bs-font-sans-serif:"Latin Modern Roman","Times New Roman",serif}
 body,button,input,select,textarea,.navbar,.navbar-nav,.nav-link,.navbar-brand,.dropdown-item,.nav-footer,.button,.badge,.meta,.eyebrow,.status-line,.profile-role,.profile-location,.profile-contact,.jump-links,.table,.form-control,.btn,.quarto-search-button{font-family:"Latin Modern Roman","Times New Roman",serif!important}
 pre,code,kbd,samp,pre code,.sourceCode{font-family:"Latin Modern Mono","Courier New",monospace!important}
+
+/* Narrow-screen containment: keep Quarto's main content within the viewport.
+   Scroll long project links and tables locally rather than widening the page. */
+@media (max-width: 650px) {
+  .quarto-container, #quarto-content, #quarto-document-content,
+  .page-columns, main.content {
+    box-sizing: border-box;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+  main.content { width: 100% !important; }
+  .jump-links {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  main.content .cv-entry, main.content .paper,
+  main.content .software-header, main.content section {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+  main.content .table, main.content table,
+  main.content .cell-output-display {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
