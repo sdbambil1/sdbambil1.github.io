@@ -223,7 +223,7 @@ details.methods p:last-child{margin-bottom:.3rem}
 .conference-copy h3{margin:.2rem 0 .7rem}
 .two-column{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
 .background-section p{font-size:.96rem}
-main.content pre,main.content .sourceCode{max-width:100%;overflow-x:auto}
+main.content pre,main.content div.sourceCode{max-width:100%;overflow-x:auto}
 main.content table{max-width:100%;overflow-x:auto}
 a:not(.button):focus-visible,button:focus-visible,summary:focus-visible,
 input:focus-visible,select:focus-visible,[tabindex]:focus-visible{
