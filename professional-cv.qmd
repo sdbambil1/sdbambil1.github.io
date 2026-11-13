@@ -4,25 +4,9 @@ description: "Professional appointments, industry experience, and financial indu
 ---
 
 <p class="eyebrow">Professional experience</p>
-<p class="lede">My professional work includes financial analysis, survey research, commercial operations, and agricultural supply-chain data. This experience is distinct from my academic research and teaching appointments.</p>
+<p class="lede">My professional experience includes financial research and survey analysis. These appointments are presented separately from my academic research and teaching.</p>
 
 ## Industry and professional appointments
-
-::: {.cv-entry}
-### EUDR Data Officer · Sucden Ghana
-
-**September 2025–present · Ghana**
-
-Coordinate data collection and traceability activities for cocoa procurement. Work includes farm GPS and polygon records, field data quality, and tracking cocoa purchases through the supply chain.
-:::
-
-::: {.cv-entry}
-### Chief Commercial Officer · Ocelot Cosmetec
-
-**August 2024–March 2025**
-
-Supported commercial planning, market research, cross-functional operations, and performance reporting.
-:::
 
 ::: {.cv-entry}
 ### Finance Associate · OPH CHEM CONSULT
