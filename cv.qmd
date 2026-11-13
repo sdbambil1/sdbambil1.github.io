@@ -1,14 +1,20 @@
 ---
 title: "Curriculum Vitae"
-description: "Download the academic and professional CVs of Silas Bambil."
+description: "Academic and professional CVs of Silas Bambil, with links to research, teaching, and professional experience."
 ---
 
 <p class="eyebrow">Curriculum vitae</p>
+
+Two versions of my CV are available below. The academic CV emphasizes education, research, and teaching; the professional CV emphasizes applied experience and financial-risk work.
 
 ## Academic CV
 
 [Download academic CV (PDF)](files/Silas_Bambil_PhD_CV.pdf){.button .primary}
 
+[Academic profile](academic.qmd) · [Research](research.qmd) · [Teaching](teaching.qmd)
+
 ## Professional CV
 
 [Download professional CV (PDF)](files/Silas_Bambil_Professional_CV.pdf){.button .primary}
+
+[Professional experience and FINRA examinations](professional-cv.qmd)
