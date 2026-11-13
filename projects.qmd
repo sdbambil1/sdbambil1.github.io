@@ -155,9 +155,7 @@ Computational work for extreme value analysis of U.S. structure-fire losses, inc
 
 <div class="tags"><span>Peaks-Over-Threshold</span><span>Generalized Pareto</span><span>VaR & Expected Shortfall</span><span>Bootstrap</span></div>
 
-[Research summary](research.qmd#fire-loss)
-
-
+[Research summary](research.qmd#fire-loss) · [Scheduled conference poster](conferences.qmd#scheduled-presentation)
 
 ## Ridge regression package {#ridge-package}
 
