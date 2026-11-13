@@ -4,9 +4,9 @@ body-classes: cv-page
 description: "Silas Bambil's professional experience, quantitative research, and technical skills for Summer 2027 internships."
 ---
 
-<p class="eyebrow">Summer 2027 internships</p>
+<p class="eyebrow">Professional experience and quantitative training</p>
 
-<p class="lede">Industry experience in financial research and statistical analysis, supported by quantitative training and applied projects in credit risk and loss modeling.</p>
+<p class="lede">My professional experience includes financial research and statistical analysis. My graduate training and independent research focus on predictive model evaluation, credit risk, and loss severity.</p>
 
 ```{=html}
 <div class="actions">
@@ -26,7 +26,7 @@ One-page PDF · [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com) · [GitHub: 
 
 May 2022–August 2023 · Ghana
 
-- Examined financial misappropriation risks and community financial challenges; summarized findings in analytical reports and research briefs.
+- Assessed financial risks and documented findings in research briefs and analytical reports.
 :::
 
 ::: {.cv-entry}
@@ -34,7 +34,7 @@ May 2022–August 2023 · Ghana
 
 September 2020–August 2021 · Ghana
 
-- Managed survey data and analyzed population and economic indicators for statistical reports.
+- Organized survey data and analyzed socioeconomic indicators for statistical reporting.
 :::
 
 ## Education
