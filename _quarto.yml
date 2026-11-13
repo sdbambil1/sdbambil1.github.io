@@ -61,6 +61,7 @@ website:
   search: true
 format:
   html:
+    include-in-header: includes/google-site-verification.html
     theme: cosmo
     css: styles-academic-v2.css
     toc: false
