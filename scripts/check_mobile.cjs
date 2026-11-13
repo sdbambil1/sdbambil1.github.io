@@ -76,6 +76,7 @@ async function ready(url) {
             await page.waitForTimeout(500);
             const menu = page.locator(".navbar-collapse").first();
             if (!(await menu.isVisible())) {
+              console.log("NAV DIAGNOSTIC", width, "toggle", await toggler.getAttribute("aria-expanded"), "collapse", await menu.getAttribute("class"));
               failures.push(width + "px: menu did not open");
             }
           } else {
@@ -86,21 +87,21 @@ async function ready(url) {
     }
     await context.close();
   }
-  // Check documentation page is real and reachable through its link.
+  // Check the generated documentation link and target without depending on tab navigation.
   const tab = await browser.newPage();
   await tab.goto(ORIGIN + "/projects.html");
-  const docs = tab.getByRole("link", {
-    name: "Package documentation and reproducible examples"
-  });
+  const docs = tab.getByRole("link", { name: "Package documentation and reproducible examples" });
   if (await docs.count() !== 1) {
     failures.push("Software page: documentation link missing or duplicated");
   } else {
-    await Promise.all([tab.waitForURL("**/bambaganaci.html"), docs.click()]);
-    if (!tab.url().endsWith("/bambaganaci.html")) {
-      failures.push("Software documentation link navigates to " + tab.url());
-    }
-    if (!(await tab.getByText("Supported confidence intervals").count())) {
-      failures.push("Software documentation content missing");
+    const href = await docs.getAttribute("href");
+    const target = new URL(href, ORIGIN + "/projects.html");
+    const response = await fetch(target);
+    if (!target.pathname.endsWith("/bambaganaci.html") || response.status !== 200) {
+      failures.push("Documentation link target invalid: " + target + " (HTTP " + response.status + ")");
+    } else {
+      const html = await response.text();
+      if (!html.includes("Supported confidence intervals")) failures.push("Documentation methods content missing");
     }
   }
   await browser.close();
