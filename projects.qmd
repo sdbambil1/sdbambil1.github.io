@@ -40,7 +40,7 @@ remotes::install_github("sdbambil1/bambaganaCI")
 library(bambaganaCI)
 ```
 
-[View source code and package documentation](https://github.com/sdbambil1/bambaganaCI)
+[Source code and documentation](https://github.com/sdbambil1/bambaganaCI) · [Version 0.1.1 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1)
 
 ### R examples
 
