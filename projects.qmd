@@ -17,7 +17,7 @@ description: "R packages for confidence interval estimation and model adaptation
 
 An R package for constructing confidence intervals for a population mean. It implements percentile, basic, normal, and bias-corrected and accelerated (BCa) bootstrap intervals, together with the classical Student's t interval. A comparison function reports interval endpoints and widths across methods using the same data.
 
-The package includes input checks, reproducible resampling methods, and automated tests. It is not currently available on CRAN; no public repository or installation link is provided here.
+The package includes input checks, reproducible resampling methods, and automated tests. The source code is publicly available on [GitHub](https://github.com/sdbambil1/bambaganaCI). Version 0.1.1 is not currently available on CRAN.
 :::
 
 ### Supported confidence intervals
@@ -30,9 +30,21 @@ The package includes input checks, reproducible resampling methods, and automate
 | BCa bootstrap | `method = "bca"` | Adjusts bootstrap endpoints for bias and acceleration |
 | Classical Student's t | `mean_t_ci()` | Uses the t distribution and sample standard error |
 
+### Installation from GitHub
+
+Install the development tool `remotes` if needed, then install `bambaganaCI` directly from its public GitHub repository.
+
+```{.r}
+install.packages("remotes")  # Run once if needed
+remotes::install_github("sdbambil1/bambaganaCI")
+library(bambaganaCI)
+```
+
+[View source code and package documentation](https://github.com/sdbambil1/bambaganaCI)
+
 ### R examples
 
-The following examples assume that `bambaganaCI` is installed locally. The package is not currently distributed through CRAN.
+The examples below use the publicly available package source. The package is not currently distributed through CRAN.
 
 **Example 1. Bootstrap confidence interval for a mean**
 
