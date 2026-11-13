@@ -38,3 +38,5 @@ description: "Professional experience of Silas Bambil in financial research, sta
 
 - **Series 63 — Uniform Securities Agent State Law Examination:** August 2025.
 - **Securities Industry Essentials (SIE) Examination:** January 2025.
+
+[Professional CV (PDF)](files/Silas_Bambil_Professional_CV.pdf)
