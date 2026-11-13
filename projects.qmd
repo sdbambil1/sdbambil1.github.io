@@ -20,6 +20,68 @@ An R package for constructing confidence intervals for a population mean. It imp
 The package includes input checks, reproducible resampling methods, and automated tests. It is not currently available on CRAN; no public repository or installation link is provided here.
 :::
 
+### Supported confidence intervals
+
+| Method | Function or argument | Purpose |
+|---|---|---|
+| Percentile bootstrap | `method = "percentile"` | Uses empirical quantiles of resampled means |
+| Basic bootstrap | `method = "basic"` | Reflects bootstrap quantiles about the sample mean |
+| Normal bootstrap | `method = "normal"` | Uses a bootstrap standard error and estimated bias correction |
+| BCa bootstrap | `method = "bca"` | Adjusts bootstrap endpoints for bias and acceleration |
+| Classical Student's t | `mean_t_ci()` | Uses the t distribution and sample standard error |
+
+### R examples
+
+The following examples assume that `bambaganaCI` is installed locally. The package is not currently distributed through CRAN.
+
+**Example 1. Bootstrap confidence interval for a mean**
+
+```{.r}
+library(bambaganaCI)
+
+set.seed(1998)
+x <- rnorm(30, mean = 2, sd = 1)
+
+result <- bootstrap_mean_ci(
+  x, B = 2000, conf = 0.95,
+  method = "percentile"
+)
+
+print(result)
+confint(result)
+```
+
+The function returns the sample mean, interval endpoints, bootstrap standard error, and resampled means.
+
+**Example 2. Compare interval construction methods**
+
+```{.r}
+set.seed(1998)
+x <- rexp(30)
+
+comparison <- compare_mean_ci(
+  x, B = 2000, conf = 0.95,
+  methods = c("percentile", "basic",
+              "normal", "bca", "t")
+)
+
+print(comparison)
+```
+
+The resulting table includes the mean estimate, lower and upper confidence limits, and interval width for each method. Bootstrap methods within a single comparison share resamples.
+
+**Example 3. Classical t interval**
+
+```{.r}
+result_t <- mean_t_ci(x, conf = 0.95)
+print(result_t)
+confint(result_t)
+```
+
+### Assumptions and limitations
+
+Bootstrap intervals here assume independent, identically distributed observations and target the ordinary population mean. The classical t interval has exact coverage under independent normal sampling with positive common variance. Coverage can differ from the nominal level for skewed, heavy-tailed, or contaminated populations, particularly with small samples. The package does not automatically handle clusters, serial dependence, survey weights, or missing observations. Comparisons illustrate differences between interval methods; they do not establish that one method is universally preferable.
+
 ::: {.software-header}
 <div class="status-line"><span class="badge">In development</span><span>R package · Model adaptation</span></div>
 
