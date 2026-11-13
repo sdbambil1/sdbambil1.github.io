@@ -24,15 +24,6 @@ description: "Contact Silas Bambil about research and collaboration."
 Atlanta, Georgia
 :::
 
-<div class="actions"><a class="button primary" href="mailto:sdbambil98@gmail.com">Send an email ↗</a><a class="button" href="files/Silas_Bambil_PhD_CV.pdf">Download CV (PDF)</a></div>
-:::
-::: {.contact-panel}
-## Research interests
-
-My research interests include credit-risk model updating, predictive stability, and extreme value methods for tail-risk measurement.
-
-[Explore my research →](research.qmd)
-
-[View projects & software →](projects.qmd)
+<div class="actions"><a class="button primary" href="mailto:sdbambil98@gmail.com">Send an email ↗</a></div>
 :::
 :::
