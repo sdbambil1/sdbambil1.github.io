@@ -29,6 +29,12 @@ jobs:
         run: quarto render
       - name: Validate rendered pages, links and assets
         run: python3 scripts/validate_site.py
+      - name: Install Chromium for responsive smoke tests
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Check mobile layouts and navigation
+        run: node scripts/check_mobile.cjs
       - name: Upload rendered website
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
