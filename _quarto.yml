@@ -64,7 +64,7 @@ format:
     canonical-url: true
     include-in-header: includes/google-site-verification.html
     theme: cosmo
-    css: styles-academic-v2.css
+    css: styles-tex-academic.css
     toc: false
     lang: en
     link-external-newwindow: true
