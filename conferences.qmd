@@ -4,7 +4,7 @@ description: "Conference presentations and attendance by Silas Bambil, including
 ---
 
 <p class="eyebrow">Conferences and research communication</p>
-<p class="lede">Conference presentations and attendance are recorded separately. Future presentations are identified by their scheduled dates.</p>
+<p class="lede">Research presentations and conference participation.</p>
 
 ## Scheduled presentation
 
@@ -23,7 +23,7 @@ description: "Conference presentations and attendance by Silas Bambil, including
 
 **Poster authors:** Silas Bambil, Shudeshna Nandy, Clement Ampong, and Prakash Karki. **Faculty advisor:** Chi-Kuang Yeh. The final conference-program listing has not been verified.
 
-[Research description](research.qmd#fire-loss)
+[Research description](research.qmd#fire-loss) · [Poster references](evt-fireloss-references.qmd)
 :::
 
 ## Conference attendance
@@ -42,6 +42,6 @@ description: "Conference presentations and attendance by Silas Bambil, including
 ::: {.conference-copy}
 ### Georgia Statistics Day
 
-Attended Georgia Statistics Day. No research presentation is claimed for this event.
+Attended Georgia Statistics Day.
 :::
 :::
