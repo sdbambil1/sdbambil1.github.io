@@ -6,6 +6,7 @@ project:
   resources:
     - files/Silas_Bambil_PhD_CV.pdf
     - files/Silas_Bambil_Professional_CV.pdf
+    - assets/fonts
     - assets/favicon.svg
     - assets/silas-bambil-portrait.jpeg
     - assets/georgia-statistics-day.jpeg
@@ -73,5 +74,5 @@ format:
     link-external-newwindow: true
     anchor-sections: true
     smooth-scroll: true
-    mainfont: "Arial, sans-serif"
+    mainfont: "Latin Modern Roman"
     fontsize: 16px

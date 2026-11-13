@@ -1,3 +1,9 @@
+@font-face{font-family:"Latin Modern Roman";src:url("assets/fonts/lmroman-regular-webfont.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Latin Modern Roman";src:url("assets/fonts/lmroman-bold-webfont.woff") format("woff");font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:"Latin Modern Roman";src:url("assets/fonts/lmroman-italic-webfont.woff") format("woff");font-style:italic;font-weight:400;font-display:swap}
+@font-face{font-family:"Latin Modern Roman";src:url("assets/fonts/lmroman-bolditalic-webfont.woff") format("woff");font-style:italic;font-weight:700;font-display:swap}
+@font-face{font-family:"Latin Modern Mono";src:url("assets/fonts/lmmono-regular-webfont.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
+
 /* Minimal academic portfolio: white canvas, dark text, quiet navy links.
    A single stylesheet replaces earlier accumulated theme overrides. */
 :root{
@@ -11,7 +17,7 @@
 html{scroll-padding-top:6rem}
 body{
   background:var(--paper);color:var(--ink);
-  font-family:Georgia,"Times New Roman",serif;
+  font-family:"Latin Modern Roman","Times New Roman",serif;
   font-size:1.03rem;line-height:1.72;
   -webkit-font-smoothing:antialiased;
 }
@@ -20,7 +26,7 @@ a:hover{color:var(--navy-hover)}
 p,li{line-height:1.72}
 p{max-width:72ch}
 h1,h2,h3,h4,.profile-name{
-  font-family:Georgia,"Times New Roman",serif;
+  font-family:"Latin Modern Roman","Times New Roman",serif;
   color:var(--ink);font-weight:400;letter-spacing:-.015em;
 }
 h1{font-size:clamp(2.1rem,3.5vw,2.75rem);line-height:1.18}
@@ -37,7 +43,7 @@ main.content{max-width:900px;margin-inline:auto;min-width:0;padding-bottom:2.7re
 .eyebrow,.meta,.status-line,.badge,.tags,.jump-links,.button,
 .profile-role,.profile-location,.profile-contact,.navbar,.nav-footer,
 .workflow .eyebrow{
-  font-family:Arial,Helvetica,sans-serif
+  font-family:"Latin Modern Roman","Times New Roman",serif
 }
 .eyebrow{font-size:.7rem;letter-spacing:.11em;text-transform:uppercase;font-weight:600;color:var(--muted)}
 .lede{font-size:1.12rem;line-height:1.72;color:#424950;max-width:67ch;margin:0 0 1.45rem}
@@ -49,7 +55,7 @@ main.content{max-width:900px;margin-inline:auto;min-width:0;padding-bottom:2.7re
 }
 .navbar-container{max-width:1050px;width:100%;margin-inline:auto}
 .navbar-brand,.navbar .navbar-brand{
-  font-family:Georgia,"Times New Roman",serif;
+  font-family:"Latin Modern Roman","Times New Roman",serif;
   font-size:1.28rem;color:var(--ink)!important;letter-spacing:0
 }
 .navbar-nav .nav-link,.navbar .nav-link{
@@ -60,7 +66,7 @@ main.content{max-width:900px;margin-inline:auto;min-width:0;padding-bottom:2.7re
 .navbar .nav-link.active .menu-text{border-bottom:1px solid var(--navy);padding-bottom:3px}
 .navbar .active{color:var(--navy)!important}
 .dropdown-menu{border:1px solid var(--line);border-radius:2px;box-shadow:0 9px 20px #16283c0a}
-.dropdown-item{font-family:Arial,Helvetica,sans-serif;font-size:.89rem}
+.dropdown-item{font-family:"Latin Modern Roman","Times New Roman",serif;font-size:.89rem}
 .nav-footer{
   background:#fff;color:var(--muted);
   border-top:1px solid var(--line);
@@ -112,14 +118,14 @@ main.content{max-width:900px;margin-inline:auto;min-width:0;padding-bottom:2.7re
   margin:2.65rem 0 0
 }
 .contact-band h2,.contact-band h3{
-  font-family:Georgia,"Times New Roman",serif;
+  font-family:"Latin Modern Roman","Times New Roman",serif;
   font-weight:400;font-size:1.45rem;margin:0 0 .75rem;
   border:0;padding:0
 }
 .contact-band p{font-size:1rem;margin:0 0 1.1rem}
 .button{
   display:inline-flex;align-items:center;justify-content:center;
-  min-height:42px;gap:.4rem;font-family:Arial,Helvetica,sans-serif;
+  min-height:42px;gap:.4rem;font-family:"Latin Modern Roman","Times New Roman",serif;
   font-size:.84rem;font-weight:500;text-decoration:none;
   color:var(--navy);background:#fff!important;
   border:1px solid #aab7c7!important;border-radius:2px!important;
@@ -177,7 +183,7 @@ details.methods{
   border-top:1px solid var(--line);border-bottom:1px solid var(--line);
   padding:.85rem 0;margin:1.5rem 0;font-size:.96rem
 }
-details.methods summary{cursor:pointer;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;font-weight:600;padding:.25rem 0}
+details.methods summary{cursor:pointer;font-family:"Latin Modern Roman","Times New Roman",serif;font-size:.88rem;font-weight:600;padding:.25rem 0}
 details.methods[open] summary{margin-bottom:.85rem}
 details.methods p:last-child{margin-bottom:.3rem}
 .software-header{
@@ -226,7 +232,7 @@ input:focus-visible,select:focus-visible,[tabindex]:focus-visible{
 .skip-to-content{
   position:fixed;z-index:9999;left:1rem;top:-9rem;
   background:#fff;color:var(--ink);border:2px solid var(--navy);
-  font:600 .9rem Arial,Helvetica,sans-serif;padding:.65rem 1rem;
+  font:600 .9rem "Latin Modern Roman","Times New Roman",serif;padding:.65rem 1rem;
   text-decoration:none
 }
 .skip-to-content:focus,.skip-to-content:focus-visible{top:1rem}
@@ -298,3 +304,8 @@ input:focus-visible,select:focus-visible,[tabindex]:focus-visible{
   .home-page .profile-rail {order:0}
   .home-page .academic-main {order:1}
 }
+
+/* Force TeX typography in Quarto and Bootstrap UI without changing mathematical glyph rendering. */
+:root{--bs-body-font-family:"Latin Modern Roman","Times New Roman",serif;--bs-font-sans-serif:"Latin Modern Roman","Times New Roman",serif}
+body,button,input,select,textarea,.navbar,.navbar-nav,.nav-link,.navbar-brand,.dropdown-item,.nav-footer,.button,.badge,.meta,.eyebrow,.status-line,.profile-role,.profile-location,.profile-contact,.jump-links,.table,.form-control,.btn,.quarto-search-button{font-family:"Latin Modern Roman","Times New Roman",serif!important}
+pre,code,kbd,samp,pre code,.sourceCode{font-family:"Latin Modern Mono","Courier New",monospace!important}
