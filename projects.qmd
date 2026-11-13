@@ -1,6 +1,6 @@
 ---
 title: "Projects & Software"
-description: "Software development and reproducible statistical analysis."
+description: "Statistical software and computational research by Silas Bambil, including model adaptation and extreme-value analysis in R."
 ---
 
 <p class="eyebrow">Statistical software and reproducible analysis</p>
