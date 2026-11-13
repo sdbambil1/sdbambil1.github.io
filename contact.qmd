@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Contact Silas Bambil."
+description: "Contact Silas Bambil about statistical research, credit-risk modeling, extreme value methods, and academic collaboration."
 ---
 
 <p class="eyebrow">Contact information</p>
