@@ -4,7 +4,7 @@ description: "Statistical software and computational research by Silas Bambil, i
 ---
 
 <p class="eyebrow">Statistical software and reproducible analysis</p>
-<p class="lede">This page documents statistical software and reproducibility materials. Research questions and findings are described separately on the Research page.</p>
+<p class="lede">I develop statistical software and computational workflows for model updating and extreme-loss analysis.</p>
 
 <nav class="jump-links" aria-label="Project sections"><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#computational-project">Planned work</a></nav>
 
@@ -71,7 +71,7 @@ Computational work for extreme value analysis of U.S. structure-fire losses, inc
 
 [Research summary](research.qmd#fire-loss)
 
-*Repository access is not currently advertised publicly; no public download or DOI is claimed.*
+
 
 ## Computational work in development {#computational-project}
 
