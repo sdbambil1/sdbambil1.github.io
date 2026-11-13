@@ -3,6 +3,7 @@
 Checks local links and assets, PDF availability and document structure.
 Reports large images without changing the original files.
 """
+import json
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -21,6 +22,8 @@ REQUIRED_PDFS = (
 ERRORS = []
 WARNINGS = []
 GOOGLE_VERIFICATION = "6XrEP0ZZI6fcSM1jNiHozH8qzM0hfNafOX5ED7T8OHE"
+SITE_URL = "https://sdbambil1.github.io/"
+MAIN_STYLESHEET = "styles-tex-academic.css"
 
 
 class PageInspector(HTMLParser):
@@ -33,6 +36,10 @@ class PageInspector(HTMLParser):
         self.in_title = False
         self.has_h1 = False
         self.google_verified_tag = False
+        self.canonical_urls = []
+        self.in_json_ld = False
+        self.json_ld_blocks = []
+        self._json_ld = []
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -40,6 +47,11 @@ class PageInspector(HTMLParser):
             self.ids.add(attrs["id"])
         if tag == "meta" and attrs.get("name") == "google-site-verification":
             self.google_verified_tag = attrs.get("content") == GOOGLE_VERIFICATION
+        if tag == "link" and attrs.get("rel", "").lower() == "canonical":
+            self.canonical_urls.append(attrs.get("href", ""))
+        if tag == "script" and attrs.get("type", "").lower() == "application/ld+json":
+            self.in_json_ld = True
+            self._json_ld = []
         if tag == "main":
             self.has_main = True
         if tag == "title":
@@ -52,10 +64,15 @@ class PageInspector(HTMLParser):
             self.links.append(attrs["src"])
 
     def handle_endtag(self, tag):
+        if tag == "script" and self.in_json_ld:
+            self.json_ld_blocks.append("".join(self._json_ld))
+            self.in_json_ld = False
         if tag == "title":
             self.in_title = False
 
     def handle_data(self, data):
+        if self.in_json_ld:
+            self._json_ld.append(data)
         if self.in_title and data.strip():
             self.has_title = True
 
@@ -116,6 +133,32 @@ def main():
         parser.feed(page.read_text(encoding="utf-8"))
         ids_by_file[page.resolve()] = parser.ids
         inspected[page] = parser
+        expected_canonical = (SITE_URL if page == ROOT / "index.html"
+                              else SITE_URL + page.relative_to(ROOT).as_posix())
+        if parser.canonical_urls != [expected_canonical]:
+            ERRORS.append(
+                f"{page.relative_to(ROOT)}: canonical URL mismatch: "
+                f"expected {expected_canonical}, got {parser.canonical_urls}"
+            )
+        if page.name == "index.html":
+            if not any(MAIN_STYLESHEET in url for url in parser.links):
+                ERRORS.append("index.html: required stylesheet reference missing")
+            person_blocks = []
+            for raw_block in parser.json_ld_blocks:
+                try:
+                    obj = json.loads(raw_block)
+                except json.JSONDecodeError as exc:
+                    ERRORS.append(f"index.html: invalid JSON-LD: {exc}")
+                    continue
+                if isinstance(obj, dict) and obj.get("@type") == "Person":
+                    person_blocks.append(obj)
+            if len(person_blocks) != 1:
+                ERRORS.append("index.html: expected exactly one Person JSON-LD block")
+            elif person_blocks[0].get("url") != SITE_URL or not {
+                "https://orcid.org/0009-0002-5110-8102",
+                "https://github.com/sdbambil1",
+            }.issubset(set(person_blocks[0].get("sameAs", []))):
+                ERRORS.append("index.html: Person JSON-LD identity links are incomplete")
         if page.name == "index.html" and not parser.google_verified_tag:
             ERRORS.append("index.html: missing Google Search Console verification meta tag")
         if not parser.has_title:
