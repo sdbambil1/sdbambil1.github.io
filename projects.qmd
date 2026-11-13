@@ -4,12 +4,12 @@ description: "R packages for confidence interval estimation and model adaptation
 ---
 
 <p class="eyebrow">Statistical software and reproducible analysis</p>
-<p class="lede">My software work includes R packages for statistical inference and predictive-model updating, as well as computational analysis of extreme losses.</p>
+<p class="lede">My computational work covers statistical inference, credit-risk model updating, and extreme-loss analysis. The projects below distinguish publicly released software from ongoing research code and planned development.</p>
 
 <nav class="jump-links" aria-label="Project sections"><a href="#bambaganaci">bambaganaCI</a><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#ridge-package">Ridge regression package</a><a href="#computational-project">Other planned work</a></nav>
 
 ::: {.software-header}
-<div class="status-line"><span class="badge">Version 0.1.1</span><span>R package · Statistical inference</span></div>
+<div class="status-line"><span class="badge">Public release · v0.1.1</span><span>R package · Statistical inference</span></div>
 
 ## bambaganaCI {#bambaganaci}
 
@@ -17,7 +17,7 @@ description: "R packages for confidence interval estimation and model adaptation
 
 An R package for constructing confidence intervals for a population mean. It implements percentile, basic, normal, and bias-corrected and accelerated (BCa) bootstrap intervals, together with the classical Student's t interval. A comparison function reports interval endpoints and widths across methods using the same data.
 
-The package includes input checks, reproducible resampling methods, and automated tests. The source code is publicly available on [GitHub](https://github.com/sdbambil1/bambaganaCI). Version 0.1.1 is not currently available on CRAN.
+The package includes input checks, reproducible resampling methods, and automated tests. Version 0.1.1 is publicly released on [GitHub](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1), but is not available on CRAN.
 :::
 
 ### Supported confidence intervals
@@ -44,7 +44,7 @@ library(bambaganaCI)
 
 ### R examples
 
-The examples below use the publicly available package source. The package is not currently distributed through CRAN.
+The examples below use version 0.1.1 from the public GitHub repository.
 
 **Example 1. Bootstrap confidence interval for a mean**
 
@@ -99,7 +99,7 @@ Bootstrap intervals here assume independent, identically distributed observation
 
 ## shiftadapt {#shiftadapt}
 
-An R package under development for updating logistic prediction models under distribution shift. It implements candidate updating policies, validation-based selection, and evaluation on independent test data.
+An R package under development for updating logistic prediction models under distribution shift. Its design covers candidate updating policies, validation-based selection, and independent test-data evaluation. No public release is claimed.
 :::
 
 ### Four updating strategies
@@ -149,7 +149,7 @@ Evaluation includes log loss, Brier score, ROC-AUC, and calibration diagnostics.
 
 ## NFIRS extreme-value analysis {#nfirs-analysis}
 
-<div class="status-line"><span class="badge">Research code</span><span>R · Extreme value theory</span></div>
+<div class="status-line"><span class="badge">Research code · Not public</span><span>R · Extreme value theory</span></div>
 
 Computational work for extreme value analysis of U.S. structure-fire losses, including Peaks-Over-Threshold fitting, tail-risk estimation, and uncertainty and sensitivity checks. The manuscript and methodological contribution are described separately on the Research page.
 
@@ -163,7 +163,7 @@ Computational work for extreme value analysis of U.S. structure-fire losses, inc
 
 A planned R package for ridge regression, with an emphasis on coefficient shrinkage, penalty selection through cross-validation, and out-of-sample prediction assessment. The package is at the planning stage; no completed implementation or release is claimed.
 
-## Computational work in development {#computational-project}
+## Planned computational study {#computational-project}
 
 <span class="badge planned">Planned project</span>
 
