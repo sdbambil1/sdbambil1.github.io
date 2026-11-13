@@ -1,0 +1,39 @@
+---
+title: "Conferences"
+description: "Conference attendance and research presentations by Silas Bambil."
+---
+
+<p class="eyebrow">Academic meetings & research communication</p>
+<p class="lede">Conferences provide opportunities to discuss research methods, results, and open questions with other researchers.</p>
+
+## Upcoming
+
+::: {.cv-entry}
+<p class="meta">November 18, 2026 · Georgia State University</p>
+
+### Georgia State University Graduate Conference
+
+Registered to present a research poster on the use of bounded loss layers to identify discrepancies between empirical fire-loss distributions and fitted extreme value models. The work examines Expected Shortfall, tail-model assessment, and uncertainty in the presence of sparse extreme losses.
+
+**Status:** Poster presentation scheduled.
+:::
+
+## Attendance
+
+::: {.conference-feature}
+::: {.conference-photo}
+```{=html}
+<figure>
+<a href="assets/georgia-statistics-day.jpeg" target="_blank" rel="noopener noreferrer" aria-label="View Georgia Statistics Day photograph">
+<img src="assets/georgia-statistics-day.jpeg" alt="Group photograph at Georgia Statistics Day beside conference posters" width="1152" height="1536" loading="lazy" decoding="async">
+</a>
+<figcaption>Georgia Statistics Day.</figcaption>
+</figure>
+```
+:::
+::: {.conference-copy}
+### Georgia Statistics Day
+
+Attended Georgia Statistics Day. This entry records conference attendance, not a research presentation.
+:::
+:::
