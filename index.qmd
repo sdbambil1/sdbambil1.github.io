@@ -5,6 +5,41 @@ body-classes: home-page
 description: "Silas Bambil — statistical research in credit risk and tail-risk measurement."
 ---
 
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://sdbambil1.github.io/#person",
+  "name": "Silas Bambil",
+  "url": "https://sdbambil1.github.io/",
+  "mainEntityOfPage": "https://sdbambil1.github.io/",
+  "image": "https://sdbambil1.github.io/assets/silas-bambil-portrait.jpeg",
+  "description": "Graduate student in Statistics at Georgia State University with research interests in credit-risk model updating and tail-risk measurement.",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Georgia State University",
+    "url": "https://www.gsu.edu/"
+  },
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "Georgia State University"},
+    {"@type": "CollegeOrUniversity", "name": "Kwame Nkrumah University of Science and Technology"}
+  ],
+  "knowsAbout": [
+    "Statistical methods for finance",
+    "Credit-risk model updating",
+    "Distribution shift",
+    "Extreme value theory",
+    "Tail-risk measurement"
+  ],
+  "sameAs": [
+    "https://orcid.org/0009-0002-5110-8102",
+    "https://github.com/sdbambil1"
+  ]
+}
+</script>
+```
+
 :::: {.academic-layout}
 ::: {.profile-rail}
 ```{=html}
