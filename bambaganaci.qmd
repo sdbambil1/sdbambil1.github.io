@@ -5,29 +5,29 @@ description: "Installation, beginner-friendly commands, classical statistical in
 
 [← Back to Software](projects.qmd#bambaganaci)
 
-<p class="eyebrow">R package · Public release v0.3.3 · CRAN candidate v0.3.4</p>
+<p class="eyebrow">R package · Public release v0.3.4 · CRAN submission pending</p>
 
 **Authors:** Silas Bambil and Yasmeen Babagana.
 
-**bambaganaCI** provides confidence intervals, hypothesis tests, descriptive summaries, association measures, linear-model inference, analysis of variance, and model-based power planning. The package has **40 statistical functions** and **43 public exports**. Version 0.3.3 adds a beginner-friendly `bambagana()` interface for selecting analyses by readable names; the original statistical functions remain directly accessible.
+**bambaganaCI** provides confidence intervals, hypothesis tests, descriptive summaries, association measures, linear-model inference, analysis of variance, and model-based power planning. The package has **40 statistical functions** and **43 public exports**. The public release provides a beginner-friendly `bambagana()` interface for selecting analyses by readable names; the original statistical functions remain directly accessible.
 
-The v0.3.3 source was published to [GitHub](https://github.com/sdbambil1/bambaganaCI) at commit [`cbf61d4`](https://github.com/sdbambil1/bambaganaCI/commit/cbf61d4b273a2614663982f39d17347bb55fa48d). It is not available on CRAN. Version 0.3.4 is a separately validated candidate for a first CRAN submission, not a public release or an accepted CRAN package. The formal v0.3.3 GitHub Release tag is separate from publication of the source.
+Version 0.3.4 is the [latest public GitHub release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.4). The formal release includes the validated v0.3.4 source archive. The package has not been submitted to or accepted by CRAN.
 
 ## Install from GitHub
 
-Install from the formal v0.3.3 release tag to obtain the documented version.
+Install from the formal v0.3.4 release tag to obtain the documented version.
 
 ```{.r}
 install.packages("remotes") # Only if remotes is not installed
 remotes::install_github(
   "sdbambil1/bambaganaCI",
-  ref = "v0.3.3"
+  ref = "v0.3.4"
 )
 library(bambaganaCI)
 packageVersion("bambaganaCI")
 ```
 
-[View source](https://github.com/sdbambil1/bambaganaCI) · [v0.3.3 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.3) · [Report an issue](https://github.com/sdbambil1/bambaganaCI/issues)
+[View source](https://github.com/sdbambil1/bambaganaCI) · [v0.3.4 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.4) · [Report an issue](https://github.com/sdbambil1/bambaganaCI/issues)
 
 ## Start with readable commands
 
@@ -107,7 +107,7 @@ For analysis of variance, use `bambagana("anova", scores, group)`, with a groupi
 
 ## Package verification
 
-The public v0.3.3 release passed `R CMD build` and `R CMD check --no-manual` on macOS with R 4.4.1, reporting **Status: OK**. The separate v0.3.4 CRAN candidate was checked with `R CMD check --as-cran` on three environments:
+The published v0.3.4 GitHub release is based on the same source archive used for external validation. The v0.3.4 candidate was checked with `R CMD check --as-cran` on three environments:
 
 | Environment | Result | Detail |
 |---|---|---|
@@ -115,7 +115,7 @@ The public v0.3.3 release passed `R CMD build` and `R CMD check --no-manual` on 
 | Windows R-devel, Winbuilder | 0 errors, 0 warnings, 1 NOTE | The email report gives the overall status; the NOTE detail has not been independently inspected |
 | Linux, Ubuntu 26.04.1, R 4.6.2 | 0 errors, 0 warnings, 1 NOTE | New submission; tests, examples, documentation, and vignettes passed |
 
-The Linux results are available in the [GitHub Actions validation run](https://github.com/sdbambil1/bambaganaCI/actions/runs/43519880509). A Windows R-release report has not yet been verified. **Version 0.3.4 has not been submitted to or accepted by CRAN.** These checks establish technical consistency in tested environments; they do not demonstrate nominal interval coverage under every data-generating process.
+The Linux results are available in the [GitHub Actions validation run](https://github.com/sdbambil1/bambaganaCI/actions/runs/43519880509). A Windows R-release report has not yet been verified. **Version 0.3.4 is publicly released on GitHub, but has not been submitted to or accepted by CRAN.** These checks establish technical consistency in tested environments; they do not demonstrate nominal interval coverage under every data-generating process.
 
 ## Assumptions and limitations
 
