@@ -341,3 +341,79 @@ details.methods summary {font-size: .9rem}
 @media print {
   .skip-to-content { display: none; }
 }
+
+/* Editorial layout refinement: measured reading width and consistent rhythm.
+   Preserve the established serif typography, colors, and home profile layout. */
+@media (min-width: 851px) {
+  body:not(.home-page) main.content {
+    max-width: 900px;
+  }
+}
+body:not(.home-page) #title-block-header {
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 1.6rem;
+}
+body:not(.home-page) #title-block-header h1 {
+  margin: 0;
+  font-size: clamp(2.15rem, 3.6vw, 2.85rem);
+  line-height: 1.18;
+  letter-spacing: -.025em;
+}
+body:not(.home-page) main.content > .eyebrow {
+  margin-top: 0;
+}
+main.content h2 {
+  scroll-margin-top: 7rem;
+}
+.paper {
+  padding: 2rem 0 2.3rem;
+}
+.paper + .paper {
+  margin-top: .5rem;
+}
+.paper h2 {
+  max-width: 30ch;
+  text-wrap: balance;
+}
+.paper .status-line {
+  margin-bottom: .8rem;
+}
+.paper .authors {
+  line-height: 1.55;
+}
+.paper > p {
+  max-width: 68ch;
+}
+.cv-entry {
+  padding-block: 1rem 1.25rem;
+}
+.cv-entry h3 {
+  margin-top: .25rem;
+}
+.software-header {
+  padding: 1.5rem 1.7rem;
+}
+.software-header h2 {
+  margin: .55rem 0 .8rem;
+  line-height: 1.25;
+}
+.jump-links {
+  margin-top: 1.35rem;
+  margin-bottom: 2.2rem;
+}
+.jump-links a {
+  transition: background-color .15s ease, border-color .15s ease;
+}
+@media (max-width: 650px) {
+  body:not(.home-page) #title-block-header {
+    padding-bottom: .9rem;
+    margin-bottom: 1.35rem;
+  }
+  .paper {padding: 1.5rem 0 1.8rem;}
+  .paper h2 {max-width: none;}
+  .software-header {padding: 1.1rem 1.2rem;}
+}
+@media (prefers-reduced-motion: reduce) {
+  .jump-links a {transition: none;}
+}
