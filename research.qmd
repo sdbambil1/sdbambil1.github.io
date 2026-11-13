@@ -3,8 +3,8 @@ title: "Research"
 description: "Predictive model adaptation, probability calibration, and extreme risk."
 ---
 
-<p class="eyebrow">Questions, methods & findings</p>
-<p class="lede">How can we trust predictions when conditions change? How much can we learn about the most extreme losses? These questions connect my work in model evaluation and quantitative risk.</p>
+<p class="eyebrow">Research questions, methods, and findings</p>
+<p class="lede">My research concerns predictive model evaluation under distribution shift and statistical inference for extreme losses. I examine how modeling choices affect predictive performance, risk estimates, and their interpretation.</p>
 
 <nav class="jump-links" aria-label="Research sections"><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Distribution shift</a><a href="#fire-loss">Extreme risk</a><a href="#earlier-research">Earlier research</a><a href="#in-development">In development</a></nav>
 
@@ -13,10 +13,10 @@ description: "Predictive model adaptation, probability calibration, and extreme 
 
 ## Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information {#selection-regret}
 
-This study examines how the amount of recent labeled information affects the predictive cost of choosing a credit-risk model update. It distinguishes selecting the best available policy from selecting a policy whose predictive performance is close to the best.
+This study examines how the size of a recent labeled sample affects the predictive consequences of selecting a credit-risk model update. It distinguishes the frequency of selecting an oracle policy from the loss incurred when another policy is selected.
 
 ::: {.finding}
-**What the study shows**
+**Principal findings**
 
 Mean selection regret was lower with 10,000 labeled observations than with 2,500 in all 13 simulation scenarios. Under stability, agreement with the fitted-candidate oracle decreased from 27.6% to 23.6%, while mean selection regret fell by approximately 76.7%. Selecting the oracle policy more often and reducing the cost of selection errors are therefore distinct outcomes.
 :::
@@ -39,12 +39,12 @@ A historical Fannie Mae application complements the simulation, with 200 replica
 
 <p class="authors">Silas Bambil and Shudeshna Nandy</p>
 
-A model can still rank cases well while its predicted probabilities become unreliable. This study examines how changes in the deployment population affect calibration, discrimination, probability accuracy, and classification decisions.
+Discrimination and calibration describe different aspects of predictive performance. This study examines how distribution shift affects probability calibration, discrimination, probability accuracy, and decisions based on predicted risk.
 
 ::: {.finding}
 **What the study shows**
 
-The appropriate updating strategy depends on what changes. Intercept recalibration can address baseline-risk changes, while changes in predictor effects may require full refitting. Adjusting a decision threshold addresses classification decisions rather than probability calibration.
+The relative performance of updating strategies depends on the shift mechanism. Intercept recalibration can accommodate changes in baseline risk, whereas changes in predictor effects may favor refitting. Decision-threshold revision and probability recalibration address different targets.
 :::
 
 <details class="methods"><summary>Study design & methods</summary>
@@ -67,12 +67,12 @@ Comparisons include retaining the original model, intercept-only recalibration, 
 
 <p class="authors">Silas Bambil</p>
 
-An analysis of approximately 1.25 million positive-loss U.S. structure-fire records from NFIRS, covering 2016–2025. The study uses extreme value methods to examine catastrophic loss severity and uncertainty in the far tail.
+This study analyzes approximately 1.25 million positive-loss records from U.S. structure fires in the 2016–2025 NFIRS releases. Extreme value methods are used to assess severe-loss distributions, high quantiles, and uncertainty in Expected Shortfall.
 
 ::: {.finding}
 **What the study shows**
 
-Extreme-loss quantiles were comparatively stable across modeling choices. Expected Shortfall was more sensitive to threshold selection and uncertainty in the far tail, making the distinction between these risk measures consequential.
+High-loss quantiles showed comparatively limited variation across selected modeling choices, whereas Expected Shortfall was more sensitive to tail assumptions and exceptional observations. The results indicate that quantile agreement alone does not establish agreement in expected losses.
 :::
 
 <details class="methods"><summary>Data, modeling & robustness</summary>
@@ -124,7 +124,7 @@ A project examining the numerical accuracy and computational efficiency of logis
 :::
 
 ::: {.contact-band}
-### Interested in this work?
+### Research correspondence
 
 [Get in touch](contact.qmd){.button .primary}
 :::
