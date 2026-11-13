@@ -47,6 +47,9 @@ website:
       - icon: github
         href: https://github.com/sdbambil1
         aria-label: GitHub profile
+      - text: ORCID
+        href: https://orcid.org/0009-0002-5110-8102
+        aria-label: Silas Bambil ORCID researcher profile
   page-footer:
     left: "Silas Bambil · Statistics & quantitative risk"
     right:
