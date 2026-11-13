@@ -9,13 +9,12 @@ description: "Professional experience of Silas Bambil in financial research, sta
 ## Professional appointments
 
 ::: {.cv-entry}
-### Financial Research Assistant · OPH CHEM CONSULT
+### Finance Associate · OPH CHEM CONSULT
 
 **2022–2023 · Accra, Ghana**
 
-- Conducted research on financial risks associated with misappropriation and community-level financial challenges.
-- Led financial workshops and worked with stakeholders to discuss risk mitigation strategies.
-- Supported preparation of quarterly reports on financial sustainability and risk.
+- Examined financial misappropriation risks and community financial challenges.
+- Summarized findings in analytical reports and research briefs.
 :::
 
 ::: {.cv-entry}
@@ -23,16 +22,15 @@ description: "Professional experience of Silas Bambil in financial research, sta
 
 **2020–2021 · Accra, Ghana**
 
-- Contributed to reports on economic risks affecting living standards in Accra.
-- Managed and analyzed demographic data for census-related statistical work.
-- Designed and implemented sampling methods for research projects and data-quality assessment.
+- Supported survey research and management of population and economic data.
+- Contributed to statistical analysis and preparation of research reports.
 :::
 
 ## Professional skills
 
-**Financial and research reporting:** financial-risk analysis, quarterly reporting, workshop facilitation, and stakeholder engagement.
+**Financial and research reporting:** financial-risk assessment, analytical reporting, and research briefs.
 
-**Survey and data work:** sampling design, demographic data management, data-quality checks, and socioeconomic reporting.
+**Survey and data work:** survey research, economic and population data management, statistical analysis, and research reporting.
 
 ## FINRA examinations
 
