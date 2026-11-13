@@ -5,7 +5,9 @@ description: "Contact Silas Bambil about statistical research, credit-risk model
 
 <p class="eyebrow">Contact information</p>
 
-For academic or professional correspondence, I can be reached using the details below.
+For research, academic, or professional correspondence, email is the best way to reach me.
+
+[**✉ Email me — sdbambil98@gmail.com**](mailto:sdbambil98@gmail.com){.button .primary}
 
 ## Email
 
