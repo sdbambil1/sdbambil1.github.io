@@ -417,3 +417,100 @@ main.content h2 {
 @media (prefers-reduced-motion: reduce) {
   .jump-links a {transition: none;}
 }
+
+/* Homepage composition: quiet white space, restrained blue details. */
+.home-page .academic-layout {
+  grid-template-columns: minmax(190px, 220px) minmax(0, 1fr);
+  gap: clamp(2.25rem, 5vw, 4.5rem);
+  padding-top: clamp(.65rem, 2.2vw, 1.7rem);
+}
+.home-page .profile-rail {
+  padding-right: clamp(1rem, 2.1vw, 1.7rem);
+  border-right-color: var(--line);
+}
+.home-page .profile-portrait {
+  width: 100%;
+  max-width: 190px;
+  border-radius: 4px;
+  box-shadow: 0 8px 28px rgba(30, 53, 82, .09);
+}
+.home-page .profile-name {
+  margin-top: 1.15rem;
+  margin-bottom: .45rem;
+  font-size: 1.75rem;
+  line-height: 1.16;
+}
+.home-page .profile-role {
+  margin-bottom: .35rem;
+}
+.home-page .profile-contact {
+  margin-top: 1.15rem;
+  gap: .65rem;
+}
+.home-page .academic-main {
+  padding-top: .15rem;
+}
+.home-page .academic-main > .eyebrow {
+  color: var(--accent);
+  margin-bottom: .8rem;
+}
+.home-page .academic-main h1 {
+  font-size: clamp(2.35rem, 4vw, 3.15rem);
+  line-height: 1.16;
+  margin: 0 0 1.4rem;
+}
+.home-page .academic-main > p:not(.eyebrow) {
+  max-width: 67ch;
+  margin-bottom: 1.15rem;
+}
+.home-page .contact-band {
+  background: var(--wash);
+  margin-top: 2.25rem;
+  padding: 1.45rem 1.6rem;
+  border-left: 3px solid var(--accent);
+}
+.home-page .contact-band h2 {
+  border: 0;
+  padding: 0;
+  margin: 0 0 .75rem;
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+.home-page .contact-band p {
+  margin-bottom: 1rem;
+}
+@media (max-width: 850px) {
+  .home-page .academic-layout {
+    grid-template-columns: minmax(150px, 185px) minmax(0, 1fr);
+    gap: 2rem;
+  }
+}
+@media (max-width: 650px) {
+  .home-page .academic-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.6rem;
+    padding-top: .1rem;
+  }
+  .home-page .profile-rail {
+    padding-right: 0;
+    padding-bottom: 1.2rem;
+    border-right: 0;
+  }
+  .home-page .profile-portrait {width: 100px;}
+  .home-page .profile-name {
+    margin-top: 0;
+    font-size: 1.45rem;
+  }
+  .home-page .profile-contact {
+    margin-top: .7rem;
+    gap: .35rem .9rem;
+  }
+  .home-page .academic-main h1 {
+    font-size: clamp(2.1rem, 8vw, 2.6rem);
+    margin-bottom: 1rem;
+  }
+  .home-page .contact-band {
+    margin-top: 1.7rem;
+    padding: 1.2rem 1.25rem;
+  }
+}
