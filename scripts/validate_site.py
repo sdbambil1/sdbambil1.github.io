@@ -20,6 +20,7 @@ REQUIRED_PDFS = (
 )
 ERRORS = []
 WARNINGS = []
+GOOGLE_VERIFICATION = "6XrEP0ZZI6fcSM1jNiHozH8qzM0hfNafOX5ED7T8OHE"
 
 
 class PageInspector(HTMLParser):
@@ -31,11 +32,14 @@ class PageInspector(HTMLParser):
         self.has_title = False
         self.in_title = False
         self.has_h1 = False
+        self.google_verified_tag = False
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if "id" in attrs:
             self.ids.add(attrs["id"])
+        if tag == "meta" and attrs.get("name") == "google-site-verification":
+            self.google_verified_tag = attrs.get("content") == GOOGLE_VERIFICATION
         if tag == "main":
             self.has_main = True
         if tag == "title":
@@ -112,6 +116,8 @@ def main():
         parser.feed(page.read_text(encoding="utf-8"))
         ids_by_file[page.resolve()] = parser.ids
         inspected[page] = parser
+        if page.name == "index.html" and not parser.google_verified_tag:
+            ERRORS.append("index.html: missing Google Search Console verification meta tag")
         if not parser.has_title:
             ERRORS.append(f"{page.relative_to(ROOT)}: missing page title")
         if not parser.has_main:
