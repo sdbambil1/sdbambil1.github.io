@@ -1,7 +1,7 @@
 ---
 title: "Silas Bambil"
 body-classes: home-page
-description: "Statistics graduate student at Georgia State University, researching predictive model adaptation and extreme risk."
+description: "Silas Bambil studies statistical methods for finance, credit-risk model updating, and the measurement of extreme losses."
 ---
 
 :::: {.academic-layout}
@@ -13,7 +13,7 @@ description: "Statistics graduate student at Georgia State University, researchi
 <p class="profile-role">Graduate student in Statistics<br>Georgia State University</p>
 <p class="profile-location">Atlanta, Georgia</p>
 <div class="profile-contact"><a href="mailto:sdbambil98@gmail.com">Email me</a><a href="https://github.com/sdbambil1">GitHub ↗</a><a href="files/Silas_Bambil_PhD_CV.pdf">CV · PDF ↓</a></div>
-<div class="rail-note"><span class="eyebrow">Areas of interest</span><p>Statistical prediction<br>Model calibration<br>Extreme value theory<br>Quantitative risk</p></div>
+<div class="rail-note"><span class="eyebrow">Areas of interest</span><p>Statistical methods in finance<br>Credit-risk model updating<br>Tail-risk measurement<br>Extreme value theory</p></div>
 </div>
 ```
 :::
@@ -23,9 +23,9 @@ description: "Statistics graduate student at Georgia State University, researchi
 
 # About me
 
-My work begins with a deceptively simple question: **how much confidence should we place in a prediction when the world around it changes?**
+I am a graduate student in Mathematics, concentrating in Statistics, at Georgia State University. I hold an MS in Quantitative Risk Analysis and Management and a BSc in Actuarial Science. My research interests lie in statistical methods for finance, with an emphasis on credit risk, model updating, and the measurement of extreme losses.
 
-I study probability calibration, model adaptation, and extreme risk. A model may still distinguish higher risks from lower ones while assigning unreliable probabilities—a subtle distinction with substantial consequences. Alongside this work, I use extreme value theory to examine rare losses and the uncertainty that gathers in the far tail.
+In credit-risk modeling, I study how recent labeled information should inform the choice between retaining, recalibrating, and refitting a model under distribution shift. My current work examines selection regret: the predictive cost of choosing an updating policy relative to the best available candidate. I also use extreme value theory to study Value-at-Risk, Expected Shortfall, and bounded loss layers, focusing on how modeling choices and limited tail information affect risk estimates. These projects combine simulation, statistical computing in R, and applications to mortgage-default and fire-loss data.
 
 
 [Professional CV →](professional-cv.qmd){.text-link} · [Academic CV →](cv.qmd){.text-link}
@@ -33,7 +33,17 @@ I study probability calibration, model adaptation, and extreme risk. A model may
 ## Current work
 
 ::: {.work-entry}
-<p class="meta">01 / Predictive modeling · Unpublished manuscript, 2026</p>
+<p class="meta">01 / Credit risk · Working manuscript, 2026</p>
+
+### Selection regret in credit-risk model updating
+
+I examine how the amount of recent labeled information affects the predictive cost of selecting among retention, recalibration, and full refitting, using cross-validation, simulation, and a historical Fannie Mae application.
+
+[Research summary](research.qmd#selection-regret)
+:::
+
+::: {.work-entry}
+<p class="meta">02 / Predictive modeling · Unpublished manuscript, 2026</p>
 
 ### Prediction under distribution shift
 
@@ -43,7 +53,7 @@ With Shudeshna Nandy, I examine calibration, discrimination, and decision thresh
 :::
 
 ::: {.work-entry}
-<p class="meta">02 / Extreme value theory · Unpublished manuscript, 2026</p>
+<p class="meta">03 / Extreme value theory · Unpublished manuscript, 2026</p>
 
 ### Fire-loss severity and far-tail uncertainty
 
@@ -53,7 +63,7 @@ An analysis of approximately 1.25 million U.S. structure-fire loss records, expl
 :::
 
 ::: {.work-entry}
-<p class="meta">03 / Statistical computing · In development</p>
+<p class="meta">04 / Statistical computing · In development</p>
 
 ### shiftadapt
 
