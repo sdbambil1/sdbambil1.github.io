@@ -51,7 +51,7 @@ bambagana("all functions")
 
 The general confidence-interval command above estimates a **population mean**. Proportions, differences between groups, and other quantities have their own analysis commands. Statistical results are preserved: use `display = FALSE` to save a result without automatic console printing.
 
-## Bootstrap confidence intervals
+## Supported confidence intervals
 
 The original package provides percentile, basic, normal, and bias-corrected and accelerated (BCa) bootstrap intervals for a population mean, as well as a classical Student's t interval.
 
