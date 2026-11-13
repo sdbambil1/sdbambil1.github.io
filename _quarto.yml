@@ -20,7 +20,7 @@ website:
   twitter-card: true
   navbar:
     background: "#ffffff"
-    foreground: "#233b40"
+    foreground: "#1e3552"
     pinned: true
     left:
       - href: index.qmd
