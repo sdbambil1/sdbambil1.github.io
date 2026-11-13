@@ -9,7 +9,7 @@ description: "R packages for confidence interval estimation and model adaptation
 <nav class="jump-links" aria-label="Project sections"><a href="#bambaganaci">bambaganaCI</a><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#ridge-package">Ridge regression package</a><a href="#computational-project">Other planned work</a></nav>
 
 ::: {.software-header}
-<div class="status-line"><span class="badge">Public source · v0.3.3</span><span>R package · Statistical inference</span></div>
+<div class="status-line"><span class="badge">Public release · v0.3.3</span><span>R package · Statistical inference</span></div>
 
 ## bambaganaCI {#bambaganaci}
 
@@ -17,14 +17,14 @@ description: "R packages for confidence interval estimation and model adaptation
 
 An R package for confidence intervals and classical statistical inference. Version 0.3.3 includes **40 statistical functions**, covering descriptive statistics, confidence intervals, hypothesis testing, bootstrap methods, association measures, linear regression, analysis of variance, and model-based power planning. The package provides a beginner-friendly `bambagana()` interface while retaining direct access to the original functions and their results.
 
-The v0.3.3 source is available on [GitHub](https://github.com/sdbambil1/bambaganaCI/tree/cbf61d4b273a2614663982f39d17347bb55fa48d); the package is not on CRAN. A formal v0.3.3 GitHub release tag is a separate publication step.
+Version 0.3.3 is publicly released on [GitHub](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.3); it is not on CRAN.
 :::
 
 **Examples:** `bambagana("confidence interval", scores)`, `bambagana("descriptive statistics", scores)`, `bambagana("linear regression", salary ~ experience, data = df)`, and `bambagana("all functions")`.
 
 **Verification:** The v0.3.3 publication candidate passed a full `R CMD check --no-manual` on macOS (R 4.4.1), with no errors, warnings, or notes. This establishes package checks on that environment, not universal statistical coverage or validation on every operating system.
 
-[Package documentation and reproducible examples](bambaganaci.qmd) · [Source code](https://github.com/sdbambil1/bambaganaCI) · [v0.3.3 source commit](https://github.com/sdbambil1/bambaganaCI/commit/cbf61d4b273a2614663982f39d17347bb55fa48d)
+[Package documentation and reproducible examples](bambaganaci.qmd) · [Source code](https://github.com/sdbambil1/bambaganaCI) · [v0.3.3 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.3)
 
 ::: {.software-header}
 <div class="status-line"><span class="badge">In development</span><span>R package · Model adaptation</span></div>
