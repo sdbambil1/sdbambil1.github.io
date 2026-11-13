@@ -1,7 +1,7 @@
 ---
 title: "Silas Bambil"
 body-classes: home-page
-description: "Silas Bambil studies statistical methods for finance, credit-risk model updating, and the measurement of extreme losses."
+description: "Silas Bambil’s research interests include statistical methods for finance, credit-risk model updating, and tail-risk measurement."
 ---
 
 :::: {.academic-layout}
@@ -23,7 +23,7 @@ description: "Silas Bambil studies statistical methods for finance, credit-risk 
 
 # About me
 
-Silas Bambil is a graduate student in Mathematics, with a concentration in Statistics, at Georgia State University. He holds an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from KNUST. His research focuses on statistical problems in finance and insurance, particularly credit-risk prediction and the measurement of extreme losses.
+Silas Bambil is interested in statistical methods for finance, particularly credit-risk model updating and tail-risk measurement. He is a graduate student in Mathematics, with a concentration in Statistics, at Georgia State University. He holds an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from KNUST.
 
 In credit-risk modeling, he studies how recent labeled information affects the choice between retaining, recalibrating, and refitting a model under distribution shift. He evaluates these choices through simulation and historical mortgage data, with particular attention to calibration, predictive performance, and selection regret.
 
