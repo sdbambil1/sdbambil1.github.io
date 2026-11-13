@@ -10,7 +10,8 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Pin to a Playwright-supported OS for Chromium mobile checks.
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
       pages: read
