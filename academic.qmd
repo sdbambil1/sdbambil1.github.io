@@ -1,12 +1,12 @@
 ---
 title: "Academic Profile"
-description: "Education, graduate research appointment, academic skills, and awards."
+description: "Silas Bambil's education, graduate research appointment, academic skills, and awards."
 ---
 
-<p class="eyebrow">Academic background and research experience</p>
-<p class="lede">My academic background includes actuarial science, quantitative risk analysis, and graduate study in statistics. This page records my education, academic appointment, skills, and awards.</p>
+<p class="eyebrow">Academic background</p>
+<p class="lede">My training combines actuarial science, quantitative risk analysis, and graduate study in statistics. This page records my education, academic appointments, and the teaching and research skills developed through coursework and applied work.</p>
 
-<nav class="jump-links" aria-label="Academic sections"><a href="#education">Education</a><a href="#academic-research-appointments">Academic appointments</a><a href="#teaching-and-research-skills">Teaching and Research Skills</a><a href="#statistical-and-computational-skills">Computational skills</a><a href="#academic-awards">Awards</a></nav>
+<nav class="jump-links" aria-label="Academic sections"><a href="#education">Education</a><a href="#academic-research-appointments">Research appointment</a><a href="#teaching-and-research-skills">Teaching and research skills</a><a href="#statistical-and-computational-skills">Statistical methods</a><a href="#academic-awards">Awards</a></nav>
 
 ## Education
 
@@ -38,31 +38,33 @@ July 2020 · Kumasi, Ghana
 
 **August 2023–June 2025 · Atlanta, Georgia**
 
-Assisted with predictive enrollment research and quantitative risk-analysis projects, including data preparation, statistical analysis, and research reporting.
+Supported graduate admissions research by organizing applicant data, preparing variables for analysis, and evaluating patterns relevant to enrollment prediction. Assisted with data management, statistical analysis, and reporting for faculty research.
 :::
 
 ## Teaching and Research Skills
 
 ### Teaching
 
-- **Classroom management:** organize classroom activities, communicate expectations, and maintain a focused learning environment.
-- **Lesson planning and instruction:** develop lessons in mathematics and statistics, sequence worked examples, and adapt explanations to students' levels of understanding.
-- **Assessment and student support:** prepare assignments and assessments, provide feedback, and guide students through quantitative problems and examination preparation.
+- **Lesson planning:** prepare sequenced explanations and worked examples for algebra, precalculus, calculus, and statistics.
+- **Classroom management:** organize instructional activities, set expectations, and respond to differences in students' preparation.
+- **Assessment:** prepare problem sets and evaluations, review student work, and give feedback on mathematical reasoning and common errors.
+- **Student support:** explain foundational concepts in different ways and guide students through quantitative problem solving.
 
 ### Research
 
-- **Research design and methodology:** formulate research questions, evaluate relevant literature, and develop methodological and conceptual frameworks.
-- **Simulation and validation:** design Monte Carlo experiments, compare statistical methods, separate fitting and evaluation samples, and assess calibration and predictive performance.
-- **Data analysis and interpretation:** prepare and manage datasets, evaluate uncertainty and sensitivity, and interpret findings within the study's assumptions and limitations.
-- **Academic writing and communication:** prepare manuscripts, analytical reports, figures, and presentations, with attention to assumptions, methods, and the interpretation of findings.
+- **Research design:** translate a statistical question into a study design, identify comparison methods, and state assumptions and evaluation targets.
+- **Simulation methodology:** specify data-generating mechanisms, organize Monte Carlo experiments, and assess operating characteristics across scenarios.
+- **Model validation:** separate model fitting, selection, and final evaluation; compare predictive accuracy, calibration, and uncertainty measures.
+- **Sensitivity and uncertainty:** use resampling and sensitivity analyses to examine how conclusions depend on assumptions and influential observations.
+- **Academic writing:** document methods, numerical results, limitations, and reproducibility requirements in manuscripts and technical reports.
 
 ## Statistical and computational skills
 
-**Programming and software:** R, Python, Microsoft Excel, and Microsoft Office Suite.
+**Programming:** R and Python; Microsoft Excel for data analysis and reporting.
 
-**Statistical methods:** logistic regression, multiple regression, Monte Carlo simulation, predictive model evaluation, probability calibration, bootstrap methods, data cleaning, and statistical visualization.
+**Statistical methods:** regression, Monte Carlo simulation, bootstrap inference, model calibration, predictive validation, and statistical visualization.
 
-**Risk and actuarial methods:** extreme value theory, Peaks-Over-Threshold modeling, Generalized Pareto models, Value-at-Risk, Expected Shortfall, credit-risk analysis, stress testing, and scenario analysis.
+**Risk methods:** Peaks-Over-Threshold modeling, Generalized Pareto distributions, Value-at-Risk, Expected Shortfall, and credit-risk modeling.
 
 ## Academic awards
 
