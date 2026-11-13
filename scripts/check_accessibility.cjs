@@ -22,7 +22,7 @@ let browser;
   browser=await chromium.launch({headless:true});
   const failures=[];
   for(const width of [375,1280]){
-    const context=await browser.newContext({viewport:{width,height:812}});
+    const context=await browser.newContext({viewport:{width,height:812},bypassCSP:true});
     const page=await context.newPage();
     for(const path of paths){
       const res=await page.goto(origin+"/"+path,{waitUntil:"domcontentloaded",timeout:25000});
