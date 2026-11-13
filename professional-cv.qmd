@@ -1,19 +1,19 @@
 ---
 title: "Professional"
-description: "Professional appointments, industry experience, and financial industry examinations."
+description: "Professional appointments and FINRA examinations."
 ---
 
 <p class="eyebrow">Professional experience</p>
-<p class="lede">This page records my professional appointments outside academic teaching and graduate research.</p>
+<p class="lede">This page records professional appointments outside my graduate research and teaching positions. Only experience already identified in my professional profile is included.</p>
 
-## Industry and professional appointments
+## Professional appointments
 
 ::: {.cv-entry}
 ### Finance Associate · OPH CHEM CONSULT
 
 **May 2022–August 2023 · Ghana**
 
-Assessed financial risks and documented findings in research briefs and analytical reports.
+Examined financial risk concerns and prepared analytical summaries and research briefs. The work involved interpreting financial information and communicating findings in written reports.
 :::
 
 ::: {.cv-entry}
@@ -21,14 +21,14 @@ Assessed financial risks and documented findings in research briefs and analytic
 
 **2020–2021 · Ghana**
 
-Supported survey data collection and analysis of socioeconomic information for statistical reporting.
+Supported the preparation and analysis of survey data and socioeconomic indicators for statistical reporting.
 :::
 
 ## Professional skills
 
-**Data and analysis:** survey data preparation, statistical reporting, quantitative analysis, and data quality assessment.
+**Financial and research reporting:** review of quantitative information, organization of findings, and preparation of analytical reports.
 
-**Software:** R, Python, and Microsoft Excel.
+**Survey and data work:** data organization, quality checks, and summaries of socioeconomic indicators.
 
 ## FINRA examinations
 
