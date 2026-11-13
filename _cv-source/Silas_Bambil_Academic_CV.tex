@@ -1,0 +1,201 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Original Computer Modern fonts, as used in the reference.
+% Do not load lmodern, Times, or T1 font encoding.
+\usepackage[
+  top=0.18in,
+  bottom=0.25in,
+  left=0.40in,
+  right=0.40in
+]{geometry}
+
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+\IfFileExists{fontawesome5.sty}{
+  \usepackage{fontawesome5}
+  \newcommand{\phoneicon}{\faPhone\enspace}
+  \newcommand{\emailicon}{\faEnvelope\enspace}
+  \newcommand{\githubicon}{\faGithub\enspace}
+}{
+  \newcommand{\phoneicon}{}
+  \newcommand{\emailicon}{}
+  \newcommand{\githubicon}{GitHub:\enspace}
+}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\raggedright
+\raggedbottom
+\urlstyle{same}
+
+\hypersetup{
+  pdftitle={Silas Bambil Academic CV},
+  pdfauthor={Silas Bambil}
+}
+
+\newcommand{\cvsection}[1]{%
+  \par\addvspace{4pt}
+  {\large\bfseries #1}\par
+  \nobreak\vspace{1pt}
+  \hrule height 0.35pt
+  \nobreak\vspace{3pt}
+}
+
+\newcommand{\entry}[4]{%
+  \noindent\hspace*{6pt}%
+  \begin{tabular*}{\dimexpr\textwidth-12pt\relax}
+    {@{}l@{\extracolsep{\fill}}r@{}}
+    {\normalsize\bfseries #1} & {\small\bfseries #2}\\
+    {\small\itshape #3} & {\small\itshape #4}\\
+  \end{tabular*}\par
+}
+
+\newcommand{\project}[2]{%
+  \noindent\hspace*{6pt}%
+  \begin{tabular*}{\dimexpr\textwidth-12pt\relax}
+    {@{}l@{\extracolsep{\fill}}r@{}}
+    {\normalsize\bfseries #1} & {\small #2}\\
+  \end{tabular*}\par
+}
+
+\setlist[itemize]{
+  label=--,
+  leftmargin=24pt,
+  labelsep=5pt,
+  itemsep=1.5pt,
+  topsep=1.5pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\begin{document}
+
+% ==================== HEADER ====================
+
+{\centering
+  {\LARGE\scshape Silas Bambil}\par
+  \vspace{2pt}
+  {\normalsize Statistics and Quantitative Risk}\par
+  \vspace{3pt}
+  {\small
+    \phoneicon 404-468-7274
+    \quad
+    \href{mailto:sdbambil98@gmail.com}{
+      \emailicon sdbambil98@gmail.com}
+    \quad
+    \href{https://github.com/sdbambil1}{
+      \githubicon sdbambil1}
+  }\par
+}
+\vspace{4pt}
+
+\small
+
+% ==================== EDUCATION ====================
+
+\cvsection{Education}
+
+\entry
+  {Georgia State University}
+  {Expected Spring 2028}
+  {MS Mathematics, concentration in Statistics}
+  {Atlanta, Georgia}
+
+\vspace{2pt}
+
+\entry
+  {Georgia State University}
+  {May 2025}
+  {MS Quantitative Risk Analysis and Management}
+  {Atlanta, Georgia}
+
+\vspace{2pt}
+
+\entry
+  {Kwame Nkrumah University of Science and Technology}
+  {July 2020}
+  {BSc Actuarial Science}
+  {Kumasi, Ghana}
+
+% ==================== EXPERIENCE ====================
+
+\cvsection{Research Appointment}
+\entry
+  {Georgia State University}
+  {Aug 2023--Jun 2025}
+  {Graduate Assistant}
+  {Atlanta, Georgia}
+
+\begin{itemize}
+  \item Cleaned applicant records and developed predictors
+  for the \textbf{Greenberg Sprint}
+  graduate-enrollment model.
+
+  \item Supported enrollment-model evaluation and provided
+  statistical analysis and data management for faculty
+  risk projects.
+\end{itemize}
+
+\vspace{2pt}
+
+\cvsection{Research and Working Manuscripts}
+\begin{itemize}
+\item \textit{Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information}. Working manuscript, 2026. Examines how recent labeled-sample size affects cross-validation-based policy selection and predictive regret.
+\item \textit{Predictive Stability and Adaptation Under Distribution Shift: Calibration, Discrimination, and Decision Thresholds in Credit-Risk Modeling}. With Shudeshna Nandy. Unpublished manuscript, 2026. Compares calibration and updating strategies through simulation and mortgage data.
+\item \textit{Stable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps}. Unpublished manuscript, 2026. Examines tail-risk estimates and model discrepancies in NFIRS fire-loss records.
+\item \textit{Application of Extreme Value Theory to Fire Insurance}. Undergraduate thesis, KNUST, 2020.
+\end{itemize}
+
+\cvsection{Teaching Experience}
+
+
+\entry
+  {Georgia State University}
+  {Aug 2026--Present}
+  {Graduate Lab Assistant}
+  {Atlanta, Georgia}
+
+\begin{itemize}
+  \item Teach and support College Algebra (MATH 1111) and
+  Support for College Algebra (MATH 0999).
+\end{itemize}
+
+\vspace{2pt}
+
+\entry
+  {Osceola County School for the Arts}
+  {Jan--Jun 2026}
+  {AP Mathematics Teacher}
+  {Osceola County, Florida}
+
+\begin{itemize}
+  \item Taught AP Calculus, AP Precalculus, and AP Statistics;
+  students achieved a \textbf{70\% AP exam pass rate}.
+\end{itemize}
+
+\vspace{2pt}
+
+\cvsection{Technical Skills}
+
+\textbf{Software:}
+R, Python, Microsoft Excel.\\
+\textbf{Methods:}
+Regression, Monte Carlo simulation, bootstrap,
+calibration, model validation, extreme value theory.\\
+\textbf{Risk analysis:}
+Credit risk, Value-at-Risk, Expected Shortfall,
+stress testing, scenario analysis.
+
+\cvsection{Academic Awards}
+\begin{itemize}
+\item Graduate Merit Scholarship, Department of Mathematics and Statistics, Georgia State University, August 2026.
+\item Graduate Merit Scholarship, Robinson College of Business, Georgia State University, August 2023--May 2025.
+\end{itemize}
+\end{document}
