@@ -12,7 +12,7 @@ description: "Silas Bambil — statistical research in credit risk and tail-risk
 <p class="profile-name">Silas Bambil</p>
 <p class="profile-role">Graduate student in Statistics<br>Georgia State University</p>
 <p class="profile-location">Atlanta, Georgia</p>
-<div class="profile-contact"><a href="mailto:sdbambil98@gmail.com">Email</a><a href="https://github.com/sdbambil1">GitHub ↗</a></div>
+<div class="profile-contact"><a href="mailto:sdbambil98@gmail.com" aria-label="Email Silas Bambil">Email</a><a href="https://github.com/sdbambil1" aria-label="Silas Bambil GitHub profile">GitHub ↗</a></div>
 </div>
 ```
 :::
