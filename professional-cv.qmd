@@ -9,26 +9,30 @@ description: "Professional appointments and FINRA examinations."
 ## Professional appointments
 
 ::: {.cv-entry}
-### Finance Associate · OPH CHEM CONSULT
+### Financial Research Assistant · OPH CHEM CONSULT
 
-**May 2022–August 2023 · Ghana**
+**2022–2023 · Accra, Ghana**
 
-Examined financial risk concerns and prepared analytical summaries and research briefs. The work involved interpreting financial information and communicating findings in written reports.
+- Conducted research on financial risks associated with misappropriation and community-level financial challenges.
+- Led financial workshops and worked with stakeholders to discuss risk mitigation strategies.
+- Supported preparation of quarterly reports on financial sustainability and risk.
 :::
 
 ::: {.cv-entry}
-### Ghana Statistical Service
+### Research Assistant · Ghana Statistical Service, Economic Statistics Department
 
-**2020–2021 · Ghana**
+**2020–2021 · Accra, Ghana**
 
-Supported the preparation and analysis of survey data and socioeconomic indicators for statistical reporting.
+- Contributed to reports on economic risks affecting living standards in Accra.
+- Managed and analyzed demographic data for census-related statistical work.
+- Designed and implemented sampling methods for research projects and data-quality assessment.
 :::
 
 ## Professional skills
 
-**Financial and research reporting:** review of quantitative information, organization of findings, and preparation of analytical reports.
+**Financial and research reporting:** financial-risk analysis, quarterly reporting, workshop facilitation, and stakeholder engagement.
 
-**Survey and data work:** data organization, quality checks, and summaries of socioeconomic indicators.
+**Survey and data work:** sampling design, demographic data management, data-quality checks, and socioeconomic reporting.
 
 ## FINRA examinations
 
