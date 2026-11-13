@@ -63,13 +63,15 @@ Evaluation includes log loss, Brier score, ROC-AUC, and calibration diagnostics.
 
 ## NFIRS extreme-value analysis {#nfirs-analysis}
 
-<div class="status-line"><span class="badge">Research repository</span><span>R · Extreme value theory</span></div>
+<div class="status-line"><span class="badge">Research code</span><span>R · Extreme value theory</span></div>
 
-An R repository for extreme value analysis of U.S. structure-fire losses, including Peaks-Over-Threshold fitting, tail-risk estimation, and uncertainty and sensitivity checks. The current manuscript and its methodological contribution are described separately on the Research page.
+Computational work for extreme value analysis of U.S. structure-fire losses, including Peaks-Over-Threshold fitting, tail-risk estimation, and uncertainty and sensitivity checks. The manuscript and methodological contribution are described separately on the Research page.
 
 <div class="tags"><span>Peaks-Over-Threshold</span><span>Generalized Pareto</span><span>VaR & Expected Shortfall</span><span>Bootstrap</span></div>
 
-<div class="actions"><a class="button primary" href="https://github.com/sdbambil1/nfirs-extreme-value-analysis">Explore the repository ↗</a><a class="button" href="research.qmd#fire-loss">Research summary</a></div>
+[Research summary](research.qmd#fire-loss)
+
+*Repository access is not currently advertised publicly; no public download or DOI is claimed.*
 
 ## Computational work in development {#computational-project}
 
