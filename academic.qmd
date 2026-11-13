@@ -6,7 +6,7 @@ description: "Education, graduate research appointment, academic skills, and awa
 <p class="eyebrow">Academic background and research experience</p>
 <p class="lede">My academic background includes actuarial science, quantitative risk analysis, and graduate study in statistics. This page records my education, academic appointment, skills, and awards.</p>
 
-<nav class="jump-links" aria-label="Academic sections"><a href="#education">Education</a><a href="#research-appointments">Academic appointments</a><a href="#teaching-and-research-skills">Teaching and Research Skills</a><a href="#statistical-and-computational-skills">Computational skills</a><a href="#academic-awards">Awards</a></nav>
+<nav class="jump-links" aria-label="Academic sections"><a href="#education">Education</a><a href="#academic-research-appointments">Academic appointments</a><a href="#teaching-and-research-skills">Teaching and Research Skills</a><a href="#statistical-and-computational-skills">Computational skills</a><a href="#academic-awards">Awards</a></nav>
 
 ## Education
 
