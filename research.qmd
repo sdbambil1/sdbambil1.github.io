@@ -1,89 +1,85 @@
 ---
 title: "Research"
-description: "Predictive model adaptation, probability calibration, and extreme risk."
+description: "Research on credit-risk model updating, predictive stability, and tail-loss diagnostics."
 ---
 
-<p class="eyebrow">Research questions, methods, and findings</p>
-<p class="lede">My research concerns predictive model evaluation under distribution shift and statistical inference for extreme losses. I examine how modeling choices affect predictive performance, risk estimates, and their interpretation.</p>
+<p class="eyebrow">Research questions, contributions, and methods</p>
+<p class="lede">My research examines two related problems: how predictive models should be updated when data distributions change, and how fitted loss models should be evaluated in the extreme tail. The studies below distinguish model performance from the decisions made using model estimates.</p>
 
-<nav class="jump-links" aria-label="Research sections"><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Distribution shift</a><a href="#fire-loss">Extreme risk</a><a href="#earlier-research">Earlier research</a><a href="#in-development">Planned research</a></nav>
+<nav class="jump-links" aria-label="Research sections"><a href="#fire-loss">Tail-risk diagnostics</a><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Predictive stability</a><a href="#earlier-research">Earlier research</a></nav>
 
 ::: {.paper}
-<div class="status-line"><span class="badge">Working manuscript</span><span>2026 · Credit-risk model updating</span></div>
+<div class="status-line"><span class="badge">Manuscript in preparation</span><span>2026 · Extreme value theory</span></div>
 
-## Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information {#selection-regret}
+## Beyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models {#fire-loss}
 
-This study examines how the size of a recent labeled sample affects the predictive consequences of selecting a credit-risk model update. It distinguishes the frequency of selecting an oracle policy from the loss incurred when another policy is selected.
+<p class="authors">Silas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh</p>
+
+Agreement between a fitted model and empirical high-loss quantiles does not imply agreement in expected tail losses. This study develops a diagnostic framework for identifying where a fitted extreme-loss model and an empirical loss distribution differ.
 
 ::: {.finding}
-**Principal findings**
+**Research contribution**
 
-Mean selection regret was lower with 10,000 labeled observations than with 2,500 in all 13 simulation scenarios. Under stability, agreement with the fitted-candidate oracle decreased from 27.6% to 23.6%, while mean selection regret fell by approximately 76.7%. Selecting the oracle policy more often and reducing the cost of selection errors are therefore distinct outcomes.
+The analysis connects an Expected Shortfall discrepancy to comparisons within bounded insurance layers. Established stop-loss identities motivate the decomposition; the contribution is the diagnostic framework for detecting and localizing discrepancies, with inferential procedures for comparisons made using the same data for model fitting and empirical estimation. Detection and localization are assessed as distinct tasks.
 :::
 
-<details class="methods"><summary>Study design & methods</summary>
+<details class="methods"><summary>Study design and application</summary>
 
-The simulation comprises 19,500 replications across 39 conditions, with 500 replications per condition. Stratified five-fold cross-validation selects among four logistic policies using the Brier score: retaining the original model, intercept recalibration, intercept-and-slope recalibration, and full refitting. Evaluation uses a fitted-candidate oracle and a Brier-risk regret decomposition.
-
-A historical Fannie Mae application complements the simulation, with 200 replications at each of three adaptation sample sizes. Larger adaptation samples increased selection success and reduced conditional mean regret in that application.
+The study uses Peaks-Over-Threshold and Generalized Pareto modeling, bounded-layer expectations, simulation, and uncertainty assessment. Its empirical application considers structure-fire losses recorded in the 2016–2025 U.S. National Fire Incident Reporting System releases. Particular attention is given to sparse extreme observations and the influence of exceptionally large incidents.
 
 </details>
 
-<div class="tags"><span>Selection regret</span><span>Distribution shift</span><span>Cross-validation</span><span>Credit risk</span></div>
+<div class="tags"><span>Expected Shortfall</span><span>Bounded insurance layers</span><span>Extreme value theory</span><span>Fire-loss severity</span></div>
+
+[Related extreme-value analysis repository](https://github.com/sdbambil1/nfirs-extreme-value-analysis)
 :::
 
 ::: {.paper}
-<div class="status-line"><span class="badge">Unpublished manuscript</span><span>2026 · Predictive modeling</span></div>
+<div class="status-line"><span class="badge">Working manuscript</span><span>2026 · Independent credit-risk research</span></div>
+
+## Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information {#selection-regret}
+
+This study asks whether selecting the oracle updating policy more frequently necessarily reduces the predictive cost of selection mistakes. It examines how the amount of recent labeled information affects decisions to retain, recalibrate, or refit a credit-risk model.
+
+::: {.finding}
+**Research contribution**
+
+The study distinguishes the probability of choosing the best fitted candidate from the regret associated with choosing another candidate. Its central finding is that an updating rule can have lower mean selection regret without selecting the oracle policy more frequently. Selection frequency alone is therefore an incomplete measure of decision quality.
+:::
+
+<details class="methods"><summary>Study design and evidence</summary>
+
+Simulation experiments compare model-updating choices under different shift conditions and adaptation-sample sizes. Stratified cross-validation is used for policy selection, and independent evaluation data are used to measure predictive loss. A historical mortgage-data application provides an additional comparison. Results are interpreted in terms of fitted-candidate regret rather than an unattainable population oracle.
+
+</details>
+
+<div class="tags"><span>Credit risk</span><span>Selection regret</span><span>Validation</span><span>Distribution shift</span></div>
+:::
+
+::: {.paper}
+<div class="status-line"><span class="badge">Unpublished manuscript</span><span>2026 · Credit-risk modeling</span></div>
 
 ## Predictive Stability and Adaptation Under Distribution Shift: Calibration, Discrimination, and Decision Thresholds in Credit-Risk Modeling {#distribution-shift}
 
 <p class="authors">Silas Bambil and Shudeshna Nandy</p>
 
-Discrimination and calibration describe different aspects of predictive performance. This study examines how distribution shift affects probability calibration, discrimination, probability accuracy, and decisions based on predicted risk.
+This study considers how changes in a deployment population affect probability predictions and the decisions based on them. It compares model retention, recalibration, and refitting across distinct mechanisms of distribution shift.
 
 ::: {.finding}
-**What the study shows**
+**Research contribution**
 
-The relative performance of updating strategies depends on the shift mechanism. Intercept recalibration can accommodate changes in baseline risk, whereas changes in predictor effects may favor refitting. Decision-threshold revision and probability recalibration address different targets.
+The analysis separates calibration, discrimination, and decision-threshold performance, which need not change together. It examines when more limited updates are adequate and when refitting offers an advantage, while distinguishing the choice of an updating policy from its subsequent evaluation.
 :::
 
-<details class="methods"><summary>Study design & methods</summary>
+<details class="methods"><summary>Study design and methods</summary>
 
-The study combines a loan-default benchmark with controlled Monte Carlo experiments. Scenarios include covariate shift with model misspecification, baseline-risk changes, and changes in predictor effects.
-
-Comparisons include retaining the original model, intercept-only recalibration, intercept-and-slope recalibration, importance-weighted refitting, and full deployment refitting. Threshold revision is evaluated separately, with independent data used for final performance assessment.
+The work uses controlled Monte Carlo experiments and mortgage-credit data. Shift scenarios include baseline-risk changes, covariate shift with model misspecification, and changes in predictor effects. Comparisons use separately defined development, validation, and evaluation data.
 
 </details>
 
-<div class="tags"><span>Logistic regression</span><span>Calibration</span><span>Monte Carlo</span><span>Credit risk</span></div>
+<div class="tags"><span>Calibration</span><span>Predictive stability</span><span>Logistic regression</span><span>Model updating</span></div>
 
-[Related software: shiftadapt →](projects.qmd#shiftadapt)
-:::
-
-::: {.paper}
-<div class="status-line"><span class="badge">Unpublished manuscript</span><span>2026 · Independent research</span></div>
-
-## Stable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps {#fire-loss}
-
-<p class="authors">Silas Bambil</p>
-
-This study analyzes approximately 1.25 million positive-loss records from U.S. structure fires in the 2016–2025 NFIRS releases. Extreme value methods are used to assess severe-loss distributions, high quantiles, and uncertainty in Expected Shortfall.
-
-::: {.finding}
-**What the study shows**
-
-High-loss quantiles showed comparatively limited variation across selected modeling choices, whereas Expected Shortfall was more sensitive to tail assumptions and exceptional observations. The results indicate that quantile agreement alone does not establish agreement in expected losses.
-:::
-
-<details class="methods"><summary>Data, modeling & robustness</summary>
-
-Peaks-Over-Threshold methods and Generalized Pareto models are used to estimate Value-at-Risk and Expected Shortfall. Robustness checks include threshold sensitivity, parametric bootstrap, annual tail estimation, leave-one-year-out analysis, event-level aggregation, goodness-of-fit diagnostics, and competing tail models.
-
-</details>
-
-<div class="tags"><span>Extreme value theory</span><span>Tail risk</span><span>Bootstrap</span><span>NFIRS</span></div>
-
-[Code & reproducibility materials](https://github.com/sdbambil1/nfirs-extreme-value-analysis){.button}
+[Related R package: shiftadapt](projects.qmd#shiftadapt)
 :::
 
 ## Earlier research {#earlier-research}
@@ -92,27 +88,17 @@ Peaks-Over-Threshold methods and Generalized Pareto models are used to estimate 
 ::: {}
 <p class="meta">2024 · Georgia State University</p>
 
-### Greenberg Sprint predictive enrollment model
+### Graduate admissions predictive analysis
 
-Contributed to a graduate-student enrollment model using behavioral and demographic data. My work included cleaning applicant data, developing predictor variables, and supporting model evaluation for recruitment analysis.
+Contributed to a graduate admissions analysis through data preparation, construction of candidate predictors, and model evaluation. This work formed part of a graduate research appointment.
 :::
 ::: {}
 <p class="meta">2020 · Undergraduate thesis · KNUST</p>
 
-### Application of extreme value theory to fire insurance
+### Application of Extreme Value Theory to Fire Insurance
 
-Examined extreme value methods for modeling severe fire-insurance losses and tail-risk behavior.
+An undergraduate study of extreme value methods for severe fire-insurance losses.
 :::
-:::
-
-## In development {#in-development}
-
-::: {.planned-study}
-<span class="badge planned">Planned follow-up study</span>
-
-### Allocating Deployment Labels Between Model Updating and Intervention Selection Under Distribution Shift
-
-How should a fixed labeling budget be divided between updating a model and selecting an updating intervention? Planned comparisons include all-label refitting, fixed fitting–validation splits, cross-fitting, and adaptive allocation, with final evaluation on untouched test data.
 :::
 
 ::: {.contact-band}
