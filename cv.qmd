@@ -1,109 +1,14 @@
 ---
-title: "Academic CV"
-body-classes: cv-page
-description: "Silas Bambil's education, research appointments, manuscripts, teaching, and academic awards."
+title: "Curriculum Vitae"
+description: "Download the academic and professional CVs of Silas Bambil."
 ---
 
+<p class="eyebrow">Curriculum vitae</p>
+
+## Academic CV
+
 [Download academic CV (PDF)](files/Silas_Bambil_PhD_CV.pdf){.button .primary}
-[Teaching and Research Skills](#teaching-and-research-skills){.button}
 
-For internship applications, see my [Professional CV](professional-cv.qmd) or [download the one-page PDF](files/Silas_Bambil_Professional_CV.pdf).
+## Professional CV
 
-Atlanta, Georgia · [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com) · [GitHub](https://github.com/sdbambil1)
-
-<nav class="jump-links" aria-label="CV sections"><a href="#education">Education</a><a href="#research-appointments">Research appointments</a><a href="#research-and-manuscripts">Manuscripts</a><a href="#teaching-experience">Teaching</a><a href="#teaching-and-research-skills">Teaching and Research Skills</a><a href="#technical-skills">Technical skills</a><a href="#awards">Awards</a></nav>
-
-## Education
-
-::: {.cv-entry}
-### Georgia State University
-
-**MS Mathematics, concentration in Statistics**  
-August 2026–present · Atlanta, Georgia
-:::
-
-::: {.cv-entry}
-### Georgia State University
-
-**MS Quantitative Risk Analysis and Management**  
-May 2025 · Atlanta, Georgia
-:::
-
-::: {.cv-entry}
-### Kwame Nkrumah University of Science and Technology
-
-**BSc Actuarial Science**  
-July 2020 · Kumasi, Ghana
-:::
-
-## Research interests
-
-Statistical prediction and model evaluation; probability calibration; distribution shift and model adaptation; extreme value theory and tail-risk modeling; Monte Carlo methods; credit risk; statistical and quantitative risk modeling.
-
-## Research appointments
-
-::: {.cv-entry}
-### Graduate Assistant · Georgia State University
-
-**August 2023–June 2025 · Atlanta, Georgia**
-
-Assisted with predictive enrollment research and quantitative risk-analysis projects, including data preparation, statistical analysis, and research reporting.
-:::
-
-## Research and manuscripts
-
-- **Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information** — Working manuscript, 2026. Cross-validation-based policy selection, fitted-candidate oracle comparisons, and Brier-risk selection regret, evaluated through simulation and historical Fannie Mae data.
-
-
-
-- **Stable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps** — Independent research manuscript, unpublished, 2026. Analysis of NFIRS fire-loss records using tail-risk estimation and extensive robustness checks.
-- **Predictive stability and adaptation under distribution shift** — With Shudeshna Nandy. Unpublished research manuscript, 2026. Evaluation of calibration, discrimination, probability accuracy, and updating methods using a loan-default benchmark and Monte Carlo experiments.
-- **Application of extreme value theory to fire insurance** — Undergraduate thesis, KNUST, 2020. Severe fire-insurance losses and tail-risk behavior.
-
-[Research descriptions and available code →](research.qmd)
-
-## Teaching experience
-
-::: {.cv-entry}
-### Graduate Lab Assistant · Georgia State University
-
-**August 2026–present · Atlanta, Georgia**
-
-Support instruction in College Algebra (MATH 1111) and Support for College Algebra (MATH 0999), with emphasis on mathematical reasoning and foundational algebra.
-:::
-
-::: {.cv-entry}
-### AP Mathematics Teacher · Osceola School for the Arts
-
-**January–June 2026 · Osceola County, Florida**
-
-Taught AP Calculus, AP Precalculus, and AP Statistics; prepared instructional materials and assessments, and supported mathematical problem solving. The reported AP examination pass rate among students taught was 70%.
-:::
-
-## Teaching and Research Skills
-
-### Teaching
-
-- **Classroom management:** organize classroom activities, communicate expectations, and maintain a focused learning environment.
-- **Lesson planning and instruction:** develop lessons in mathematics and statistics, sequence worked examples, and adapt explanations to students' levels of understanding.
-- **Assessment and student support:** prepare assignments and assessments, provide feedback, and guide students through quantitative problems and examination preparation.
-
-### Research
-
-- **Research design and methodology:** formulate research questions, evaluate relevant literature, and develop methodological and conceptual frameworks.
-- **Simulation and validation:** design Monte Carlo experiments, compare statistical methods, separate fitting and evaluation samples, and assess calibration and predictive performance.
-- **Data analysis and interpretation:** prepare and manage datasets, evaluate uncertainty and sensitivity, and interpret findings within the study's assumptions and limitations.
-- **Academic writing and communication:** prepare manuscripts, analytical reports, figures, and presentations, with attention to assumptions, methods, and the interpretation of findings.
-
-## Technical skills
-
-**Programming and software:** R, Python, Microsoft Excel, and Microsoft Office Suite.
-
-**Statistical methods:** logistic regression, multiple regression, Monte Carlo simulation, predictive model evaluation, probability calibration, bootstrap methods, data cleaning, and statistical visualization.
-
-**Risk and actuarial methods:** extreme value theory, Peaks-Over-Threshold modeling, Generalized Pareto models, Value-at-Risk, Expected Shortfall, credit-risk analysis, stress testing, and scenario analysis.
-
-## Awards
-
-- **Graduate Merit Scholarship**, Department of Mathematics and Statistics, Georgia State University · August 2026.
-- **Graduate Merit Scholarship**, Robinson College of Business, Georgia State University · August 2023–May 2025.
+[Download professional CV (PDF)](files/Silas_Bambil_Professional_CV.pdf){.button .primary}
