@@ -1,0 +1,150 @@
+"""Verify the generated site before GitHub Pages deployment.
+
+Checks local links and assets, PDF availability and document structure.
+Reports large images without changing the original files.
+"""
+from html.parser import HTMLParser
+from pathlib import Path
+from urllib.parse import unquote, urlsplit
+import sys
+
+ROOT = Path(__file__).resolve().parent.parent / "_site"
+REQUIRED_PAGES = (
+    "index.html", "academic.html", "research.html", "teaching.html",
+    "conferences.html", "professional-cv.html", "projects.html",
+    "cv.html", "contact.html",
+)
+REQUIRED_PDFS = (
+    "files/Silas_Bambil_PhD_CV.pdf",
+    "files/Silas_Bambil_Professional_CV.pdf",
+)
+ERRORS = []
+WARNINGS = []
+
+
+class PageInspector(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.links = []
+        self.ids = set()
+        self.has_main = False
+        self.has_title = False
+        self.in_title = False
+        self.has_h1 = False
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if "id" in attrs:
+            self.ids.add(attrs["id"])
+        if tag == "main":
+            self.has_main = True
+        if tag == "title":
+            self.in_title = True
+        if tag == "h1":
+            self.has_h1 = True
+        if tag in ("a", "link") and attrs.get("href"):
+            self.links.append(attrs["href"])
+        if tag in ("img", "script", "source") and attrs.get("src"):
+            self.links.append(attrs["src"])
+
+    def handle_endtag(self, tag):
+        if tag == "title":
+            self.in_title = False
+
+    def handle_data(self, data):
+        if self.in_title and data.strip():
+            self.has_title = True
+
+
+def check_local_reference(page, raw, ids_by_file):
+    raw = raw.strip()
+    if not raw or raw.startswith(("#", "javascript:", "mailto:", "tel:", "data:")):
+        if raw.startswith("#") and len(raw) > 1:
+            frag = unquote(raw[1:])
+            if frag not in ids_by_file.get(page, set()):
+                # Quarto/JS may create dynamic fragments; report rather than fail.
+                WARNINGS.append(f"{page.relative_to(ROOT)}: unverified fragment {raw}")
+        return
+    parsed = urlsplit(raw)
+    if parsed.scheme or parsed.netloc:
+        return
+    relative = unquote(parsed.path)
+    if not relative:
+        target = page
+    elif relative.startswith("/"):
+        target = ROOT / relative.lstrip("/")
+    else:
+        target = page.parent / relative
+    if relative.endswith("/"):
+        target = target / "index.html"
+    try:
+        normalized = target.resolve(strict=False)
+        normalized.relative_to(ROOT.resolve())
+    except ValueError:
+        ERRORS.append(f"{page.relative_to(ROOT)}: link escapes site: {raw}")
+        return
+    if not normalized.is_file():
+        ERRORS.append(f"{page.relative_to(ROOT)}: missing asset or page: {raw}")
+        return
+    # Check only anchors explicitly authored in the rendered target.
+    if parsed.fragment and normalized.suffix.lower() == ".html":
+        fragment = unquote(parsed.fragment)
+        if normalized in ids_by_file and fragment not in ids_by_file[normalized]:
+            WARNINGS.append(f"{page.relative_to(ROOT)}: unverified target anchor: {raw}")
+
+
+def main():
+    if not ROOT.is_dir():
+        ERRORS.append("Missing rendered _site directory")
+        print("\n".join(ERRORS))
+        return 1
+
+    for name in (*REQUIRED_PAGES, *REQUIRED_PDFS):
+        candidate = ROOT / name
+        if not candidate.is_file() or candidate.stat().st_size == 0:
+            ERRORS.append(f"Required output is absent or empty: {name}")
+
+    pages = sorted(ROOT.rglob("*.html"))
+    ids_by_file = {}
+    inspected = {}
+    for page in pages:
+        parser = PageInspector()
+        parser.feed(page.read_text(encoding="utf-8"))
+        ids_by_file[page.resolve()] = parser.ids
+        inspected[page] = parser
+        if not parser.has_title:
+            ERRORS.append(f"{page.relative_to(ROOT)}: missing page title")
+        if not parser.has_main:
+            ERRORS.append(f"{page.relative_to(ROOT)}: missing main landmark")
+        if not parser.has_h1:
+            WARNINGS.append(f"{page.relative_to(ROOT)}: no h1 heading detected")
+
+    for page, parser in inspected.items():
+        for link in parser.links:
+            check_local_reference(page, link, ids_by_file)
+
+    images = sorted(
+        (p for p in ROOT.rglob("*") if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")),
+        key=lambda p: p.stat().st_size,
+        reverse=True,
+    )
+    print(f"Checked {len(pages)} HTML pages and {len(images)} raster image files.")
+    print("Largest raster images:")
+    for img in images[:8]:
+        size_kib = img.stat().st_size / 1024
+        print(f"  {img.relative_to(ROOT)}: {size_kib:.0f} KiB")
+        if size_kib > 750:
+            WARNINGS.append(f"Large image (>750 KiB): {img.relative_to(ROOT)} ({size_kib:.0f} KiB)")
+    for warning in WARNINGS:
+        print("WARNING:", warning)
+    for error in ERRORS:
+        print("ERROR:", error)
+    if ERRORS:
+        print(f"Validation failed: {len(ERRORS)} error(s), {len(WARNINGS)} warning(s).")
+        return 1
+    print(f"Validation passed: {len(pages)} pages; {len(WARNINGS)} non-blocking warnings.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
