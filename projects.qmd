@@ -32,11 +32,11 @@ The package includes input checks, reproducible resampling methods, and automate
 
 ### Installation from GitHub
 
-Install the development tool `remotes` if needed, then install `bambaganaCI` directly from its public GitHub repository.
+Install the released version 0.1.1 using its Git tag. This pins the installation to the documented release rather than later changes on the repository's main branch.
 
 ```{.r}
 install.packages("remotes")  # Run once if needed
-remotes::install_github("sdbambil1/bambaganaCI")
+remotes::install_github("sdbambil1/bambaganaCI", ref = "v0.1.1")
 library(bambaganaCI)
 ```
 
