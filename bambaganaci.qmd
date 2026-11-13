@@ -7,13 +7,11 @@ description: "Methods, installation, reproducible examples, and limitations for 
 
 <p class="eyebrow">R package · Public release v0.1.1</p>
 
-# bambaganaCI: Methods and Examples
-
 **Authors:** Silas Bambil and Yasmeen Babagana.
 
 This page documents the released version of bambaganaCI. It is publicly available on [GitHub](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1), but not on CRAN.
 
-### Supported confidence intervals
+## Supported confidence intervals
 
 | Method | Function or argument | Purpose |
 |---|---|---|
@@ -23,7 +21,7 @@ This page documents the released version of bambaganaCI. It is publicly availabl
 | BCa bootstrap | `method = "bca"` | Adjusts bootstrap endpoints for bias and acceleration |
 | Classical Student's t | `mean_t_ci()` | Uses the t distribution and sample standard error |
 
-### Installation from GitHub
+## Installation from GitHub
 
 Install the released version 0.1.1 using its Git tag. This pins the installation to the documented release rather than later changes on the repository's main branch.
 
@@ -35,11 +33,11 @@ library(bambaganaCI)
 
 [Source code and documentation](https://github.com/sdbambil1/bambaganaCI) · [Version 0.1.1 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1)
 
-### Package checks
+## Package checks
 
 The repository's automated R CMD checks passed on **Windows and Ubuntu** for the November 13, 2026 revision. [View the successful checks](https://github.com/sdbambil1/bambaganaCI/actions/runs/43380642806). These checks assess package installation, execution, and consistency; they do not establish confidence-interval coverage for every sampling distribution.
 
-### R examples
+## R examples
 
 The examples below use version 0.1.1 from the public GitHub repository.
 
@@ -87,7 +85,7 @@ print(result_t)
 confint(result_t)
 ```
 
-### Assumptions and limitations
+## Assumptions and limitations
 
 Bootstrap intervals here assume independent, identically distributed observations and target the ordinary population mean. The classical t interval has exact coverage under independent normal sampling with positive common variance. Coverage can differ from the nominal level for skewed, heavy-tailed, or contaminated populations, particularly with small samples. The package does not automatically handle clusters, serial dependence, survey weights, or missing observations. Comparisons illustrate differences between interval methods; they do not establish that one method is universally preferable.
 
