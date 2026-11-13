@@ -4,7 +4,9 @@ description: "Research on credit-risk model updating, predictive stability, and 
 ---
 
 <p class="eyebrow">Research questions, contributions, and methods</p>
-<p class="lede">My research examines two related problems: how predictive models should be updated when data distributions change, and how fitted loss models should be evaluated in the extreme tail. The studies below distinguish model performance from the decisions made using model estimates.</p>
+<p class="lede">My research concerns credit-risk model updating under distribution shift and diagnostic methods for extreme losses. I examine how limited data affect model selection, predictive accuracy, and the reliability of tail-risk estimates.</p>
+
+<p class="meta">Research manuscripts are identified by their current working status. No publication or journal acceptance is implied. <a href="https://orcid.org/0009-0002-5110-8102">ORCID profile</a> · <a href="https://github.com/sdbambil1">GitHub</a></p>
 
 <nav class="jump-links" aria-label="Research sections"><a href="#fire-loss">Tail-risk diagnostics</a><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Predictive stability</a><a href="#earlier-research">Earlier research</a></nav>
 
@@ -20,7 +22,7 @@ High-loss quantiles can agree even when expected tail losses differ. This study 
 ::: {.finding}
 **Research contribution**
 
-The study uses established stop-loss identities to relate aggregate Expected Shortfall discrepancies to expected losses within bounded layers. It develops diagnostic comparisons and inferential procedures that account for empirical averaging and tail-model estimation using the same observations. Simulation experiments distinguish discrepancy detection from localization.
+The study uses established stop-loss identities to relate aggregate Expected Shortfall discrepancies to expected losses within bounded layers. It develops diagnostic comparisons and inferential procedures that account for empirical averaging and model estimation using the same observations. Simulations assess detection, localization, and uncertainty separately; identifying a discrepancy does not by itself determine where it occurs.
 :::
 
 <details class="methods"><summary>Study design and application</summary>
@@ -44,7 +46,7 @@ This study asks whether selecting the oracle updating policy more frequently nec
 ::: {.finding}
 **Research contribution**
 
-The study distinguishes the probability of choosing the best fitted candidate from the regret associated with choosing another candidate. Its central finding is that an updating rule can have lower mean selection regret without selecting the oracle policy more frequently. Selection frequency alone is therefore an incomplete measure of decision quality.
+The study distinguishes the probability of choosing the best fitted candidate from the regret associated with choosing another candidate. Across 13 simulated scenarios, mean selection regret was lower with 10,000 recent labeled observations than with 2,500, but oracle agreement did not improve uniformly. Under stability, oracle agreement fell from 27.6% to 23.6% as mean selection regret fell by approximately 76.7%. Selection frequency alone is therefore an incomplete measure of decision quality.
 :::
 
 <details class="methods"><summary>Study design and evidence</summary>
@@ -68,7 +70,7 @@ Updating a credit-risk model requires a choice between retaining the existing mo
 ::: {.finding}
 **Research contribution**
 
-Using mortgage-anchored simulation and historical cohorts, the study compares validation-guided selection with unrestricted and regularized refitting under a common adaptation-label budget. Its results show that using labels to choose an updating policy does not uniformly outperform using them for regularized estimation. The relative advantage depends on the shift mechanism and the allocation of labeled observations.
+Using mortgage-anchored simulations and historical cohorts, the study compares validation-guided selection with unrestricted and regularized refitting under a common labeled-data budget. Validation-guided selection can outperform unrestricted full-budget refitting when adaptation data are scarce, but it does not uniformly outperform regularized full-budget estimation. The results underscore the separate roles of intervention selection, model estimation, and label allocation.
 :::
 
 <details class="methods"><summary>Study design and methods</summary>
