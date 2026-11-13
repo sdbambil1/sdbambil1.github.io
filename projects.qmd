@@ -42,6 +42,10 @@ library(bambaganaCI)
 
 [Source code and documentation](https://github.com/sdbambil1/bambaganaCI) · [Version 0.1.1 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1)
 
+### Package checks
+
+The repository's automated R CMD checks passed on **Windows and Ubuntu** for the November 13, 2026 revision. [View the successful checks](https://github.com/sdbambil1/bambaganaCI/actions/runs/43380642806). These checks assess package installation, execution, and consistency; they do not establish confidence-interval coverage for every sampling distribution.
+
 ### R examples
 
 The examples below use version 0.1.1 from the public GitHub repository.
