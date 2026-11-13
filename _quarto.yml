@@ -45,6 +45,9 @@ website:
       - href: contact.qmd
         text: Contact
     right:
+      - icon: envelope
+        href: mailto:sdbambil98@gmail.com
+        aria-label: Email Silas Bambil
       - icon: github
         href: https://github.com/sdbambil1
         aria-label: GitHub profile
