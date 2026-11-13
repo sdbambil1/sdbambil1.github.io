@@ -1,12 +1,24 @@
 ---
 title: "Projects & Software"
-description: "Statistical software and computational research by Silas Bambil, including model adaptation and extreme-value analysis in R."
+description: "R packages for confidence interval estimation and model adaptation, planned ridge regression software, and computational extreme-value research."
 ---
 
 <p class="eyebrow">Statistical software and reproducible analysis</p>
-<p class="lede">I develop statistical software and computational workflows for model updating and extreme-loss analysis.</p>
+<p class="lede">My software work includes R packages for statistical inference and predictive-model updating, as well as computational analysis of extreme losses.</p>
 
-<nav class="jump-links" aria-label="Project sections"><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#computational-project">Planned work</a></nav>
+<nav class="jump-links" aria-label="Project sections"><a href="#bambaganaci">bambaganaCI</a><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#ridge-package">Ridge regression package</a><a href="#computational-project">Other planned work</a></nav>
+
+::: {.software-header}
+<div class="status-line"><span class="badge">Version 0.1.1</span><span>R package · Statistical inference</span></div>
+
+## bambaganaCI {#bambaganaci}
+
+**Authors:** Silas Bambil and Yasmeen Babagana.
+
+An R package for constructing confidence intervals for a population mean. It implements percentile, basic, normal, and bias-corrected and accelerated (BCa) bootstrap intervals, together with the classical Student's t interval. A comparison function reports interval endpoints and widths across methods using the same data.
+
+The package includes input checks, reproducible resampling methods, and automated tests. It is not currently available on CRAN; no public repository or installation link is provided here.
+:::
 
 ::: {.software-header}
 <div class="status-line"><span class="badge">In development</span><span>R package · Model adaptation</span></div>
@@ -72,6 +84,12 @@ Computational work for extreme value analysis of U.S. structure-fire losses, inc
 [Research summary](research.qmd#fire-loss)
 
 
+
+## Ridge regression package {#ridge-package}
+
+<div class="status-line"><span class="badge planned">Planned project</span><span>R package · Regularized regression</span></div>
+
+A planned R package for ridge regression, with an emphasis on coefficient shrinkage, penalty selection through cross-validation, and out-of-sample prediction assessment. The package is at the planning stage; no completed implementation or release is claimed.
 
 ## Computational work in development {#computational-project}
 
