@@ -3,8 +3,8 @@ title: "Contact"
 description: "Contact Silas Bambil about research and collaboration."
 ---
 
-<p class="eyebrow">Start a conversation</p>
-<p class="lede">I welcome conversations about statistical research, predictive model evaluation, quantitative risk, and potential collaborations.</p>
+<p class="eyebrow">Academic and professional correspondence</p>
+<p class="lede">For questions about my research, teaching, or professional work, please contact me using the information below.</p>
 
 ::: {.contact-layout}
 ::: {}
@@ -27,9 +27,9 @@ Atlanta, Georgia
 <div class="actions"><a class="button primary" href="mailto:sdbambil98@gmail.com">Send an email ↗</a><a class="button" href="files/Silas_Bambil_PhD_CV.pdf">Download CV (PDF)</a></div>
 :::
 ::: {.contact-panel}
-## Research connections
+## Research interests
 
-My current work brings together statistical prediction, probability calibration, model adaptation, and extreme value theory.
+My research interests include credit-risk model updating, predictive stability, and extreme value methods for tail-risk measurement.
 
 [Explore my research →](research.qmd)
 
