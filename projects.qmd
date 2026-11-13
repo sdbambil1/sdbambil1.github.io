@@ -3,8 +3,8 @@ title: "Projects & Software"
 description: "Statistical software and reproducible research projects."
 ---
 
-<p class="eyebrow">From statistical questions to working tools</p>
-<p class="lede">Software and analysis projects that connect model evaluation, simulation, and quantitative risk with reproducible computation.</p>
+<p class="eyebrow">Statistical software and reproducible analysis</p>
+<p class="lede">These projects implement methods for predictive model evaluation, simulation, and tail-risk analysis in reproducible computational workflows.</p>
 
 <nav class="jump-links" aria-label="Project sections"><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#computational-project">Planned work</a></nav>
 
@@ -13,7 +13,7 @@ description: "Statistical software and reproducible research projects."
 
 ## shiftadapt {#shiftadapt}
 
-An R package for adapting and evaluating logistic prediction models under distribution shift. It connects model updating with intervention selection and independent performance assessment.
+An R package under development for updating logistic prediction models under distribution shift. It implements candidate updating policies, validation-based selection, and evaluation on independent test data.
 :::
 
 ### Four updating strategies
@@ -65,7 +65,7 @@ Evaluation includes log loss, Brier score, ROC-AUC, and calibration diagnostics.
 
 <div class="status-line"><span class="badge">Research repository</span><span>R · Extreme value theory</span></div>
 
-Analysis code and reproducibility materials for **Stable Fire-Loss Quantiles and Far-Tail Expected Shortfall Gaps**. The project includes tail modeling, uncertainty estimation, and sensitivity analyses of catastrophic U.S. structure-fire losses.
+R code and reproducibility materials for the analysis of extreme U.S. structure-fire losses. The workflow covers Peaks-Over-Threshold modeling, uncertainty estimation, and sensitivity analyses of high-loss quantiles and Expected Shortfall.
 
 <div class="tags"><span>Peaks-Over-Threshold</span><span>Generalized Pareto</span><span>VaR & Expected Shortfall</span><span>Bootstrap</span></div>
 
@@ -77,11 +77,11 @@ Analysis code and reproducibility materials for **Stable Fire-Loss Quantiles and
 
 ### Computational Accuracy and Efficiency of Logistic Model Recalibration Under Distribution Shift
 
-A planned project focused on the numerical accuracy and computational efficiency of logistic recalibration methods.
+A planned comparison of numerical accuracy and computational efficiency in methods for logistic model recalibration.
 
 ## Tools & methods
 
-**Programming:** R, Python, SAS, and Microsoft Excel.
+**Programming:** R, Python, and Microsoft Excel.
 
 **Statistical computing:** Monte Carlo simulation, bootstrap methods, regression, predictive model evaluation, data cleaning, and visualization.
 
