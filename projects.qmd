@@ -9,22 +9,22 @@ description: "R packages for confidence interval estimation and model adaptation
 <nav class="jump-links" aria-label="Project sections"><a href="#bambaganaci">bambaganaCI</a><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#ridge-package">Ridge regression package</a><a href="#computational-project">Other planned work</a></nav>
 
 ::: {.software-header}
-<div class="status-line"><span class="badge">Public release · v0.3.3</span><span>CRAN candidate · v0.3.4 (not submitted)</span></div>
+<div class="status-line"><span class="badge">Public release · v0.3.4</span><span>CRAN submission pending</span></div>
 
 ## bambaganaCI {#bambaganaci}
 
 **Authors:** Silas Bambil and Yasmeen Babagana.
 
-An R package for confidence intervals and classical statistical inference. Version 0.3.3 includes **40 statistical functions**, covering descriptive statistics, confidence intervals, hypothesis testing, bootstrap methods, association measures, linear regression, analysis of variance, and model-based power planning. The package provides a beginner-friendly `bambagana()` interface while retaining direct access to the original functions and their results.
+An R package for confidence intervals and classical statistical inference. Version 0.3.4 includes **40 statistical functions**, covering descriptive statistics, confidence intervals, hypothesis testing, bootstrap methods, association measures, linear regression, analysis of variance, and model-based power planning. The package provides a beginner-friendly `bambagana()` interface while retaining direct access to the original functions and their results.
 
-Version 0.3.3 is publicly released on [GitHub](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.3). Version 0.3.4 is a separate CRAN submission candidate; it has not been submitted to or accepted by CRAN.
+Version 0.3.4 is the [latest public GitHub release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.4), with a validated source archive attached. It has not been submitted to or accepted by CRAN.
 :::
 
 **Examples:** `bambagana("confidence interval", scores)`, `bambagana("descriptive statistics", scores)`, `bambagana("linear regression", salary ~ experience, data = df)`, and `bambagana("all functions")`.
 
-**Verification:** The public v0.3.3 release passed `R CMD check --no-manual` on macOS (R 4.4.1), with no errors, warnings, or notes. The separate v0.3.4 candidate completed `R CMD check --as-cran` with no errors or warnings on macOS, Windows R-devel (Winbuilder), and Linux (GitHub Actions, R 4.6.2). The Linux run reported one NOTE, `New submission`; the local macOS run reported two NOTES, including an inability to verify the current time. The Windows R-release result has not been verified. These are technical package checks, not guarantees of inferential performance or CRAN acceptance.
+**Verification:** The v0.3.4 release candidate completed `R CMD check --as-cran` with no errors or warnings on macOS, Windows R-devel (Winbuilder), and Linux (GitHub Actions, R 4.6.2). The Linux run reported one NOTE, `New submission`; the local macOS run reported two NOTES, including an inability to verify the current time. The Windows R-release result has not been verified. These are technical package checks, not guarantees of inferential performance or CRAN acceptance.
 
-[Package documentation and reproducible examples](bambaganaci.qmd) · [Source code](https://github.com/sdbambil1/bambaganaCI) · [v0.3.3 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.3)
+[Package documentation and reproducible examples](bambaganaci.qmd) · [Source code](https://github.com/sdbambil1/bambaganaCI) · [v0.3.4 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.4)
 
 ::: {.software-header}
 <div class="status-line"><span class="badge">In development</span><span>R package · Model adaptation</span></div>
