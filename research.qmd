@@ -8,7 +8,7 @@ description: "Research by Silas Bambil on credit-risk model updating, selection 
 
 <p class="meta">Research manuscripts are identified by their current working status. No publication or journal acceptance is implied. <a href="https://orcid.org/0009-0002-5110-8102">ORCID profile</a> · <a href="https://github.com/sdbambil1">GitHub</a></p>
 
-<nav class="jump-links" aria-label="Research sections"><a href="#fire-loss">Tail-risk diagnostics</a><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Predictive stability</a><a href="#earlier-research">Earlier research</a></nav>
+<nav class="jump-links" aria-label="Research sections"><a href="#fire-loss">Tail-risk diagnostics</a><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Model updating</a><a href="#earlier-research">Earlier research</a></nav>
 
 ::: {.paper}
 <div class="status-line"><span class="badge">Manuscript in preparation</span><span>2026 · Extreme value theory</span></div>
@@ -33,7 +33,7 @@ The study uses Peaks-Over-Threshold and Generalized Pareto modeling, bounded-lay
 
 <div class="tags"><span>Expected Shortfall</span><span>Bounded insurance layers</span><span>Extreme value theory</span><span>Fire-loss severity</span></div>
 
-[Computational methods and reproducibility overview](projects.qmd#nfirs-analysis)
+[Computational methods](projects.qmd#nfirs-analysis) · [Poster references](evt-fireloss-references.qmd)
 :::
 
 ::: {.paper}
