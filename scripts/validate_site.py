@@ -37,6 +37,8 @@ class PageInspector(HTMLParser):
         self.has_h1 = False
         self.google_verified_tag = False
         self.skip_links = []
+        self.jump_links = []
+        self.in_jump_nav = False
         self.canonical_urls = []
         self.in_json_ld = False
         self.json_ld_blocks = []
@@ -53,6 +55,10 @@ class PageInspector(HTMLParser):
         if tag == "script" and attrs.get("type", "").lower() == "application/ld+json":
             self.in_json_ld = True
             self._json_ld = []
+        if tag == "nav" and "jump-links" in attrs.get("class", "").split():
+            self.in_jump_nav = True
+        if tag == "a" and self.in_jump_nav:
+            self.jump_links.append(attrs.get("href", ""))
         if tag == "a" and "skip-to-content" in attrs.get("class", "").split():
             self.skip_links.append(attrs.get("href", ""))
         if tag == "main":
@@ -67,6 +73,8 @@ class PageInspector(HTMLParser):
             self.links.append(attrs["src"])
 
     def handle_endtag(self, tag):
+        if tag == "nav" and self.in_jump_nav:
+            self.in_jump_nav = False
         if tag == "script" and self.in_json_ld:
             self.json_ld_blocks.append("".join(self._json_ld))
             self.in_json_ld = False
@@ -168,6 +176,11 @@ def main():
             ERRORS.append(f"{page.relative_to(ROOT)}: missing page title")
         if parser.skip_links != ["#quarto-document-content"] or "quarto-document-content" not in parser.ids:
             ERRORS.append(f"{page.relative_to(ROOT)}: missing or invalid skip-to-content link")
+        for href in parser.jump_links:
+            if not href.startswith("#") or len(href) == 1:
+                ERRORS.append(f"{page.relative_to(ROOT)}: section navigation must use a local fragment: {href}")
+            elif unquote(href[1:]) not in parser.ids:
+                ERRORS.append(f"{page.relative_to(ROOT)}: broken section navigation target: {href}")
         if not parser.has_main:
             ERRORS.append(f"{page.relative_to(ROOT)}: missing main landmark")
         if not parser.has_h1:
