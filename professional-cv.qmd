@@ -4,7 +4,7 @@ description: "Professional experience of Silas Bambil in financial research, sta
 ---
 
 <p class="eyebrow">Professional experience</p>
-<p class="lede">My professional experience includes financial-risk research, statistical survey work, and reporting. Graduate research and teaching appointments are documented separately under Academic Profile and Teaching.</p>
+<p class="lede">My professional experience includes financial-risk research, statistical survey work, and reporting.</p>
 
 ## Professional appointments
 
