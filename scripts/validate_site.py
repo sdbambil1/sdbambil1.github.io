@@ -75,7 +75,7 @@ def check_local_reference(page, raw, ids_by_file):
         target = ROOT / relative.lstrip("/")
     else:
         target = page.parent / relative
-    if relative.endswith("/"):
+    if relative.endswith("/") or target.is_dir():
         target = target / "index.html"
     try:
         normalized = target.resolve(strict=False)
