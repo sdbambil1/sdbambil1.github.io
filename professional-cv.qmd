@@ -4,7 +4,7 @@ description: "Professional appointments, industry experience, and financial indu
 ---
 
 <p class="eyebrow">Professional experience</p>
-<p class="lede">My professional experience includes financial research and survey analysis. These appointments are presented separately from my academic research and teaching.</p>
+<p class="lede">This page records my professional appointments outside academic teaching and graduate research.</p>
 
 ## Industry and professional appointments
 
@@ -27,8 +27,6 @@ Supported survey data collection and analysis of socioeconomic information for s
 ## Professional skills
 
 **Data and analysis:** survey data preparation, statistical reporting, quantitative analysis, and data quality assessment.
-
-**Operations:** field coordination, supply-chain traceability, stakeholder communication, and performance monitoring.
 
 **Software:** R, Python, and Microsoft Excel.
 
