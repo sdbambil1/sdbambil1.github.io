@@ -1,91 +1,114 @@
 ---
 title: "bambaganaCI — Methods and Examples"
-description: "Methods, installation, reproducible examples, and limitations for the bambaganaCI R package."
+description: "Installation, beginner-friendly commands, classical statistical inference, and limitations for the bambaganaCI R package."
 ---
 
 [← Back to Software](projects.qmd#bambaganaci)
 
-<p class="eyebrow">R package · Public release v0.1.1</p>
+<p class="eyebrow">R package · Public source v0.3.3</p>
 
 **Authors:** Silas Bambil and Yasmeen Babagana.
 
-This page documents the released version of bambaganaCI. It is publicly available on [GitHub](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1), but not on CRAN.
+**bambaganaCI** provides confidence intervals, hypothesis tests, descriptive summaries, association measures, linear-model inference, analysis of variance, and model-based power planning. The package has **40 statistical functions** and **43 public exports**. Version 0.3.3 adds a beginner-friendly `bambagana()` interface for selecting analyses by readable names; the original statistical functions remain directly accessible.
 
-## Supported confidence intervals
+The v0.3.3 source was published to [GitHub](https://github.com/sdbambil1/bambaganaCI) at commit [`cbf61d4`](https://github.com/sdbambil1/bambaganaCI/commit/cbf61d4b273a2614663982f39d17347bb55fa48d). It is not available on CRAN. The formal v0.3.3 GitHub Release tag is separate from publication of the source.
 
-| Method | Function or argument | Purpose |
-|---|---|---|
-| Percentile bootstrap | `method = "percentile"` | Uses empirical quantiles of resampled means |
-| Basic bootstrap | `method = "basic"` | Reflects bootstrap quantiles about the sample mean |
-| Normal bootstrap | `method = "normal"` | Uses a bootstrap standard error and estimated bias correction |
-| BCa bootstrap | `method = "bca"` | Adjusts bootstrap endpoints for bias and acceleration |
-| Classical Student's t | `mean_t_ci()` | Uses the t distribution and sample standard error |
+## Install from GitHub
 
-## Installation from GitHub
-
-Install the released version 0.1.1 using its Git tag. This pins the installation to the documented release rather than later changes on the repository's main branch.
+Until a v0.3.3 release tag is created, install from the verified commit to obtain the documented version.
 
 ```{.r}
-install.packages("remotes")  # Run once if needed
-remotes::install_github("sdbambil1/bambaganaCI", ref = "v0.1.1")
+install.packages("remotes") # Only if remotes is not installed
+remotes::install_github(
+  "sdbambil1/bambaganaCI",
+  ref = "cbf61d4b273a2614663982f39d17347bb55fa48d"
+)
 library(bambaganaCI)
+packageVersion("bambaganaCI")
 ```
 
-[Source code and documentation](https://github.com/sdbambil1/bambaganaCI) · [Version 0.1.1 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1)
+[View source](https://github.com/sdbambil1/bambaganaCI) · [Verified v0.3.3 commit](https://github.com/sdbambil1/bambaganaCI/commit/cbf61d4b273a2614663982f39d17347bb55fa48d) · [Report an issue](https://github.com/sdbambil1/bambaganaCI/issues)
 
-## Package checks
-
-The repository's automated R CMD checks passed on **Windows and Ubuntu** for the November 13, 2026 revision. [View the successful checks](https://github.com/sdbambil1/bambaganaCI/actions/runs/43380642806). These checks assess package installation, execution, and consistency; they do not establish confidence-interval coverage for every sampling distribution.
-
-## R examples
-
-The examples below use version 0.1.1 from the public GitHub repository.
-
-**Example 1. Bootstrap confidence interval for a mean**
+## Start with readable commands
 
 ```{.r}
 library(bambaganaCI)
 
+scores <- c(65, 72, 68, 75, 70, 78, 74, 69, 73, 76)
+group_B <- c(71, 79, 75, 82, 77, 85, 80, 74, 78, 81)
+
+bambagana("descriptive statistics", scores)
+bambagana("confidence interval", scores)
+bambagana("confidence interval", scores, conf = 0.99)
+bambagana("standard error", scores)
+bambagana("compare averages", scores, group_B)
+bambagana("hypothesis test", scores, mu = 70)
+bambagana("compare proportions", c(65, 100), c(45, 100))
+
+# Browse all 40 statistical functions and their arguments
+bambagana("all functions")
+```
+
+The general confidence-interval command above estimates a **population mean**. Proportions, differences between groups, and other quantities have their own analysis commands. Statistical results are preserved: use `display = FALSE` to save a result without automatic console printing.
+
+## Bootstrap confidence intervals
+
+The original package provides percentile, basic, normal, and bias-corrected and accelerated (BCa) bootstrap intervals for a population mean, as well as a classical Student's t interval.
+
+| Method | Function or option | Purpose |
+|---|---|---|
+| Percentile bootstrap | `method = "percentile"` | Uses quantiles of resampled means |
+| Basic bootstrap | `method = "basic"` | Reflects bootstrap quantiles about the sample mean |
+| Normal bootstrap | `method = "normal"` | Uses bootstrap standard error and bias adjustment |
+| BCa bootstrap | `method = "bca"` | Adjusts endpoints for bias and acceleration |
+| Student's t interval | `mean_t_ci()` | Uses the t distribution and sample standard error |
+
+```{.r}
 set.seed(1998)
 x <- rnorm(30, mean = 2, sd = 1)
 
-result <- bootstrap_mean_ci(
-  x, B = 2000, conf = 0.95,
-  method = "percentile"
+result <- bambagana(
+  "bootstrap confidence interval",
+  x, B = 2000, method = "percentile",
+  display = FALSE
 )
-
 print(result)
-confint(result)
-```
-
-The function returns the sample mean, interval endpoints, bootstrap standard error, and resampled means.
-
-**Example 2. Compare interval construction methods**
-
-```{.r}
-set.seed(1998)
-x <- rexp(30)
 
 comparison <- compare_mean_ci(
   x, B = 2000, conf = 0.95,
-  methods = c("percentile", "basic",
-              "normal", "bca", "t")
+  methods = c("percentile", "basic", "normal", "bca", "t")
 )
-
 print(comparison)
 ```
 
-The resulting table includes the mean estimate, lower and upper confidence limits, and interval width for each method. Bootstrap methods within a single comparison share resamples.
+## Linear regression and ANOVA
 
-**Example 3. Classical t interval**
+The simplified interface returns the original fitted model objects. Standard R methods can therefore be used for coefficient intervals and prediction.
 
 ```{.r}
-result_t <- mean_t_ci(x, conf = 0.95)
-print(result_t)
-confint(result_t)
+employees <- data.frame(
+  experience = 1:10,
+  salary = c(32, 35, 37, 41, 43, 46, 50, 51, 55, 59)
+)
+
+model <- bambagana(
+  "linear regression",
+  salary ~ experience,
+  data = employees,
+  display = FALSE
+)
+
+coef(model)
+confint(model)
+predict(model, newdata = data.frame(experience = 5))
 ```
+
+For analysis of variance, use `bambagana("anova", scores, group)`, with a grouping factor of the same length as the score vector.
+
+## Package verification
+
+The v0.3.3 publication candidate passed `R CMD build` and `R CMD check --no-manual` on macOS with R 4.4.1, reporting **Status: OK**. The test suite, examples, and vignettes completed. These checks verify software consistency in the tested environment; they do not demonstrate nominal interval coverage for every data-generating process or confirm checks on every operating system.
 
 ## Assumptions and limitations
 
-Bootstrap intervals here assume independent, identically distributed observations and target the ordinary population mean. The classical t interval has exact coverage under independent normal sampling with positive common variance. Coverage can differ from the nominal level for skewed, heavy-tailed, or contaminated populations, particularly with small samples. The package does not automatically handle clusters, serial dependence, survey weights, or missing observations. Comparisons illustrate differences between interval methods; they do not establish that one method is universally preferable.
-
+The appropriate assumptions depend on the chosen method. Ordinary bootstrap intervals for a mean generally assume independent, identically distributed observations. The classical t interval has exact coverage under independent normal sampling with positive common variance. Some tests and intervals rely on approximations, which may be less reliable for small, highly skewed, heavy-tailed, or sparse samples. The package does not automatically correct for clustered data, serial dependence, complex survey designs, or unhandled missing observations. Users should review method-specific documentation before drawing inferential conclusions.
