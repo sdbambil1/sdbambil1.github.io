@@ -1,6 +1,6 @@
 ---
 title: "Projects & Software"
-description: "Statistical software and reproducible research projects."
+description: "Software development and reproducible statistical analysis."
 ---
 
 <p class="eyebrow">Statistical software and reproducible analysis</p>
@@ -78,11 +78,5 @@ R code and reproducibility materials for the analysis of extreme U.S. structure-
 ### Computational Accuracy and Efficiency of Logistic Model Recalibration Under Distribution Shift
 
 A planned comparison of numerical accuracy and computational efficiency in methods for logistic model recalibration.
-
-## Tools & methods
-
-**Programming:** R, Python, and Microsoft Excel.
-
-**Statistical computing:** Monte Carlo simulation, bootstrap methods, regression, predictive model evaluation, data cleaning, and visualization.
 
 [Browse my GitHub profile →](https://github.com/sdbambil1)
