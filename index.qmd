@@ -28,7 +28,7 @@ My work begins with a deceptively simple question: **how much confidence should 
 I study probability calibration, model adaptation, and extreme risk. A model may still distinguish higher risks from lower ones while assigning unreliable probabilities—a subtle distinction with substantial consequences. Alongside this work, I use extreme value theory to examine rare losses and the uncertainty that gathers in the far tail.
 
 
-[Full curriculum vitae →](cv.qmd){.text-link}
+[Professional CV →](professional-cv.qmd){.text-link} · [Academic CV →](cv.qmd){.text-link}
 
 ## Current work
 

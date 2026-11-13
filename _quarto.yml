@@ -5,6 +5,7 @@ project:
     - python3 scripts/harden_site.py
   resources:
     - files/Silas_Bambil_PhD_CV.pdf
+    - files/Silas_Bambil_Professional_CV.pdf
     - assets/favicon.svg
     - assets/silas-bambil-portrait.jpeg
     - assets/georgia-statistics-day.jpeg
@@ -26,8 +27,12 @@ website:
         text: Software
       - href: teaching.qmd
         text: Teaching
-      - href: cv.qmd
-        text: CV
+      - text: CV
+        menu:
+          - href: professional-cv.qmd
+            text: Professional CV
+          - href: cv.qmd
+            text: Academic CV
       - href: contact.qmd
         text: Contact
     right:
@@ -39,7 +44,9 @@ website:
     right:
       - text: "Research"
         href: research.qmd
-      - text: "CV"
+      - text: "Professional CV"
+        href: professional-cv.qmd
+      - text: "Academic CV"
         href: cv.qmd
       - text: "Contact"
         href: contact.qmd

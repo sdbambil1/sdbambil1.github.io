@@ -1,10 +1,12 @@
 ---
-title: "Curriculum Vitae"
+title: "Academic CV"
 body-classes: cv-page
 description: "Silas Bambil's education, research, teaching, experience, and technical skills."
 ---
 
-[Download CV (PDF)](files/Silas_Bambil_PhD_CV.pdf){.button .primary}
+[Download academic CV (PDF)](files/Silas_Bambil_PhD_CV.pdf){.button .primary}
+
+For internship applications, see my [Professional CV](professional-cv.qmd) or [download the one-page PDF](files/Silas_Bambil_Professional_CV.pdf).
 
 Atlanta, Georgia · [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com) · [GitHub](https://github.com/sdbambil1)
 
@@ -92,7 +94,7 @@ Contributed research, statistical analysis, and data-management support to popul
 
 ## Technical skills
 
-**Programming and software:** R, Python, SAS, Microsoft Excel, and Microsoft Office Suite.
+**Programming and software:** R, Python, Microsoft Excel, and Microsoft Office Suite.
 
 **Statistical methods:** logistic regression, multiple regression, Monte Carlo simulation, predictive model evaluation, probability calibration, bootstrap methods, data cleaning, and statistical visualization.
 

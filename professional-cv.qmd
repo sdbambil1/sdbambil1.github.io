@@ -1,0 +1,133 @@
+---
+title: "Professional CV"
+body-classes: cv-page
+description: "Silas Bambil's professional experience, quantitative research, and technical skills for Summer 2027 internships."
+---
+
+<p class="eyebrow">Summer 2027 internships</p>
+
+<p class="lede">Graduate student in Mathematics, concentrating in Statistics at Georgia State University, with an MS in Quantitative Risk Analysis and Management. My experience combines statistical modeling, credit-risk research, and the analysis of extreme losses.</p>
+
+```{=html}
+<div class="actions">
+  <a class="button primary" href="files/Silas_Bambil_Professional_CV.pdf" download="Silas_Bambil_Professional_CV.pdf">Download professional CV (PDF)</a>
+  <a class="button" href="mailto:sdbambil98@gmail.com">Email me</a>
+</div>
+```
+
+One-page PDF · [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com) · [GitHub: sdbambil1](https://github.com/sdbambil1)
+
+<nav class="jump-links" aria-label="Professional CV sections"><a href="#education">Education</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#working-manuscripts">Manuscripts</a><a href="#technical-skills">Skills</a></nav>
+
+## Education
+
+::: {.cv-entry}
+### Georgia State University
+
+**MS Mathematics, concentration in Statistics**  
+Expected Spring 2028 · Atlanta, Georgia
+:::
+
+::: {.cv-entry}
+### Georgia State University
+
+**MS Quantitative Risk Analysis and Management**  
+May 2025 · Atlanta, Georgia
+:::
+
+::: {.cv-entry}
+### Kwame Nkrumah University of Science and Technology
+
+**BSc Actuarial Science**  
+July 2020 · Kumasi, Ghana
+:::
+
+## Experience
+
+::: {.cv-entry}
+### Graduate Lab Assistant · Georgia State University
+
+August 2026–present · Atlanta, Georgia
+
+- Teach and support College Algebra (MATH 1111) and Support for College Algebra (MATH 0999).
+:::
+
+::: {.cv-entry}
+### AP Mathematics Teacher · Osceola County School for the Arts
+
+January–June 2026 · Osceola County, Florida
+
+- Taught AP Calculus, AP Precalculus, and AP Statistics; students achieved a **70% AP exam pass rate**.
+:::
+
+::: {.cv-entry}
+### Graduate Assistant · Georgia State University
+
+August 2023–June 2025 · Atlanta, Georgia
+
+- Cleaned applicant records and developed predictors for the **Greenberg Sprint** graduate-enrollment model.
+- Supported enrollment-model evaluation and provided statistical analysis and data management for faculty risk projects.
+:::
+
+::: {.cv-entry}
+### Finance Associate · OPH CHEM CONSULT
+
+May 2022–August 2023 · Ghana
+
+- Examined financial misappropriation risks and community financial challenges; contributed research findings to analytical reports and briefs.
+:::
+
+::: {.cv-entry}
+### Research Assistant · Ghana Statistical Services
+
+September 2020–August 2021 · Ghana
+
+- Contributed to population and economic studies through research, statistical analysis, and data management.
+:::
+
+## Projects
+
+::: {.cv-entry}
+### Credit Risk Model Updating
+
+2026 · R
+
+- Compared recalibration and refitting on **three Fannie Mae cohorts** comprising approximately **1.55 million eligible loans**, with separate development, adaptation, and temporal test cohorts.
+- Evaluated updating and regularization across **22,500 simulated datasets** and five validation allocations, measuring performance on independent test samples.
+- Examined how label budgets, shift mechanisms, and regularization changed the relative performance of updating policies.
+:::
+
+::: {.cv-entry}
+### Fire Loss Modeling and Tail Diagnostics
+
+2026 · R
+
+- Analyzed approximately **1.25 million positive-loss records** from NFIRS 2016–2025 using Peaks-Over-Threshold and Generalized Pareto models to estimate Value-at-Risk and Expected Shortfall.
+- Compared empirical and fitted expectations within bounded loss layers; assessed uncertainty by incident-cluster bootstrap and examined sensitivity to exceptional records.
+:::
+
+::: {.cv-entry}
+### shiftadapt
+
+R package · In development
+
+- Implemented **four updating strategies**: retention, intercept recalibration, intercept-and-slope recalibration, and full refitting.
+- Separated fitting, validation, and test samples for minimum-log-loss and paired one-standard-error selection.
+:::
+
+## Working manuscripts
+
+- *Selecting and Estimating Credit-Risk Model Updates Under Distribution Shift*. Working manuscript, 2026.
+- *Tail Model Diagnostics Using Expected Shortfall and Bounded Loss Layers with an Application to Fire Losses*. Working manuscript, 2026.
+
+## Technical skills
+
+**Software:** R, Python, Microsoft Excel.
+
+**Methods:** regression, Monte Carlo simulation, bootstrap, calibration, model validation, extreme value theory.
+
+**Risk analysis:** credit risk, Value-at-Risk, Expected Shortfall, stress testing, scenario analysis.
+
+**FINRA examinations:** SIE, January 2025; Series 63, August 2025.
+
+[Academic CV →](cv.qmd)

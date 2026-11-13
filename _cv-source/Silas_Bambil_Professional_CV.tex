@@ -1,0 +1,297 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Original Computer Modern fonts, as used in the reference.
+% Do not load lmodern, Times, or T1 font encoding.
+\usepackage[
+  top=0.18in,
+  bottom=0.25in,
+  left=0.40in,
+  right=0.40in
+]{geometry}
+
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+\IfFileExists{fontawesome5.sty}{
+  \usepackage{fontawesome5}
+  \newcommand{\phoneicon}{\faPhone\enspace}
+  \newcommand{\emailicon}{\faEnvelope\enspace}
+  \newcommand{\githubicon}{\faGithub\enspace}
+}{
+  \newcommand{\phoneicon}{}
+  \newcommand{\emailicon}{}
+  \newcommand{\githubicon}{GitHub:\enspace}
+}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\raggedright
+\raggedbottom
+\urlstyle{same}
+
+\hypersetup{
+  pdftitle={Silas Bambil Professional CV},
+  pdfauthor={Silas Bambil}
+}
+
+\newcommand{\cvsection}[1]{%
+  \par\addvspace{4pt}
+  {\large\bfseries #1}\par
+  \nobreak\vspace{1pt}
+  \hrule height 0.35pt
+  \nobreak\vspace{3pt}
+}
+
+\newcommand{\entry}[4]{%
+  \noindent\hspace*{6pt}%
+  \begin{tabular*}{\dimexpr\textwidth-12pt\relax}
+    {@{}l@{\extracolsep{\fill}}r@{}}
+    {\normalsize\bfseries #1} & {\small\bfseries #2}\\
+    {\small\itshape #3} & {\small\itshape #4}\\
+  \end{tabular*}\par
+}
+
+\newcommand{\project}[2]{%
+  \noindent\hspace*{6pt}%
+  \begin{tabular*}{\dimexpr\textwidth-12pt\relax}
+    {@{}l@{\extracolsep{\fill}}r@{}}
+    {\normalsize\bfseries #1} & {\small #2}\\
+  \end{tabular*}\par
+}
+
+\setlist[itemize]{
+  label=--,
+  leftmargin=24pt,
+  labelsep=5pt,
+  itemsep=1.5pt,
+  topsep=1.5pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\begin{document}
+
+% ==================== HEADER ====================
+
+{\centering
+  {\LARGE\scshape Silas Bambil}\par
+  \vspace{2pt}
+  {\normalsize Statistics and Quantitative Risk}\par
+  \vspace{3pt}
+  {\small
+    \phoneicon 404-468-7274
+    \quad
+    \href{mailto:sdbambil98@gmail.com}{
+      \emailicon sdbambil98@gmail.com}
+    \quad
+    \href{https://github.com/sdbambil1}{
+      \githubicon sdbambil1}
+  }\par
+}
+\vspace{4pt}
+
+\small
+
+% ==================== EDUCATION ====================
+
+\cvsection{Education}
+
+\entry
+  {Georgia State University}
+  {Expected Spring 2028}
+  {MS Mathematics, concentration in Statistics}
+  {Atlanta, Georgia}
+
+\vspace{2pt}
+
+\entry
+  {Georgia State University}
+  {May 2025}
+  {MS Quantitative Risk Analysis and Management}
+  {Atlanta, Georgia}
+
+\vspace{2pt}
+
+\entry
+  {Kwame Nkrumah University of Science and Technology}
+  {July 2020}
+  {BSc Actuarial Science}
+  {Kumasi, Ghana}
+
+% ==================== EXPERIENCE ====================
+
+\cvsection{Experience}
+
+\entry
+  {Georgia State University}
+  {Aug 2026--Present}
+  {Graduate Lab Assistant}
+  {Atlanta, Georgia}
+
+\begin{itemize}
+  \item Teach and support College Algebra (MATH 1111) and
+  Support for College Algebra (MATH 0999).
+\end{itemize}
+
+\vspace{2pt}
+
+\entry
+  {Osceola County School for the Arts}
+  {Jan--Jun 2026}
+  {AP Mathematics Teacher}
+  {Osceola County, Florida}
+
+\begin{itemize}
+  \item Taught AP Calculus, AP Precalculus, and AP Statistics;
+  students achieved a \textbf{70\% AP exam pass rate}.
+\end{itemize}
+
+\vspace{2pt}
+
+\entry
+  {Georgia State University}
+  {Aug 2023--Jun 2025}
+  {Graduate Assistant}
+  {Atlanta, Georgia}
+
+\begin{itemize}
+  \item Cleaned applicant records and developed predictors
+  for the \textbf{Greenberg Sprint}
+  graduate-enrollment model.
+
+  \item Supported enrollment-model evaluation and provided
+  statistical analysis and data management for faculty
+  risk projects.
+\end{itemize}
+
+\vspace{2pt}
+
+\entry
+  {OPH CHEM CONSULT}
+  {May 2022--Aug 2023}
+  {Finance Associate}
+  {Ghana}
+
+\begin{itemize}
+  \item Examined financial misappropriation risks and
+  community financial challenges; contributed research
+  findings to analytical reports and briefs.
+\end{itemize}
+
+\vspace{2pt}
+
+\entry
+  {Ghana Statistical Services}
+  {Sep 2020--Aug 2021}
+  {Research Assistant}
+  {Ghana}
+
+\begin{itemize}
+  \item Contributed to population and economic studies
+  through research, statistical analysis, and data management.
+\end{itemize}
+
+% ==================== PROJECTS ====================
+
+\cvsection{Projects}
+
+\project
+  {Credit Risk Model Updating
+   \textnormal{\small\enspace$\vert$\enspace R}}
+  {2026}
+
+\begin{itemize}
+  \item Compared recalibration and refitting on
+  \textbf{three Fannie Mae cohorts} comprising approximately
+  \textbf{1.55 million eligible loans}, with separate
+  development, adaptation, and temporal test cohorts.
+
+  \item Evaluated updating and regularization across
+  \textbf{22,500 simulated datasets} and five validation
+  allocations, measuring performance on independent
+  test samples.
+
+  \item Examined how label budgets, shift mechanisms,
+  and regularization changed the relative performance
+  of updating policies.
+\end{itemize}
+
+\vspace{2pt}
+
+\project
+  {Fire Loss Modeling and Tail Diagnostics
+   \textnormal{\small\enspace$\vert$\enspace R}}
+  {2026}
+
+\begin{itemize}
+  \item Analyzed approximately
+  \textbf{1.25 million positive-loss records} from
+  NFIRS 2016--2025 using Peaks-Over-Threshold and
+  Generalized Pareto models to estimate Value-at-Risk
+  and Expected Shortfall.
+
+  \item Compared empirical and fitted expectations within
+  bounded loss layers; assessed uncertainty by
+  incident-cluster bootstrap and examined sensitivity
+  to exceptional records.
+\end{itemize}
+
+\vspace{2pt}
+
+\project
+  {shiftadapt
+   \textnormal{\small\enspace$\vert$\enspace R Package}}
+  {In development}
+
+\begin{itemize}
+  \item Implemented \textbf{four updating strategies}:
+  retention, intercept recalibration, intercept-and-slope
+  recalibration, and full refitting.
+
+  \item Separated fitting, validation, and test samples
+  for minimum-log-loss and paired one-standard-error
+  selection.
+\end{itemize}
+
+% ==================== PUBLICATIONS ====================
+
+\cvsection{Publications}
+
+\begin{itemize}[
+  label={\tiny$\bullet$},
+  leftmargin=11pt,
+  labelsep=4pt,
+  itemsep=1pt,
+  topsep=0pt
+]
+  \item \textit{Selecting and Estimating Credit-Risk Model
+  Updates Under Distribution Shift}.
+  Working manuscript, 2026.
+
+  \item \textit{Tail Model Diagnostics Using Expected
+  Shortfall and Bounded Loss Layers with an Application
+  to Fire Losses}. Working manuscript, 2026.
+\end{itemize}
+
+% ==================== TECHNICAL SKILLS ====================
+
+\cvsection{Technical Skills}
+
+\textbf{Software:}
+R, Python, Microsoft Excel.\\
+\textbf{Methods:}
+Regression, Monte Carlo simulation, bootstrap,
+calibration, model validation, extreme value theory.\\
+\textbf{Risk analysis:}
+Credit risk, Value-at-Risk, Expected Shortfall,
+stress testing, scenario analysis.\\
+\textbf{FINRA examinations:}
+SIE, January 2025; Series 63, August 2025.
+
+\end{document}
