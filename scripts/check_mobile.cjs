@@ -55,6 +55,12 @@ async function ready(url) {
       const overflow = Math.max(m.scroll, m.body) - m.width;
       console.log(width + "px " + path + ": overflow " + overflow + "px");
       if (overflow > 2) {
+        const offenders = await page.evaluate(() => [...document.querySelectorAll("body *")].map(el => {
+          const r = el.getBoundingClientRect();
+          return { tag: el.tagName.toLowerCase(), cls: ("" + (el.className?.baseVal ?? el.className ?? "")).slice(0, 90), right: Math.round(r.right), left: Math.round(r.left), width: Math.round(r.width) };
+        }).filter(x => x.right > window.innerWidth + 3 && x.width > 10)
+          .sort((a,b) => b.right-a.right).slice(0,12));
+        console.log("OFFENDERS " + width + "px " + path + ": " + JSON.stringify(offenders));
         failures.push(width + "px " + path + ": horizontal overflow " + overflow + "px");
       }
       if (!m.viewportTag) {
@@ -67,6 +73,7 @@ async function ready(url) {
         } else {
           if (await toggler.isVisible()) {
             await toggler.click();
+            await page.waitForTimeout(500);
             const menu = page.locator(".navbar-collapse").first();
             if (!(await menu.isVisible())) {
               failures.push(width + "px: menu did not open");
@@ -88,7 +95,7 @@ async function ready(url) {
   if (await docs.count() !== 1) {
     failures.push("Software page: documentation link missing or duplicated");
   } else {
-    await docs.click();
+    await Promise.all([tab.waitForURL("**/bambaganaci.html"), docs.click()]);
     if (!tab.url().endsWith("/bambaganaci.html")) {
       failures.push("Software documentation link navigates to " + tab.url());
     }
