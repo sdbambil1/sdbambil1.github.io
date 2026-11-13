@@ -69,7 +69,7 @@ An R repository for extreme value analysis of U.S. structure-fire losses, includ
 
 <div class="tags"><span>Peaks-Over-Threshold</span><span>Generalized Pareto</span><span>VaR & Expected Shortfall</span><span>Bootstrap</span></div>
 
-<div class="actions"><a class="button primary" href="https://github.com/sdbambil1/nfirs-extreme-value-analysis">Explore the repository ↗</a><a class="button" href="research.html#fire-loss">Research summary</a></div>
+<div class="actions"><a class="button primary" href="https://github.com/sdbambil1/nfirs-extreme-value-analysis">Explore the repository ↗</a><a class="button" href="research.qmd#fire-loss">Research summary</a></div>
 
 ## Computational work in development {#computational-project}
 
