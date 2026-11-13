@@ -1,5 +1,6 @@
 ---
 title: "Silas Bambil"
+canonical-url: "https://sdbambil1.github.io/"
 body-classes: home-page
 description: "Silas Bambil — statistical research in credit risk and tail-risk measurement."
 ---
