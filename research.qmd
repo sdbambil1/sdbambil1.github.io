@@ -6,7 +6,7 @@ description: "Predictive model adaptation, probability calibration, and extreme 
 <p class="eyebrow">Research questions, methods, and findings</p>
 <p class="lede">My research concerns predictive model evaluation under distribution shift and statistical inference for extreme losses. I examine how modeling choices affect predictive performance, risk estimates, and their interpretation.</p>
 
-<nav class="jump-links" aria-label="Research sections"><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Distribution shift</a><a href="#fire-loss">Extreme risk</a><a href="#earlier-research">Earlier research</a><a href="#in-development">In development</a></nav>
+<nav class="jump-links" aria-label="Research sections"><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Distribution shift</a><a href="#fire-loss">Extreme risk</a><a href="#earlier-research">Earlier research</a><a href="#in-development">Planned research</a></nav>
 
 ::: {.paper}
 <div class="status-line"><span class="badge">Working manuscript</span><span>2026 · Credit-risk model updating</span></div>
@@ -113,14 +113,6 @@ Examined extreme value methods for modeling severe fire-insurance losses and tai
 ### Allocating Deployment Labels Between Model Updating and Intervention Selection Under Distribution Shift
 
 How should a fixed labeling budget be divided between updating a model and selecting an updating intervention? Planned comparisons include all-label refitting, fixed fitting–validation splits, cross-fitting, and adaptive allocation, with final evaluation on untouched test data.
-:::
-
-::: {.planned-study}
-<span class="badge planned">Planned computational project</span>
-
-### Computational Accuracy and Efficiency of Logistic Model Recalibration Under Distribution Shift
-
-A project examining the numerical accuracy and computational efficiency of logistic recalibration methods under changing data distributions.
 :::
 
 ::: {.contact-band}
