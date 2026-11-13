@@ -1,7 +1,7 @@
 ---
 title: "Silas Bambil"
 body-classes: home-page
-description: "Silas Bambil’s research interests include statistical methods for finance, credit-risk model updating, and tail-risk measurement."
+description: "Silas Bambil — statistical research in credit risk and tail-risk measurement."
 ---
 
 :::: {.academic-layout}
@@ -12,8 +12,7 @@ description: "Silas Bambil’s research interests include statistical methods fo
 <p class="profile-name">Silas Bambil</p>
 <p class="profile-role">Graduate student in Statistics<br>Georgia State University</p>
 <p class="profile-location">Atlanta, Georgia</p>
-<div class="profile-contact"><a href="mailto:sdbambil98@gmail.com">Email</a><a href="https://github.com/sdbambil1">GitHub ↗</a><a href="files/Silas_Bambil_PhD_CV.pdf">CV · PDF ↓</a></div>
-<div class="rail-note"><span class="eyebrow">Areas of interest</span><p>Statistical methods in finance<br>Credit-risk model updating<br>Tail-risk measurement<br>Extreme value theory</p></div>
+<div class="profile-contact"><a href="mailto:sdbambil98@gmail.com">Email</a><a href="https://github.com/sdbambil1">GitHub ↗</a></div>
 </div>
 ```
 :::
@@ -23,92 +22,18 @@ description: "Silas Bambil’s research interests include statistical methods fo
 
 # About me
 
-Silas Bambil is interested in statistical methods for finance, particularly credit-risk model updating and tail-risk measurement. He is a graduate student in Mathematics, with a concentration in Statistics, at Georgia State University. He holds an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from KNUST.
+I am a graduate student in Mathematics, with a concentration in Statistics, at Georgia State University. I hold an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from Kwame Nkrumah University of Science and Technology.
 
-In credit-risk modeling, he studies how recent labeled information affects the choice between retaining, recalibrating, and refitting a model under distribution shift. He evaluates these choices through simulation and historical mortgage data, with particular attention to calibration, predictive performance, and selection regret.
+My research interests are in statistical methods for finance, particularly credit-risk model updating and tail-risk measurement. I am interested in how predictive models perform when data distributions change, and how statistical methods can be evaluated when extreme observations are sparse.
 
-His work on extreme losses examines where fitted tail models disagree with empirical loss distributions. He uses Expected Shortfall decompositions and bounded loss layers to locate these discrepancies and distinguish aggregate tail behavior from losses within specific insurance layers. Applications to U.S. structure-fire data assess how sparse observations and exceptional incidents affect estimation and uncertainty.
-
-[Professional CV →](professional-cv.qmd){.text-link} · [Academic CV →](cv.qmd){.text-link}
-
-## Current work
-
-::: {.work-entry}
-<p class="meta">01 / Credit risk · Working manuscript, 2026</p>
-
-### Selection regret in credit-risk model updating
-
-He examines how the amount of recent labeled information affects the predictive cost of selecting among retention, recalibration, and full refitting, using cross-validation, simulation, and a historical Fannie Mae application.
-
-[Research summary](research.qmd#selection-regret)
-:::
-
-::: {.work-entry}
-<p class="meta">02 / Predictive modeling · Unpublished manuscript, 2026</p>
-
-### Prediction under distribution shift
-
-With Shudeshna Nandy, he examines calibration, discrimination, and decision thresholds in credit-risk models, comparing updating strategies through simulation and a loan-default benchmark.
-
-[Research summary](research.qmd#distribution-shift) · [Related software](projects.qmd#shiftadapt)
-:::
-
-::: {.work-entry}
-<p class="meta">03 / Extreme value theory · Unpublished manuscript, 2026</p>
-
-### Fire-loss severity and far-tail uncertainty
-
-An analysis of approximately 1.25 million U.S. structure-fire loss records, exploring the stability of extreme quantiles and the sensitivity of Expected Shortfall.
-
-[Research summary](research.qmd#fire-loss) · [Analysis code ↗](https://github.com/sdbambil1/nfirs-extreme-value-analysis)
-:::
-
-::: {.work-entry}
-<p class="meta">04 / Statistical computing · In development</p>
-
-### shiftadapt
-
-An R package for logistic model updating and intervention selection under distribution shift, with separate data for fitting, selection, and final evaluation.
-
-[Software & projects →](projects.qmd)
-:::
-
-## Teaching
-
-He supports College Algebra students as a Graduate Lab Assistant at Georgia State University. Previously, he taught AP Calculus, AP Precalculus, and AP Statistics at Osceola School for the Arts.
-
-[Courses & teaching experience →](teaching.qmd)
-
-## Beyond the desk {#conferences}
-
-::: {.conference-feature}
-::: {.conference-photo}
-```{=html}
-<figure>
-<a href="assets/georgia-statistics-day.jpeg" target="_blank" rel="noopener noreferrer" aria-label="View the full Georgia Statistics Day photograph">
-<img src="assets/georgia-statistics-day.jpeg" alt="Group photograph at Georgia Statistics Day beside conference posters" width="1152" height="1536" loading="lazy" decoding="async">
-</a>
-<figcaption>Attending Georgia Statistics Day.</figcaption>
-</figure>
-```
-:::
-::: {.conference-copy}
-<p class="eyebrow">Conference attendance</p>
-
-### Georgia Statistics Day
-
-He recently attended Georgia Statistics Day.
-
-[View photograph ↗](assets/georgia-statistics-day.jpeg){target="_blank" rel="noopener noreferrer"}
-:::
-:::
+My academic and professional experience includes statistical research, teaching, and quantitative analysis.
 
 ::: {.contact-band}
-### Get in touch
+## Get in touch
 
-He welcomes conversations about statistical prediction, quantitative risk, and potential research collaborations.
+I welcome correspondence about statistical research, quantitative risk, and potential collaborations.
 
-[Contact Silas →](contact.qmd)
+[Email me](mailto:sdbambil98@gmail.com){.button .primary} [Contact details](contact.qmd){.button}
 :::
 :::
 ::::
