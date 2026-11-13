@@ -14,6 +14,10 @@ website:
   description: "Statistics, predictive model evaluation, and quantitative risk research."
   site-url: "https://sdbambil1.github.io"
   favicon: assets/favicon.svg
+  image: assets/silas-bambil-portrait.jpeg
+  image-alt: "Portrait of Silas Bambil"
+  open-graph: true
+  twitter-card: true
   navbar:
     background: "#ffffff"
     foreground: "#233b40"
