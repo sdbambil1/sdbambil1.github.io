@@ -1,6 +1,6 @@
 ---
 title: "Professional"
-description: "Professional appointments and FINRA examinations."
+description: "Professional experience of Silas Bambil in financial research, statistical surveys, risk reporting, and FINRA examinations."
 ---
 
 <p class="eyebrow">Professional experience</p>
