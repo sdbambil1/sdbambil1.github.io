@@ -26,4 +26,4 @@ I support instruction in **College Algebra (MATH 1111)** and **Support for Colle
 I taught **AP Calculus, AP Precalculus, and AP Statistics**. My responsibilities included lesson preparation, assessment design, and individual support in mathematical problem solving. The reported AP examination pass rate among students I taught was 70%.
 :::
 
-[View complete experience in my CV →](cv.qmd#teaching-experience)
+[Academic teaching experience →](academic.qmd#teaching-experience)
