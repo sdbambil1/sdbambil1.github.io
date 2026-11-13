@@ -5,7 +5,7 @@ description: "Installation, beginner-friendly commands, classical statistical in
 
 [← Back to Software](projects.qmd#bambaganaci)
 
-<p class="eyebrow">R package · Public source v0.3.3</p>
+<p class="eyebrow">R package · Public release v0.3.3</p>
 
 **Authors:** Silas Bambil and Yasmeen Babagana.
 
@@ -15,19 +15,19 @@ The v0.3.3 source was published to [GitHub](https://github.com/sdbambil1/bambaga
 
 ## Install from GitHub
 
-Until a v0.3.3 release tag is created, install from the verified commit to obtain the documented version.
+Install from the formal v0.3.3 release tag to obtain the documented version.
 
 ```{.r}
 install.packages("remotes") # Only if remotes is not installed
 remotes::install_github(
   "sdbambil1/bambaganaCI",
-  ref = "cbf61d4b273a2614663982f39d17347bb55fa48d"
+  ref = "v0.3.3"
 )
 library(bambaganaCI)
 packageVersion("bambaganaCI")
 ```
 
-[View source](https://github.com/sdbambil1/bambaganaCI) · [Verified v0.3.3 commit](https://github.com/sdbambil1/bambaganaCI/commit/cbf61d4b273a2614663982f39d17347bb55fa48d) · [Report an issue](https://github.com/sdbambil1/bambaganaCI/issues)
+[View source](https://github.com/sdbambil1/bambaganaCI) · [v0.3.3 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.3) · [Report an issue](https://github.com/sdbambil1/bambaganaCI/issues)
 
 ## Start with readable commands
 
