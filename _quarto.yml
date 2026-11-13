@@ -25,6 +25,8 @@ website:
         text: Research
       - href: projects.qmd
         text: Software
+      - href: conferences.qmd
+        text: Conferences
       - href: teaching.qmd
         text: Teaching
       - text: CV
@@ -44,6 +46,8 @@ website:
     right:
       - text: "Research"
         href: research.qmd
+      - text: "Conferences"
+        href: conferences.qmd
       - text: "Professional CV"
         href: professional-cv.qmd
       - text: "Academic CV"
