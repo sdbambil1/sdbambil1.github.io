@@ -10,7 +10,7 @@ For internship applications, see my [Professional CV](professional-cv.qmd) or [d
 
 Atlanta, Georgia · [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com) · [GitHub](https://github.com/sdbambil1)
 
-<nav class="jump-links" aria-label="CV sections"><a href="#education">Education</a><a href="#research-appointments">Research appointments</a><a href="#research-and-manuscripts">Manuscripts</a><a href="#teaching-experience">Teaching</a><a href="#technical-skills">Skills</a><a href="#awards">Awards</a></nav>
+<nav class="jump-links" aria-label="CV sections"><a href="#education">Education</a><a href="#research-appointments">Research appointments</a><a href="#research-and-manuscripts">Manuscripts</a><a href="#teaching-experience">Teaching</a><a href="#technical-skills">Technical skills</a><a href="#teaching-and-research-skills">Teaching &amp; research skills</a><a href="#awards">Awards</a></nav>
 
 ## Education
 
@@ -86,6 +86,21 @@ Taught AP Calculus, AP Precalculus, and AP Statistics. Prepared lessons and asse
 **Statistical methods:** logistic regression, multiple regression, Monte Carlo simulation, predictive model evaluation, probability calibration, bootstrap methods, data cleaning, and statistical visualization.
 
 **Risk and actuarial methods:** extreme value theory, Peaks-Over-Threshold modeling, Generalized Pareto models, Value-at-Risk, Expected Shortfall, credit-risk analysis, stress testing, and scenario analysis.
+
+## Teaching and research skills
+
+### Teaching
+
+- **Classroom management:** organize classroom activities, communicate expectations, and maintain a focused learning environment.
+- **Lesson planning and instruction:** develop lessons in mathematics and statistics, sequence worked examples, and adapt explanations to students' levels of understanding.
+- **Assessment and student support:** prepare assignments and assessments, provide feedback, and guide students through quantitative problems and examination preparation.
+
+### Research
+
+- **Research design:** formulate research questions, review relevant literature, and develop methodological and conceptual frameworks.
+- **Simulation and validation:** design Monte Carlo experiments, compare statistical methods, separate fitting and evaluation samples, and assess calibration and predictive performance.
+- **Data analysis and interpretation:** prepare and manage datasets, evaluate uncertainty and sensitivity, and interpret findings within the study's assumptions and limitations.
+- **Research communication:** prepare manuscripts, analytical reports, figures, and presentations that explain methods and findings clearly.
 
 ## Awards
 

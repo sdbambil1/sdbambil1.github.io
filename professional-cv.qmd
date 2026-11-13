@@ -17,7 +17,7 @@ description: "Silas Bambil's professional experience, quantitative research, and
 
 One-page PDF · [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com) · [GitHub: sdbambil1](https://github.com/sdbambil1)
 
-<nav class="jump-links" aria-label="Professional CV sections"><a href="#professional-experience">Industry experience</a><a href="#education">Education</a><a href="#projects">Projects</a><a href="#technical-skills">Skills</a></nav>
+<nav class="jump-links" aria-label="Professional CV sections"><a href="#professional-experience">Industry experience</a><a href="#education">Education</a><a href="#projects">Projects</a><a href="#technical-skills">Skills</a><a href="#finra-examinations">FINRA exams</a></nav>
 
 ## Professional experience
 
@@ -98,6 +98,9 @@ R package · In development
 
 **Risk analysis:** credit risk, Value-at-Risk, Expected Shortfall, stress testing, scenario analysis.
 
-**FINRA examinations:** SIE, January 2025; Series 63, August 2025.
+## FINRA examinations
+
+- **Series 63 — Uniform Securities Agent State Law Examination:** August 2025.
+- **Securities Industry Essentials (SIE) Examination:** January 2025.
 
 [Research appointments, teaching, and manuscripts →](cv.qmd)
