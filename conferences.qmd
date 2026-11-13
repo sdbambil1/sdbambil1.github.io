@@ -23,7 +23,7 @@ description: "Conference presentations and attendance by Silas Bambil, including
 
 **Poster authors:** Silas Bambil, Shudeshna Nandy, Clement Ampong, and Prakash Karki. **Faculty advisor:** Chi-Kuang Yeh. The final conference-program listing has not been verified.
 
-[Research description](research.qmd#fire-loss) · [Poster references](evt-fireloss-references.qmd)
+[Research description](research.qmd#fire-loss) · [Computational methods](projects.qmd#nfirs-analysis) · [Poster references](evt-fireloss-references.qmd)
 :::
 
 ## Conference attendance
