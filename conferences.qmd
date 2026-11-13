@@ -4,7 +4,7 @@ description: "Research presentations and conference attendance."
 ---
 
 <p class="eyebrow">Conferences and research communication</p>
-<p class="lede">This page distinguishes scheduled presentations from completed conference attendance. A scheduled presentation is not listed as a completed presentation.</p>
+<p class="lede">Conference presentations and attendance are recorded separately. Future presentations are identified by their scheduled dates.</p>
 
 ## Scheduled presentation
 
@@ -21,7 +21,9 @@ description: "Research presentations and conference attendance."
 
 **Status:** Scheduled; not yet presented.
 
-The underlying manuscript lists Silas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh as authors. This does not establish the final conference program's presenter or coauthor listing.
+**Manuscript authors:** Silas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh. The final conference-program listing has not been verified.
+
+[Research description](research.qmd#fire-loss)
 :::
 
 ## Conference attendance
