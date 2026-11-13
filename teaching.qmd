@@ -4,7 +4,7 @@ description: "Silas Bambil's teaching experience in college algebra, calculus, p
 ---
 
 <p class="eyebrow">Mathematics and statistics teaching</p>
-<p class="lede">My teaching experience includes introductory college mathematics and Advanced Placement courses in calculus, precalculus, and statistics.</p>
+<p class="lede">I have taught Advanced Placement calculus, precalculus, and statistics and supported college algebra instruction. My work includes preparing lessons and assessments, explaining mathematical concepts, and helping students develop problem-solving skills.</p>
 
 ## Georgia State University
 
