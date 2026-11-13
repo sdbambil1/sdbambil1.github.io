@@ -6,7 +6,7 @@ description: "Research by Silas Bambil on credit-risk model updating, selection 
 <p class="eyebrow">Research questions, contributions, and methods</p>
 <p class="lede">My research concerns credit-risk model updating under distribution shift and diagnostic methods for extreme losses. I examine how limited data affect model selection, predictive accuracy, and the reliability of tail-risk estimates.</p>
 
-<p class="meta">Research manuscripts are identified by their current working status. No publication or journal acceptance is implied. <a href="https://orcid.org/0009-0002-5110-8102">ORCID profile</a> · <a href="https://github.com/sdbambil1">GitHub</a></p>
+<p class="meta">The three studies below are manuscripts in preparation, not published or accepted papers. <a href="https://orcid.org/0009-0002-5110-8102">ORCID profile</a> · <a href="https://github.com/sdbambil1">GitHub</a></p>
 
 <nav class="jump-links" aria-label="Research sections"><a href="#fire-loss">Tail-risk diagnostics</a><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Model updating</a><a href="#earlier-research">Earlier research</a></nav>
 
@@ -17,12 +17,12 @@ description: "Research by Silas Bambil on credit-risk model updating, selection 
 
 <p class="authors">Silas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh</p>
 
-High-loss quantiles can agree even when expected tail losses differ. This study evaluates fitted tail models using Expected Shortfall and bounded loss layers, with an application to U.S. structure-fire losses.
+**Research question.** Can fitted tail models agree on high-loss quantiles while giving materially different estimates of expected tail losses?
 
 ::: {.finding}
-**Research contribution**
+**Contribution.** Using established stop-loss identities, the study develops bounded-layer diagnostics and inferential procedures to assess where empirical loss distributions and fitted tail models disagree.
 
-The study uses established stop-loss identities to relate aggregate Expected Shortfall discrepancies to expected losses within bounded layers. It develops diagnostic comparisons and inferential procedures that account for empirical averaging and model estimation using the same observations. Simulations assess detection, localization, and uncertainty separately; identifying a discrepancy does not by itself determine where it occurs.
+**Principal finding.** Agreement in aggregate tail summaries need not imply agreement within relevant loss layers. Simulations distinguish discrepancy detection from localization and show why identifying a difference does not establish where it occurs.
 :::
 
 <details class="methods"><summary>Study design and application</summary>
@@ -37,16 +37,18 @@ The study uses Peaks-Over-Threshold and Generalized Pareto modeling, bounded-lay
 :::
 
 ::: {.paper}
-<div class="status-line"><span class="badge">Working manuscript</span><span>2026 · Independent credit-risk research</span></div>
+<div class="status-line"><span class="badge">Manuscript in preparation</span><span>2026 · Independent credit-risk research</span></div>
 
 ## Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information {#selection-regret}
 
-This study asks whether selecting the oracle updating policy more frequently necessarily reduces the predictive cost of selection mistakes. It examines how the amount of recent labeled information affects decisions to retain, recalibrate, or refit a credit-risk model.
+<p class="authors">Silas Bambil</p>
+
+**Research question.** Does more frequent selection of the best fitted updating policy necessarily reduce the predictive cost of choosing another policy?
 
 ::: {.finding}
-**Research contribution**
+**Contribution.** The study distinguishes how often an updating policy is selected correctly from the predictive regret of choosing a different fitted candidate, and evaluates how both measures change with the amount of recent labeled data.
 
-The study distinguishes the probability of choosing the best fitted candidate from the regret associated with choosing another candidate. Across 13 simulated scenarios, mean selection regret was lower with 10,000 recent labeled observations than with 2,500, but oracle agreement did not improve uniformly. Under stability, oracle agreement fell from 27.6% to 23.6% as mean selection regret fell by approximately 76.7%. Selection frequency alone is therefore an incomplete measure of decision quality.
+**Principal finding.** In simulations, a larger recent labeled sample reduced mean selection regret without consistently improving agreement with the best fitted candidate. Selection frequency alone is therefore insufficient to characterize decision quality.
 :::
 
 <details class="methods"><summary>Study design and evidence</summary>
@@ -59,18 +61,18 @@ Simulation experiments compare model-updating choices under different shift cond
 :::
 
 ::: {.paper}
-<div class="status-line"><span class="badge">Unpublished manuscript</span><span>2026 · Credit-risk modeling</span></div>
+<div class="status-line"><span class="badge">Manuscript in preparation</span><span>2026 · Credit-risk modeling</span></div>
 
 ## Selecting and Estimating Credit-Risk Model Updates Under Distribution Shift {#distribution-shift}
 
 <p class="authors">Silas Bambil and Shudeshna Nandy</p>
 
-Updating a credit-risk model requires a choice between retaining the existing model, recalibrating its predictions, and refitting its coefficients. This study examines the trade-off between allocating labeled observations to selecting an updating procedure and using those observations to estimate the updated model.
+**Research question.** How should limited labeled data be allocated between selecting a credit-risk model update and estimating the updated model?
 
 ::: {.finding}
-**Research contribution**
+**Contribution.** The study compares validation-guided selection with unrestricted and regularized refitting under a common labeled-data budget, separating the costs of intervention selection and parameter estimation.
 
-Using mortgage-anchored simulations and historical cohorts, the study compares validation-guided selection with unrestricted and regularized refitting under a common labeled-data budget. Validation-guided selection can outperform unrestricted full-budget refitting when adaptation data are scarce, but it does not uniformly outperform regularized full-budget estimation. The results underscore the separate roles of intervention selection, model estimation, and label allocation.
+**Principal finding.** Validation-guided selection can improve on unrestricted full-budget refitting when adaptation data are scarce, but does not uniformly outperform regularized full-budget estimation. The best use of labeled data depends on the shift and the available sample.
 :::
 
 <details class="methods"><summary>Study design and methods</summary>
