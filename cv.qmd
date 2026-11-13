@@ -5,12 +5,13 @@ description: "Silas Bambil's education, research appointments, manuscripts, teac
 ---
 
 [Download academic CV (PDF)](files/Silas_Bambil_PhD_CV.pdf){.button .primary}
+[Teaching and Research Skills](#teaching-and-research-skills){.button}
 
 For internship applications, see my [Professional CV](professional-cv.qmd) or [download the one-page PDF](files/Silas_Bambil_Professional_CV.pdf).
 
 Atlanta, Georgia · [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com) · [GitHub](https://github.com/sdbambil1)
 
-<nav class="jump-links" aria-label="CV sections"><a href="#education">Education</a><a href="#research-appointments">Research appointments</a><a href="#research-and-manuscripts">Manuscripts</a><a href="#teaching-experience">Teaching</a><a href="#technical-skills">Technical skills</a><a href="#teaching-and-research-skills">Teaching &amp; research skills</a><a href="#awards">Awards</a></nav>
+<nav class="jump-links" aria-label="CV sections"><a href="#education">Education</a><a href="#research-appointments">Research appointments</a><a href="#research-and-manuscripts">Manuscripts</a><a href="#teaching-experience">Teaching</a><a href="#teaching-and-research-skills">Teaching and Research Skills</a><a href="#technical-skills">Technical skills</a><a href="#awards">Awards</a></nav>
 
 ## Education
 
@@ -79,15 +80,7 @@ Teach and support students in College Algebra (MATH 1111) and Support for Colleg
 Taught AP Calculus, AP Precalculus, and AP Statistics. Prepared lessons and assessments and supported students in solving quantitative problems. Achieved a 70% AP examination pass rate among students taught.
 :::
 
-## Technical skills
-
-**Programming and software:** R, Python, Microsoft Excel, and Microsoft Office Suite.
-
-**Statistical methods:** logistic regression, multiple regression, Monte Carlo simulation, predictive model evaluation, probability calibration, bootstrap methods, data cleaning, and statistical visualization.
-
-**Risk and actuarial methods:** extreme value theory, Peaks-Over-Threshold modeling, Generalized Pareto models, Value-at-Risk, Expected Shortfall, credit-risk analysis, stress testing, and scenario analysis.
-
-## Teaching and research skills
+## Teaching and Research Skills
 
 ### Teaching
 
@@ -97,10 +90,18 @@ Taught AP Calculus, AP Precalculus, and AP Statistics. Prepared lessons and asse
 
 ### Research
 
-- **Research design:** formulate research questions, review relevant literature, and develop methodological and conceptual frameworks.
+- **Research methodology and frameworks:** formulate research questions, review relevant literature, and develop methodological and conceptual frameworks.
 - **Simulation and validation:** design Monte Carlo experiments, compare statistical methods, separate fitting and evaluation samples, and assess calibration and predictive performance.
 - **Data analysis and interpretation:** prepare and manage datasets, evaluate uncertainty and sensitivity, and interpret findings within the study's assumptions and limitations.
-- **Research communication:** prepare manuscripts, analytical reports, figures, and presentations that explain methods and findings clearly.
+- **Academic writing and research communication:** prepare manuscripts, analytical reports, figures, and presentations that explain methods and findings clearly.
+
+## Technical skills
+
+**Programming and software:** R, Python, Microsoft Excel, and Microsoft Office Suite.
+
+**Statistical methods:** logistic regression, multiple regression, Monte Carlo simulation, predictive model evaluation, probability calibration, bootstrap methods, data cleaning, and statistical visualization.
+
+**Risk and actuarial methods:** extreme value theory, Peaks-Over-Threshold modeling, Generalized Pareto models, Value-at-Risk, Expected Shortfall, credit-risk analysis, stress testing, and scenario analysis.
 
 ## Awards
 
