@@ -128,7 +128,15 @@ def check_local_reference(page, raw, ids_by_file):
     if parsed.fragment and normalized.suffix.lower() == ".html":
         fragment = unquote(parsed.fragment)
         if normalized in ids_by_file and fragment not in ids_by_file[normalized]:
-            WARNINGS.append(f"{page.relative_to(ROOT)}: unverified target anchor: {raw}")
+            if normalized != page.resolve():
+                ERRORS.append(
+                    f"{page.relative_to(ROOT)}: broken cross-page anchor: {raw}"
+                )
+            else:
+                # Keep dynamically generated in-page anchors non-blocking.
+                WARNINGS.append(
+                    f"{page.relative_to(ROOT)}: unverified in-page anchor: {raw}"
+                )
 
 
 def main():
