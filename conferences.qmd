@@ -1,6 +1,6 @@
 ---
 title: "Conferences"
-description: "Research presentations and conference attendance."
+description: "Conference presentations and attendance by Silas Bambil, including a scheduled fire-loss research poster at Georgia State University."
 ---
 
 <p class="eyebrow">Conferences and research communication</p>
