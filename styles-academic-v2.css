@@ -187,3 +187,30 @@ h3{font-family:Arial,sans-serif;font-weight:600;font-size:1.04rem;line-height:1.
   .profile-contact {gap: .35rem .65rem;}
   .academic-main h1, #title-block-header h1 {font-size: 1.9rem;}
 }
+
+
+/* Keyboard and assistive-technology refinements. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid #075f5c;
+  outline-offset: 3px;
+}
+.methods > summary {
+  cursor: pointer;
+  width: fit-content;
+  max-width: 100%;
+  padding-block: .45rem;
+}
+.methods > summary:hover,
+.methods > summary:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+a:not(.button):not(.nav-link):not(.navbar-brand):not(.dropdown-item):not(.jump-links a) {
+  text-underline-offset: .22em;
+}
+@media (forced-colors: active) {
+  :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+    outline: 2px solid Highlight;
+  }
+  .button, .jump-links a {border: 1px solid ButtonText;}
+}
