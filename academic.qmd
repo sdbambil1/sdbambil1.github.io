@@ -6,7 +6,7 @@ description: "Silas Bambil’s academic background, research experience, teachin
 <p class="eyebrow">Academic background and research experience</p>
 <p class="lede">My academic training is in actuarial science, quantitative risk analysis, and statistics. My research interests include predictive model evaluation, credit-risk model updating, and tail-risk measurement.</p>
 
-<nav class="jump-links" aria-label="Academic sections"><a href="#education">Education</a><a href="#research-appointments">Research appointments</a><a href="#research-and-manuscripts">Research</a><a href="#teaching-experience">Teaching</a><a href="#teaching-and-research-skills">Teaching and Research Skills</a><a href="#technical-skills">Technical skills</a><a href="#awards">Awards</a></nav>
+<nav class="jump-links" aria-label="Academic sections"><a href="#education">Education</a><a href="#research-appointments">Research appointments</a><a href="#research-and-manuscripts">Research</a><a href="#teaching-experience">Teaching</a><a href="#teaching-and-research-skills">Teaching and Research Skills</a><a href="#statistical-and-computational-skills">Computational skills</a><a href="#academic-awards">Awards</a></nav>
 
 ## Education
 
