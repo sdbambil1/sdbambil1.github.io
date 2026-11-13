@@ -52,6 +52,8 @@ July 2020 · Kumasi, Ghana
 - **Assessment:** prepare problem sets and evaluations, review student work, and give feedback on mathematical reasoning and common errors.
 - **Student support:** explain foundational concepts in different ways and guide students through quantitative problem solving.
 
+[Teaching appointments](teaching.qmd)
+
 ### Research
 
 - **Research design:** translate a statistical question into a study design, identify comparison methods, and state assumptions and evaluation targets.
@@ -72,3 +74,5 @@ July 2020 · Kumasi, Ghana
 
 - **Graduate Merit Scholarship**, Department of Mathematics and Statistics, Georgia State University · August 2026.
 - **Graduate Merit Scholarship**, Robinson College of Business, Georgia State University · August 2023–May 2025.
+
+[Academic CV (PDF)](files/Silas_Bambil_PhD_CV.pdf)
