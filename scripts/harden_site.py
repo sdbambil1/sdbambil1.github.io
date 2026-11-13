@@ -46,7 +46,7 @@ for f in files:
  # Keyboard users can bypass the repeated navigation on every page.
  skip_link='<a class="skip-to-content" href="#quarto-document-content">Skip to main content</a>'
  if 'class="skip-to-content"' not in text:
-  text=re.sub(r'(<body\\b[^>]*>)',lambda m:m.group(1)+'\\n'+skip_link,text,count=1,flags=re.I)
+  text=re.sub(r'(<body\b[^>]*>)',lambda m:m.group(1)+'\n'+skip_link,text,count=1,flags=re.I)
  def safe_link(m):
   tag=m.group(0)
   if not re.search(r'\btarget=[\"\']_blank[\"\']',tag,re.I):return tag
