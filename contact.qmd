@@ -1,29 +1,20 @@
 ---
 title: "Contact"
-description: "Contact Silas Bambil about research and collaboration."
+description: "Contact Silas Bambil."
 ---
 
-<p class="eyebrow">Academic and professional correspondence</p>
-<p class="lede">For questions about my research, teaching, or professional work, please contact me using the information below.</p>
+<p class="eyebrow">Contact information</p>
 
-::: {.contact-layout}
-::: {}
-::: {.contact-item}
+For academic or professional correspondence, I can be reached using the details below.
+
 ## Email
 
 [sdbambil98@gmail.com](mailto:sdbambil98@gmail.com)
-:::
-::: {.contact-item}
+
 ## GitHub
 
 [sdbambil1](https://github.com/sdbambil1)
-:::
-::: {.contact-item}
-## Based in
+
+## Location
 
 Atlanta, Georgia
-:::
-
-<div class="actions"><a class="button primary" href="mailto:sdbambil98@gmail.com">Send an email ↗</a></div>
-:::
-:::
