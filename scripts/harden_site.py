@@ -43,6 +43,10 @@ for f in files:
  text=re.sub(r'\n?<!-- portfolio-security:start -->.*?<!-- portfolio-security:end -->\n?', '\n',text,flags=re.S)
  meta='\n<!-- portfolio-security:start -->\n<meta http-equiv="Content-Security-Policy" content="'+escape(meta_policy,quote=True)+'">\n<meta name="referrer" content="no-referrer">\n<!-- portfolio-security:end -->\n'
  text=re.sub(r'<head>',lambda m:m.group(0)+meta,text,count=1,flags=re.I)
+ # Keyboard users can bypass the repeated navigation on every page.
+ skip_link='<a class="skip-to-content" href="#quarto-document-content">Skip to main content</a>'
+ if 'class="skip-to-content"' not in text:
+  text=re.sub(r'(<body\\b[^>]*>)',lambda m:m.group(1)+'\\n'+skip_link,text,count=1,flags=re.I)
  def safe_link(m):
   tag=m.group(0)
   if not re.search(r'\btarget=[\"\']_blank[\"\']',tag,re.I):return tag
