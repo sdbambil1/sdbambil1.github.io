@@ -33,7 +33,7 @@ The study uses Peaks-Over-Threshold and Generalized Pareto modeling, bounded-lay
 
 <div class="tags"><span>Expected Shortfall</span><span>Bounded insurance layers</span><span>Extreme value theory</span><span>Fire-loss severity</span></div>
 
-[Computational methods](projects.qmd#nfirs-analysis) · [Poster references](evt-fireloss-references.qmd)
+[Computational methods](projects.qmd#nfirs-analysis) · [Scheduled conference poster](conferences.qmd#scheduled-presentation) · [Poster references](evt-fireloss-references.qmd)
 :::
 
 ::: {.paper}
