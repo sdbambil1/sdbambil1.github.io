@@ -62,6 +62,8 @@ July 2020 · Kumasi, Ghana
 - **Sensitivity and uncertainty:** use resampling and sensitivity analyses to examine how conclusions depend on assumptions and influential observations.
 - **Academic writing:** describe research questions, assumptions, methods, results, and limitations in manuscripts and technical reports.
 
+Examples of these methods appear in my [current research manuscripts](research.qmd) and [statistical software and computational projects](projects.qmd). These are documented separately from my graduate research appointment.
+
 ## Statistical and computational skills
 
 **Programming:** R and Python; Microsoft Excel for data analysis and reporting.
