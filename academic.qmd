@@ -38,7 +38,9 @@ July 2020 · Kumasi, Ghana
 
 **August 2023–June 2025 · Atlanta, Georgia**
 
-Supported graduate admissions research by organizing applicant data, preparing variables for analysis, and evaluating patterns relevant to enrollment prediction. Assisted with data management, statistical analysis, and reporting for faculty research.
+- Assisted in developing predictive models for student enrollment and analyzing data to inform recruitment strategies.
+- Supported faculty risk-analysis projects through research assistance and data management.
+- Coordinated events and seminars on quantitative risk and risk management.
 :::
 
 ## Teaching and Research Skills
