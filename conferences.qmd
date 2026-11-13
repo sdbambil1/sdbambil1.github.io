@@ -15,13 +15,13 @@ description: "Research presentations and conference attendance."
 
 **Presentation format:** Research poster (registered).
 
-**Research:** *Beyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models.*
+**Poster title:** *Beyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models.*
 
 **Topic:** A diagnostic framework for assessing where fitted extreme-loss models and empirical loss distributions disagree, using Expected Shortfall decomposition and bounded insurance layers.
 
 **Status:** Scheduled; not yet presented.
 
-**Manuscript authors:** Silas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh. The final conference-program listing has not been verified.
+**Poster authors:** Silas Bambil, Shudeshna Nandy, Clement Ampong, and Prakash Karki. **Faculty advisor:** Chi-Kuang Yeh. The final conference-program listing has not been verified.
 
 [Research description](research.qmd#fire-loss)
 :::
