@@ -46,6 +46,8 @@ for f in files:
  # Quarto's mobile navbar button is a native button, not an ARIA menu.
  # Remove an inappropriate generated role without changing button behavior.
  text=re.sub(r'(<button\b(?=[^>]*\bnavbar-toggler\b)[^>]*?)\srole="menu"',r'\1',text,flags=re.I)
+ # Long code blocks must be keyboard-scrollable on small screens.
+ text=re.sub(r'(<pre\b(?=[^>]*\bsourceCode\b)(?![^>]*\btabindex=)[^>]*)(>)',r'\1 tabindex="0" aria-label="Scrollable code example"\2',text,flags=re.I)
  # Keyboard users can bypass the repeated navigation on every page.
  skip_link='<a class="skip-to-content" href="#quarto-document-content">Skip to main content</a>'
  if 'class="skip-to-content"' not in text:
