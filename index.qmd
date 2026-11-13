@@ -23,11 +23,11 @@ description: "Silas Bambil studies statistical methods for finance, credit-risk 
 
 # About me
 
-Silas Bambil studies statistical methods for finance, with a focus on credit-risk model updating and tail-risk measurement. He is a graduate student in Mathematics, concentrating in Statistics, at Georgia State University. He holds an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from KNUST.
+Silas Bambil is a graduate student in Mathematics, with a concentration in Statistics, at Georgia State University. He holds an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from KNUST. His research focuses on statistical problems in finance and insurance, particularly credit-risk prediction and the measurement of extreme losses.
 
-His credit-risk research examines when recent labeled data justify retaining, recalibrating, or refitting a predictive model. He compares these choices under distribution shift and measures selection regret: the predictive cost of choosing an updating policy relative to the best available candidate. He uses simulation, cross-validation, and historical mortgage data to assess how the amount of recent information affects that cost.
+In credit-risk modeling, he studies how recent labeled information affects the choice between retaining, recalibrating, and refitting a model under distribution shift. He evaluates these choices through simulation and historical mortgage data, with particular attention to calibration, predictive performance, and selection regret.
 
-In extreme-loss research, he examines discrepancies between empirical losses and fitted tail models. He uses Expected Shortfall decompositions and bounded loss layers to identify where those discrepancies arise, assess their sensitivity to exceptional records, and quantify uncertainty in sparsely observed loss regions.
+His work on extreme losses examines where fitted tail models disagree with empirical loss distributions. He uses Expected Shortfall decompositions and bounded loss layers to locate these discrepancies and distinguish aggregate tail behavior from losses within specific insurance layers. Applications to U.S. structure-fire data assess how sparse observations and exceptional incidents affect estimation and uncertainty.
 
 [Professional CV →](professional-cv.qmd){.text-link} · [Academic CV →](cv.qmd){.text-link}
 
