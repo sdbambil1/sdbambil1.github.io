@@ -280,3 +280,21 @@ input:focus-visible,select:focus-visible,[tabindex]:focus-visible{
   .paper,.cv-entry{break-inside:avoid}
   a{color:inherit}
 }
+
+/* University-style homepage: editorial introduction first, unboxed portrait right. */
+@media (min-width: 651px) {
+  .home-page .academic-layout {
+    grid-template-columns: minmax(0, 1fr) 190px;
+    gap: clamp(3rem, 7vw, 6rem);
+    padding-top: 1rem;
+  }
+  .home-page .academic-main {grid-column:1;grid-row:1}
+  .home-page .profile-rail {grid-column:2;grid-row:1}
+  .home-page .profile-portrait {width:190px}
+  .home-page .academic-main h1 {font-size:clamp(2.8rem,4.5vw,3.65rem)}
+}
+@media (max-width: 650px) {
+  .home-page .academic-layout {display:flex;flex-direction:column}
+  .home-page .profile-rail {order:0}
+  .home-page .academic-main {order:1}
+}
