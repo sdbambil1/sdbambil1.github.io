@@ -20,83 +20,11 @@ An R package for constructing confidence intervals for a population mean. It imp
 The package includes input checks, reproducible resampling methods, and automated tests. Version 0.1.1 is publicly released on [GitHub](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1), but is not available on CRAN.
 :::
 
-### Supported confidence intervals
+**Methods:** Percentile, basic, normal, and BCa bootstrap intervals; classical Student's t interval. The comparison function uses shared resamples for bootstrap methods.
 
-| Method | Function or argument | Purpose |
-|---|---|---|
-| Percentile bootstrap | `method = "percentile"` | Uses empirical quantiles of resampled means |
-| Basic bootstrap | `method = "basic"` | Reflects bootstrap quantiles about the sample mean |
-| Normal bootstrap | `method = "normal"` | Uses a bootstrap standard error and estimated bias correction |
-| BCa bootstrap | `method = "bca"` | Adjusts bootstrap endpoints for bias and acceleration |
-| Classical Student's t | `mean_t_ci()` | Uses the t distribution and sample standard error |
+**Verification:** Automated R CMD checks passed on Windows and Ubuntu for the November 13, 2026 revision. This does not establish universal interval coverage.
 
-### Installation from GitHub
-
-Install the released version 0.1.1 using its Git tag. This pins the installation to the documented release rather than later changes on the repository's main branch.
-
-```{.r}
-install.packages("remotes")  # Run once if needed
-remotes::install_github("sdbambil1/bambaganaCI", ref = "v0.1.1")
-library(bambaganaCI)
-```
-
-[Source code and documentation](https://github.com/sdbambil1/bambaganaCI) · [Version 0.1.1 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1)
-
-### Package checks
-
-The repository's automated R CMD checks passed on **Windows and Ubuntu** for the November 13, 2026 revision. [View the successful checks](https://github.com/sdbambil1/bambaganaCI/actions/runs/43380642806). These checks assess package installation, execution, and consistency; they do not establish confidence-interval coverage for every sampling distribution.
-
-### R examples
-
-The examples below use version 0.1.1 from the public GitHub repository.
-
-**Example 1. Bootstrap confidence interval for a mean**
-
-```{.r}
-library(bambaganaCI)
-
-set.seed(1998)
-x <- rnorm(30, mean = 2, sd = 1)
-
-result <- bootstrap_mean_ci(
-  x, B = 2000, conf = 0.95,
-  method = "percentile"
-)
-
-print(result)
-confint(result)
-```
-
-The function returns the sample mean, interval endpoints, bootstrap standard error, and resampled means.
-
-**Example 2. Compare interval construction methods**
-
-```{.r}
-set.seed(1998)
-x <- rexp(30)
-
-comparison <- compare_mean_ci(
-  x, B = 2000, conf = 0.95,
-  methods = c("percentile", "basic",
-              "normal", "bca", "t")
-)
-
-print(comparison)
-```
-
-The resulting table includes the mean estimate, lower and upper confidence limits, and interval width for each method. Bootstrap methods within a single comparison share resamples.
-
-**Example 3. Classical t interval**
-
-```{.r}
-result_t <- mean_t_ci(x, conf = 0.95)
-print(result_t)
-confint(result_t)
-```
-
-### Assumptions and limitations
-
-Bootstrap intervals here assume independent, identically distributed observations and target the ordinary population mean. The classical t interval has exact coverage under independent normal sampling with positive common variance. Coverage can differ from the nominal level for skewed, heavy-tailed, or contaminated populations, particularly with small samples. The package does not automatically handle clusters, serial dependence, survey weights, or missing observations. Comparisons illustrate differences between interval methods; they do not establish that one method is universally preferable.
+[Package documentation and reproducible examples](bambaganaci.qmd) · [Source code](https://github.com/sdbambil1/bambaganaCI) · [Version 0.1.1](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.1.1)
 
 ::: {.software-header}
 <div class="status-line"><span class="badge">In development</span><span>R package · Model adaptation</span></div>
