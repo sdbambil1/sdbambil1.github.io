@@ -33,7 +33,7 @@ The study uses Peaks-Over-Threshold and Generalized Pareto modeling, bounded-lay
 
 <div class="tags"><span>Expected Shortfall</span><span>Bounded insurance layers</span><span>Extreme value theory</span><span>Fire-loss severity</span></div>
 
-[Related extreme-value analysis repository](https://github.com/sdbambil1/nfirs-extreme-value-analysis)
+[Computational methods and reproducibility overview](projects.qmd#nfirs-analysis)
 :::
 
 ::: {.paper}
