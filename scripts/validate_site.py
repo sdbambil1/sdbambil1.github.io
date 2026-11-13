@@ -36,6 +36,7 @@ class PageInspector(HTMLParser):
         self.in_title = False
         self.has_h1 = False
         self.google_verified_tag = False
+        self.skip_links = []
         self.canonical_urls = []
         self.in_json_ld = False
         self.json_ld_blocks = []
@@ -52,6 +53,8 @@ class PageInspector(HTMLParser):
         if tag == "script" and attrs.get("type", "").lower() == "application/ld+json":
             self.in_json_ld = True
             self._json_ld = []
+        if tag == "a" and "skip-to-content" in attrs.get("class", "").split():
+            self.skip_links.append(attrs.get("href", ""))
         if tag == "main":
             self.has_main = True
         if tag == "title":
@@ -163,6 +166,8 @@ def main():
             ERRORS.append("index.html: missing Google Search Console verification meta tag")
         if not parser.has_title:
             ERRORS.append(f"{page.relative_to(ROOT)}: missing page title")
+        if parser.skip_links != ["#quarto-document-content"] or "quarto-document-content" not in parser.ids:
+            ERRORS.append(f"{page.relative_to(ROOT)}: missing or invalid skip-to-content link")
         if not parser.has_main:
             ERRORS.append(f"{page.relative_to(ROOT)}: missing main landmark")
         if not parser.has_h1:
