@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: "Research on credit-risk model updating, predictive stability, and tail-loss diagnostics."
+description: "Research by Silas Bambil on credit-risk model updating, selection regret under distribution shift, and Expected Shortfall diagnostics for extreme fire losses."
 ---
 
 <p class="eyebrow">Research questions, contributions, and methods</p>
