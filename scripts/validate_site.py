@@ -38,6 +38,8 @@ class PageInspector(HTMLParser):
         self.google_verified_tag = False
         self.skip_links = []
         self.jump_links = []
+        self.images_without_alt = []
+        self.meta_descriptions = []
         self.in_jump_nav = False
         self.canonical_urls = []
         self.in_json_ld = False
@@ -48,6 +50,10 @@ class PageInspector(HTMLParser):
         attrs = dict(attrs)
         if "id" in attrs:
             self.ids.add(attrs["id"])
+        if tag == "img" and "alt" not in attrs:
+            self.images_without_alt.append(attrs.get("src", "(no src)"))
+        if tag == "meta" and attrs.get("name", "").lower() == "description":
+            self.meta_descriptions.append(attrs.get("content", ""))
         if tag == "meta" and attrs.get("name") == "google-site-verification":
             self.google_verified_tag = attrs.get("content") == GOOGLE_VERIFICATION
         if tag == "link" and attrs.get("rel", "").lower() == "canonical":
@@ -172,6 +178,10 @@ def main():
                 ERRORS.append("index.html: Person JSON-LD identity links are incomplete")
         if page.name == "index.html" and not parser.google_verified_tag:
             ERRORS.append("index.html: missing Google Search Console verification meta tag")
+        if len(parser.meta_descriptions) != 1 or not parser.meta_descriptions[0].strip():
+            ERRORS.append(f"{page.relative_to(ROOT)}: missing, empty, or duplicate page description")
+        for src in parser.images_without_alt:
+            ERRORS.append(f"{page.relative_to(ROOT)}: image missing alt attribute: {src}")
         if not parser.has_title:
             ERRORS.append(f"{page.relative_to(ROOT)}: missing page title")
         if parser.skip_links != ["#quarto-document-content"] or "quarto-document-content" not in parser.ids:
