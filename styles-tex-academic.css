@@ -339,3 +339,33 @@ pre,code,kbd,samp,pre code,.sourceCode{font-family:"Latin Modern Mono","Courier 
     overflow-x: auto;
   }
 }
+
+/* Research conference photography: restrained, responsive, no cards. */
+.conference-gallery{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1.8rem 1.4rem;
+  margin:1.35rem 0 2.1rem;
+}
+.conference-gallery figure{margin:0;min-width:0}
+.conference-gallery a{display:block}
+.conference-gallery img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:440px;
+  object-fit:contain;
+  object-position:center;
+  background:#f7f8fa;
+}
+.conference-gallery figcaption{
+  color:var(--muted);
+  font-size:.82rem;
+  line-height:1.45;
+  margin-top:.5rem;
+}
+.conference-additional-photos{margin-bottom:2.3rem}
+@media(max-width:650px){
+  .conference-gallery{grid-template-columns:1fr;gap:1.35rem}
+  .conference-gallery img{max-height:none}
+}
