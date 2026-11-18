@@ -1,27 +1,28 @@
 ---
 title: "Conferences"
-description: "Conference presentations and attendance by Silas Bambil, including a scheduled fire-loss research poster at Georgia State University."
+description: "Conference presentations by Silas Bambil, including the November 18, 2026 graduate research poster presentation at Georgia State University."
 ---
 
 <p class="eyebrow">Conferences and research communication</p>
 <p class="lede">Research presentations and conference participation.</p>
 
-## Scheduled presentation
+## Research presentations
 
 ::: {.cv-entry}
 <p class="meta">November 18, 2026 · Georgia State University</p>
 
-### Georgia State University Graduate Conference
+### 5th Annual Graduate Conference for Research, Scholarship, and Creative Activity
 
-**Presentation format:** Research poster (registered).
+**Institution:** Georgia State University, The Graduate School.  
+**Presentation format:** Research poster.
 
 **Poster title:** *Beyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models.*
 
 **Topic:** A diagnostic framework for assessing where fitted extreme-loss models and empirical loss distributions disagree, using Expected Shortfall decomposition and bounded insurance layers.
 
-**Status:** Scheduled; not yet presented.
+**Status:** Presented on November 18, 2026.
 
-**Poster authors:** Silas Bambil, Shudeshna Nandy, Clement Ampong, and Prakash Karki. **Faculty advisor:** Chi-Kuang Yeh. The final conference-program listing has not been verified.
+**Poster authors:** Silas Bambil, Shudeshna Nandy, Clement Ampong, and Prakash Karki. **Faculty advisor:** Chi-Kuang Yeh.
 
 [Research description](research.qmd#fire-loss) · [Computational methods](projects.qmd#nfirs-analysis) · [Poster references](evt-fireloss-references.qmd)
 :::
