@@ -367,6 +367,14 @@ A personal reflection on chance, changing ambitions, professional uncertainty, a
 
 [Read story →](stories/what-do-you-want-to-become-in-future.qmd)
 
+### [Be Excellent Where You Are](stories/be-excellent-where-you-are.qmd)
+
+[October 2026]{.meta}
+
+A personal reflection on the compounding value of learning, research, professional development, and growth in character.
+
+[Read story →](stories/be-excellent-where-you-are.qmd)
+
 ### [Lessons and Lashes: The Cane, Monsieur, and Owuo](stories/lessons-and-lashes.qmd)
 
 [June 2026]{.meta}
