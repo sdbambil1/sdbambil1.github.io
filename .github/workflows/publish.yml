@@ -51,7 +51,8 @@ jobs:
           for i in $(seq 1 30); do
             count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" -f name="$ARTIFACT_NAME" --method GET --jq '.artifacts | map(select(.expired == false)) | length') || count=0
             if [ "$count" = 1 ]; then
-              echo "Deployment artifact available"
+              echo "Deployment artifact available; allowing Pages metadata to synchronize"
+              sleep 30
               exit 0
             fi
             sleep 5
