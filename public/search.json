@@ -1,0 +1,331 @@
+[
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Silas BambilGraduate Student in Mathematics (Statistics)Georgia State Universitysdbambil98@gmail.com"
+  },
+  {
+    "objectID": "software.html#ridge-package",
+    "href": "software.html#ridge-package",
+    "title": "Software",
+    "section": "ridgeShift",
+    "text": "ridgeShift\nVersion: 0.1.0\nAuthors: Silas Bambil, Shudeshna Nandy, and Yasmeen Babagana.\nAvailability: Completed and maintained locally; not publicly released.\nridgeShift implements a computational framework for evaluating ridge-regression model updating when limited target observations must be allocated between candidate estimation and validation-based selection.\n\nPrincipal functions\n\nrs_update() — candidate model updating and strategy selection.\nrs_sensitivity() — adaptation–validation allocation sensitivity.\nrs_target_risk() — target-population predictive-risk evaluation.\nrs_compare_risk() — paired predictive-risk comparison.\n\nThe numerical implementation uses singular value decomposition (SVD) and reuses matrix factorizations across penalty evaluations. The package supports validation-based model selection, target-sample allocation sensitivity, and paired predictive-risk comparisons. Numerical results were checked against independent reference calculations, and computational benchmarks assessed performance across repeated model fits. Documented functions support reproducible statistical workflows.\nThe package and associated manuscript are maintained locally. Neither is publicly distributed.\nAssociated manuscript"
+  },
+  {
+    "objectID": "software.html#bambaganaci",
+    "href": "software.html#bambaganaci",
+    "title": "Software",
+    "section": "bambaganaCI",
+    "text": "bambaganaCI\nVersion: 0.3.4\nAuthors: Silas Bambil and Yasmeen Babagana.\nAvailability: Public GitHub release.\nbambaganaCI implements statistical procedures for confidence interval estimation, hypothesis testing, descriptive analysis, association measures, regression, analysis of variance, and bootstrap inference.\nThe package provides direct statistical functions and a readable command interface through bambagana().\nStatistical procedures are implemented in R and accompanied by input validation, numerical checks, software tests, function documentation, and reproducible examples.\nPublic repository · Version 0.3.4 release"
+  },
+  {
+    "objectID": "software.html#shiftadapt",
+    "href": "software.html#shiftadapt",
+    "title": "Software",
+    "section": "shiftadapt",
+    "text": "shiftadapt\nAvailability: Under development.\nshiftadapt is intended to support logistic prediction-model updating under distribution shift, including retention, recalibration, coefficient refitting, validation-based selection, and independent predictive evaluation.\nAssociated research"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Silas BambilGraduate Student in Mathematics (Statistics)Georgia State Universitysdbambil98@gmail.com\n\nHome\nResearch\nSoftware\nAcademic\nProfessional\nConferences\nCV☀☾\nProject information is organized by subject:\n\nCredit-risk and fire-loss research\nStatistical software and computational evaluation\nGraduate admissions analysis"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Silas Bambil",
+    "section": "Contact",
+    "text": "Contact\nFor academic, research, or professional correspondence, please use the contact links above."
+  },
+  {
+    "objectID": "index.html#manuscripts-in-preparation",
+    "href": "index.html#manuscripts-in-preparation",
+    "title": "Silas Bambil",
+    "section": "📄 Manuscripts in preparation",
+    "text": "📄 Manuscripts in preparation\n\nSelecting and Estimating Credit-Risk Model Updates Under Distribution Shift\nSilas Bambil and Shudeshna Nandy\nManuscript in preparation, 2026.\nCredit-risk models are developed using historical borrower information but applied to populations whose characteristics or regression relationships may have changed. Retaining an existing model may preserve systematic prediction error, whereas unrestricted refitting with limited recent observations may introduce substantial estimation variability.\nThe study compares retention, recalibration, refitting, and regularized estimation under common labeled-data budgets. Controlled simulations and historical mortgage cohorts distinguish the consequences of selecting an updating strategy from those of estimating its parameters.\nApplied project\n\n\nSelection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information\nSilas Bambil\nIndependent manuscript in preparation, 2026.\nThe probability of selecting the best fitted candidate does not fully characterize predictive performance. Incorrect selections may have limited consequences when candidate predictors have similar risks.\nThis investigation distinguishes candidate-selection accuracy from the predictive regret associated with selecting another fitted candidate. Simulations and historical mortgage data examine how the amount of recent labeled information affects these quantities under distribution shift.\n\n\nTail Model Diagnostics Using Expected Shortfall and Bounded Loss Layers with an Application to Fire Losses\nSilas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh\nManuscript in preparation, 2026.\nAgreement between empirical and fitted high-loss quantiles does not ensure agreement in expected tail losses. For high-excess insurance applications, model adequacy may depend on expected losses between specified attachment and exhaustion points.\nEstablished stop-loss identities and an Expected Shortfall decomposition connect aggregate tail discrepancies to differences within bounded loss layers. The study develops diagnostic and inferential procedures for assessing where fitted tail models and empirical loss distributions disagree.\nSimulation studies and an application to structure-fire damage records from the 2016–2025 National Fire Incident Reporting System releases examine sparse tail observations, influential incidents, and the distinction between discrepancy detection and localization.\nApplied analysis · Conference presentation"
+  },
+  {
+    "objectID": "index.html#completed-unpublished-manuscript",
+    "href": "index.html#completed-unpublished-manuscript",
+    "title": "Silas Bambil",
+    "section": "📚 Completed unpublished manuscript",
+    "text": "📚 Completed unpublished manuscript\n\n📦 ridgeShift: Evaluating Ridge-Regression Model Updating and Target-Sample Allocation in R\nSilas Bambil, Shudeshna Nandy, and Yasmeen Babagana\nCompleted manuscript, 2026. Not submitted for publication.\nWhen a regression model is transferred to another population, a limited target sample must support both candidate estimation and model selection. Allocating additional observations to estimation may improve candidate predictors while reducing the information available for selecting among them.\nThe study examines this allocation problem within ridge-regression model updating. Its framework distinguishes candidate construction from candidate selection and characterizes their contributions to predictive risk through allocation and selection-regret decompositions.\nNumerical verification, computational benchmarking, controlled simulations, and an empirical application to Beijing PM2.5 data support the investigation.\nAssociated statistical software"
+  },
+  {
+    "objectID": "index.html#earlier-research",
+    "href": "index.html#earlier-research",
+    "title": "Silas Bambil",
+    "section": "📖 Earlier research",
+    "text": "📖 Earlier research\n\nGraduate admissions predictive analysis\nGeorgia State University.\nConsolidated admissions records, constructed applicant-level predictors, and contributed to predictive enrollment-model evaluation.\n\n\nApplication of Extreme Value Theory to Fire Insurance\nUndergraduate thesis, Kwame Nkrumah University of Science and Technology, 2020.\nExamined the application of extreme-value methods to the statistical modeling of severe fire-insurance losses."
+  },
+  {
+    "objectID": "index.html#ridge-package",
+    "href": "index.html#ridge-package",
+    "title": "Silas Bambil",
+    "section": "📦 ridgeShift",
+    "text": "📦 ridgeShift\nVersion: 0.1.0\nAuthors: Silas Bambil, Shudeshna Nandy, and Yasmeen Babagana.\nAvailability: Completed and maintained locally; not publicly released.\nridgeShift implements a computational framework for evaluating ridge-regression model updating when limited target observations must be allocated between candidate estimation and validation-based selection.\n\nPrincipal functions\n\nrs_update() — candidate model updating and strategy selection.\nrs_sensitivity() — adaptation–validation allocation sensitivity.\nrs_target_risk() — target-population predictive-risk evaluation.\nrs_compare_risk() — paired predictive-risk comparison.\n\nThe numerical implementation uses singular value decomposition (SVD) and reuses matrix factorizations across penalty evaluations. The package supports validation-based model selection, target-sample allocation sensitivity, and paired predictive-risk comparisons. Numerical results were checked against independent reference calculations, and computational benchmarks assessed performance across repeated model fits. Documented functions support reproducible statistical workflows.\nThe package and associated manuscript are maintained locally. Neither is publicly distributed.\nAssociated manuscript"
+  },
+  {
+    "objectID": "index.html#bambaganaci",
+    "href": "index.html#bambaganaci",
+    "title": "Silas Bambil",
+    "section": "📦 bambaganaCI",
+    "text": "📦 bambaganaCI\nVersion: 0.3.4\nAuthors: Silas Bambil and Yasmeen Babagana.\nAvailability: Public GitHub release.\nbambaganaCI implements statistical procedures for confidence interval estimation, hypothesis testing, descriptive analysis, association measures, regression, analysis of variance, and bootstrap inference.\nThe package provides direct statistical functions and a readable command interface through bambagana().\nStatistical procedures are implemented in R and accompanied by input validation, numerical checks, software tests, function documentation, and reproducible examples.\nPublic repository · Version 0.3.4 release"
+  },
+  {
+    "objectID": "index.html#shiftadapt",
+    "href": "index.html#shiftadapt",
+    "title": "Silas Bambil",
+    "section": "📦 shiftadapt",
+    "text": "📦 shiftadapt\nAvailability: Under development.\nshiftadapt is intended to support logistic prediction-model updating under distribution shift, including retention, recalibration, coefficient refitting, validation-based selection, and independent predictive evaluation.\nAssociated research"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Silas Bambil",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nGeorgia State University\nMS Mathematics, concentration in Statistics\nAugust 2026–present · Atlanta, Georgia.\nExpected graduation: Spring 2028.\n\n\nGeorgia State University\nMS Quantitative Risk Analysis and Management\nMay 2025 · Atlanta, Georgia.\n\n\nKwame Nkrumah University of Science and Technology\nBSc Actuarial Science\nJuly 2020 · Kumasi, Ghana."
+  },
+  {
+    "objectID": "index.html#academic-research-appointments",
+    "href": "index.html#academic-research-appointments",
+    "title": "Silas Bambil",
+    "section": "📚 Academic appointments",
+    "text": "📚 Academic appointments\n\nGraduate Lab Assistant · Georgia State University\nAugust 2026–present · Atlanta, Georgia.\nSupports instruction in MATH 1111 (College Algebra) and MATH 0999 through guided problem solving, mathematical explanations, and individualized academic support.\n\n\nGraduate Assistant · Georgia State University\nAugust 2023–June 2025 · Atlanta, Georgia.\nConsolidated graduate admissions records, constructed applicant-level predictors, and contributed to predictive enrollment-model development and evaluation. Supported faculty quantitative-risk research through statistical analysis and research reporting."
+  },
+  {
+    "objectID": "index.html#teaching-experience",
+    "href": "index.html#teaching-experience",
+    "title": "Silas Bambil",
+    "section": "📚 Teaching experience",
+    "text": "📚 Teaching experience\n\nAP Mathematics Teacher · Osceola County School for the Arts\nJanuary–June 2026 · Florida.\nTaught AP Calculus, AP Precalculus, and AP Statistics. Developed instructional materials, designed assessments, and evaluated student learning. The reported AP examination pass rate was 70%."
+  },
+  {
+    "objectID": "index.html#teaching-and-research-skills",
+    "href": "index.html#teaching-and-research-skills",
+    "title": "Silas Bambil",
+    "section": "📝 Teaching and research skills",
+    "text": "📝 Teaching and research skills\n\nResearch\n\nResearch design and methodological framework development.\nExperimental design and simulation methodology.\nStatistical validation and sensitivity analysis.\nStatistical inference and uncertainty assessment.\nNumerical verification and reproducible computing.\nAcademic writing and research presentation.\n\n\n\nTeaching\n\nMathematics and statistics instruction.\nLesson planning and instructional material development.\nClassroom management.\nAssessment design and evaluation.\nIndividualized academic support."
+  },
+  {
+    "objectID": "index.html#statistical-and-computational-skills",
+    "href": "index.html#statistical-and-computational-skills",
+    "title": "Silas Bambil",
+    "section": "💻 Statistical and computational skills",
+    "text": "💻 Statistical and computational skills\nComputational tools: R, Python, and Microsoft Excel.\nStatistical methods: regression, statistical inference, Monte Carlo simulation, bootstrap methods, cross-validation, calibration, and statistical visualization.\nQuantitative risk: credit-risk modeling, extreme-value theory, generalized Pareto modeling, Value-at-Risk, and Expected Shortfall."
+  },
+  {
+    "objectID": "index.html#academic-awards",
+    "href": "index.html#academic-awards",
+    "title": "Silas Bambil",
+    "section": "🏅 Academic awards",
+    "text": "🏅 Academic awards\n\nGraduate Merit Scholarship, Department of Mathematics and Statistics, Georgia State University, 2026.\nGraduate Merit Scholarship, Robinson College of Business, Georgia State University, 2023–2025.\n\nResearch · Academic CV (PDF)"
+  },
+  {
+    "objectID": "index.html#professional-experience",
+    "href": "index.html#professional-experience",
+    "title": "Silas Bambil",
+    "section": "💼 Professional experience",
+    "text": "💼 Professional experience\n\nFinance Associate · OPH CHEM CONSULT\nMay 2022–August 2023 · Accra, Ghana.\n\nExamined financial misappropriation risks and community financial challenges.\nReviewed financial information and supporting research records to assess identified risks.\nPrepared analytical reports and research briefs documenting findings.\n\n\n\nSenior Researcher · Ghana Statistical Service\nSeptember 2020–August 2021 · Accra, Ghana.\n\nOrganized survey observations for statistical analysis and research reporting.\nAnalyzed population and economic indicators using available survey data.\nInterpreted statistical findings and contributed to research reports."
+  },
+  {
+    "objectID": "index.html#professional-competencies",
+    "href": "index.html#professional-competencies",
+    "title": "Silas Bambil",
+    "section": "Professional competencies",
+    "text": "Professional competencies\nQuantitative risk: credit-risk modeling, predictive model evaluation, extreme-loss analysis, Value-at-Risk, Expected Shortfall, and scenario analysis.\nStatistical analysis: regression, model calibration, predictive validation, statistical inference, simulation, and resampling.\nData management: analytical dataset construction, survey data organization, data quality assessment, and statistical reporting.\nComputational tools: R, Python, and Microsoft Excel."
+  },
+  {
+    "objectID": "index.html#finra-examinations",
+    "href": "index.html#finra-examinations",
+    "title": "Silas Bambil",
+    "section": "FINRA examinations",
+    "text": "FINRA examinations\n\nSeries 63 — Uniform Securities Agent State Law Examination: August 2025.\nSecurities Industry Essentials (SIE) Examination: January 2025.\n\nAcademic appointments and teaching experience are presented separately.\nAcademic experience · Quantitative projects · Professional CV (PDF)"
+  },
+  {
+    "objectID": "index.html#research-presentations",
+    "href": "index.html#research-presentations",
+    "title": "Silas Bambil",
+    "section": "🎙️ Research presentations",
+    "text": "🎙️ Research presentations\n\n5th Annual Graduate Conference for Research, Scholarship, and Creative Activity\nNovember 18, 2026 · Georgia State University, Atlanta, Georgia.\nPresentation type: Research poster.\nBeyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models.\nSilas Bambil, Shudeshna Nandy, Clement Ampong, and Prakash Karki.\nFaculty advisor: Chi-Kuang Yeh.\nThe presentation examined statistical diagnostics for identifying discrepancies between empirical and fitted tail-loss distributions within bounded insurance layers.\nResearch description"
+  },
+  {
+    "objectID": "index.html#conference-attendance",
+    "href": "index.html#conference-attendance",
+    "title": "Silas Bambil",
+    "section": "Conference attendance",
+    "text": "Conference attendance\n\nGeorgia Statistics Day\nConference participation."
+  },
+  {
+    "objectID": "index.html#academic-cv",
+    "href": "index.html#academic-cv",
+    "title": "Silas Bambil",
+    "section": "📄 Academic CV",
+    "text": "📄 Academic CV\nEducation, research, academic appointments, teaching, statistical software, conferences, and scholarly competencies.\nDownload academic CV (PDF, 2 pages)\nAcademic experience · Research"
+  },
+  {
+    "objectID": "index.html#professional-cv",
+    "href": "index.html#professional-cv",
+    "title": "Silas Bambil",
+    "section": "📄 Professional CV",
+    "text": "📄 Professional CV\nEducation, professional experience, quantitative projects, statistical computing, and FINRA examinations.\nDownload professional CV (PDF, 1 page)\nProfessional experience · Projects"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Silas BambilGraduate Student in Mathematics (Statistics)Georgia State Universitysdbambil98@gmail.com\n\nHome\nResearch\nSoftware\nAcademic\nProfessional\nConferences\nCV☀☾\nContact details and academic profiles are available above."
+  },
+  {
+    "objectID": "academic.html",
+    "href": "academic.html",
+    "title": "Academic",
+    "section": "",
+    "text": "Silas BambilGraduate Student in Mathematics (Statistics)Georgia State Universitysdbambil98@gmail.com"
+  },
+  {
+    "objectID": "academic.html#education",
+    "href": "academic.html#education",
+    "title": "Academic",
+    "section": "Education",
+    "text": "Education\n\nGeorgia State University\nMS Mathematics, concentration in Statistics\nAugust 2026–present · Atlanta, Georgia.\nExpected graduation: Spring 2028.\n\n\nGeorgia State University\nMS Quantitative Risk Analysis and Management\nMay 2025 · Atlanta, Georgia.\n\n\nKwame Nkrumah University of Science and Technology\nBSc Actuarial Science\nJuly 2020 · Kumasi, Ghana."
+  },
+  {
+    "objectID": "academic.html#academic-research-appointments",
+    "href": "academic.html#academic-research-appointments",
+    "title": "Academic",
+    "section": "Academic appointments",
+    "text": "Academic appointments\n\nGraduate Lab Assistant · Georgia State University\nAugust 2026–present · Atlanta, Georgia.\nSupports instruction in MATH 1111 (College Algebra) and MATH 0999 through guided problem solving, mathematical explanations, and individualized academic support.\n\n\nGraduate Assistant · Georgia State University\nAugust 2023–June 2025 · Atlanta, Georgia.\nConsolidated graduate admissions records, constructed applicant-level predictors, and contributed to predictive enrollment-model development and evaluation. Supported faculty quantitative-risk research through statistical analysis and research reporting."
+  },
+  {
+    "objectID": "academic.html#teaching-experience",
+    "href": "academic.html#teaching-experience",
+    "title": "Academic",
+    "section": "Teaching experience",
+    "text": "Teaching experience\n\nAP Mathematics Teacher · Osceola County School for the Arts\nJanuary–June 2026 · Florida.\nTaught AP Calculus, AP Precalculus, and AP Statistics. Developed instructional materials, designed assessments, and evaluated student learning. The reported AP examination pass rate was 70%."
+  },
+  {
+    "objectID": "academic.html#teaching-and-research-skills",
+    "href": "academic.html#teaching-and-research-skills",
+    "title": "Academic",
+    "section": "Teaching and research skills",
+    "text": "Teaching and research skills\n\nResearch\n\nResearch design and methodological framework development.\nExperimental design and simulation methodology.\nStatistical validation and sensitivity analysis.\nStatistical inference and uncertainty assessment.\nNumerical verification and reproducible computing.\nAcademic writing and research presentation.\n\n\n\nTeaching\n\nMathematics and statistics instruction.\nLesson planning and instructional material development.\nClassroom management.\nAssessment design and evaluation.\nIndividualized academic support."
+  },
+  {
+    "objectID": "academic.html#statistical-and-computational-skills",
+    "href": "academic.html#statistical-and-computational-skills",
+    "title": "Academic",
+    "section": "Statistical and computational skills",
+    "text": "Statistical and computational skills\nComputational tools: R, Python, and Microsoft Excel.\nStatistical methods: regression, statistical inference, Monte Carlo simulation, bootstrap methods, cross-validation, calibration, and statistical visualization.\nQuantitative risk: credit-risk modeling, extreme-value theory, generalized Pareto modeling, Value-at-Risk, and Expected Shortfall."
+  },
+  {
+    "objectID": "academic.html#academic-awards",
+    "href": "academic.html#academic-awards",
+    "title": "Academic",
+    "section": "Academic awards",
+    "text": "Academic awards\n\nGraduate Merit Scholarship, Department of Mathematics and Statistics, Georgia State University, 2026.\nGraduate Merit Scholarship, Robinson College of Business, Georgia State University, 2023–2025.\n\nResearch · Academic CV (PDF)"
+  },
+  {
+    "objectID": "conferences.html",
+    "href": "conferences.html",
+    "title": "Conferences",
+    "section": "",
+    "text": "Silas BambilGraduate Student in Mathematics (Statistics)Georgia State Universitysdbambil98@gmail.com"
+  },
+  {
+    "objectID": "conferences.html#research-presentations",
+    "href": "conferences.html#research-presentations",
+    "title": "Conferences",
+    "section": "Research presentations",
+    "text": "Research presentations\n\n5th Annual Graduate Conference for Research, Scholarship, and Creative Activity\nNovember 18, 2026 · Georgia State University, Atlanta, Georgia.\nPresentation type: Research poster.\nBeyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models.\nSilas Bambil, Shudeshna Nandy, Clement Ampong, and Prakash Karki.\nFaculty advisor: Chi-Kuang Yeh.\nThe presentation examined statistical diagnostics for identifying discrepancies between empirical and fitted tail-loss distributions within bounded insurance layers.\nResearch description"
+  },
+  {
+    "objectID": "conferences.html#conference-attendance",
+    "href": "conferences.html#conference-attendance",
+    "title": "Conferences",
+    "section": "Conference attendance",
+    "text": "Conference attendance\n\nGeorgia Statistics Day\nConference participation."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Silas BambilGraduate Student in Mathematics (Statistics)Georgia State Universitysdbambil98@gmail.com"
+  },
+  {
+    "objectID": "cv.html#academic-cv",
+    "href": "cv.html#academic-cv",
+    "title": "Curriculum Vitae",
+    "section": "Academic CV",
+    "text": "Academic CV\nEducation, research, academic appointments, teaching, statistical software, conferences, and scholarly competencies.\nDownload academic CV (PDF, 2 pages)\nAcademic experience · Research"
+  },
+  {
+    "objectID": "cv.html#professional-cv",
+    "href": "cv.html#professional-cv",
+    "title": "Curriculum Vitae",
+    "section": "Professional CV",
+    "text": "Professional CV\nEducation, professional experience, quantitative projects, statistical computing, and FINRA examinations.\nDownload professional CV (PDF, 1 page)\nProfessional experience · Projects"
+  },
+  {
+    "objectID": "professional-cv.html",
+    "href": "professional-cv.html",
+    "title": "Professional",
+    "section": "",
+    "text": "Silas BambilGraduate Student in Mathematics (Statistics)Georgia State Universitysdbambil98@gmail.com"
+  },
+  {
+    "objectID": "professional-cv.html#professional-experience",
+    "href": "professional-cv.html#professional-experience",
+    "title": "Professional",
+    "section": "Professional experience",
+    "text": "Professional experience\n\nFinance Associate · OPH CHEM CONSULT\nMay 2022–August 2023 · Accra, Ghana.\n\nExamined financial misappropriation risks and community financial challenges.\nReviewed financial information and supporting research records to assess identified risks.\nPrepared analytical reports and research briefs documenting findings.\n\n\n\nSenior Researcher · Ghana Statistical Service\nSeptember 2020–August 2021 · Accra, Ghana.\n\nOrganized survey observations for statistical analysis and research reporting.\nAnalyzed population and economic indicators using available survey data.\nInterpreted statistical findings and contributed to research reports."
+  },
+  {
+    "objectID": "professional-cv.html#professional-competencies",
+    "href": "professional-cv.html#professional-competencies",
+    "title": "Professional",
+    "section": "Professional competencies",
+    "text": "Professional competencies\nQuantitative risk: credit-risk modeling, predictive model evaluation, extreme-loss analysis, Value-at-Risk, Expected Shortfall, and scenario analysis.\nStatistical analysis: regression, model calibration, predictive validation, statistical inference, simulation, and resampling.\nData management: analytical dataset construction, survey data organization, data quality assessment, and statistical reporting.\nComputational tools: R, Python, and Microsoft Excel."
+  },
+  {
+    "objectID": "professional-cv.html#finra-examinations",
+    "href": "professional-cv.html#finra-examinations",
+    "title": "Professional",
+    "section": "FINRA examinations",
+    "text": "FINRA examinations\n\nSeries 63 — Uniform Securities Agent State Law Examination: August 2025.\nSecurities Industry Essentials (SIE) Examination: January 2025.\n\nAcademic appointments and teaching experience are presented separately.\nAcademic experience · Quantitative projects · Professional CV (PDF)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Silas BambilGraduate Student in Mathematics (Statistics)Georgia State Universitysdbambil98@gmail.com"
+  },
+  {
+    "objectID": "research.html#manuscripts-in-preparation",
+    "href": "research.html#manuscripts-in-preparation",
+    "title": "Research",
+    "section": "Manuscripts in preparation",
+    "text": "Manuscripts in preparation\n\nSelecting and Estimating Credit-Risk Model Updates Under Distribution Shift\nSilas Bambil and Shudeshna Nandy\nManuscript in preparation, 2026.\nCredit-risk models are developed using historical borrower information but applied to populations whose characteristics or regression relationships may have changed. Retaining an existing model may preserve systematic prediction error, whereas unrestricted refitting with limited recent observations may introduce substantial estimation variability.\nThe study compares retention, recalibration, refitting, and regularized estimation under common labeled-data budgets. Controlled simulations and historical mortgage cohorts distinguish the consequences of selecting an updating strategy from those of estimating its parameters.\nApplied project\n\n\nSelection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information\nSilas Bambil\nIndependent manuscript in preparation, 2026.\nThe probability of selecting the best fitted candidate does not fully characterize predictive performance. Incorrect selections may have limited consequences when candidate predictors have similar risks.\nThis investigation distinguishes candidate-selection accuracy from the predictive regret associated with selecting another fitted candidate. Simulations and historical mortgage data examine how the amount of recent labeled information affects these quantities under distribution shift.\n\n\nTail Model Diagnostics Using Expected Shortfall and Bounded Loss Layers with an Application to Fire Losses\nSilas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh\nManuscript in preparation, 2026.\nAgreement between empirical and fitted high-loss quantiles does not ensure agreement in expected tail losses. For high-excess insurance applications, model adequacy may depend on expected losses between specified attachment and exhaustion points.\nEstablished stop-loss identities and an Expected Shortfall decomposition connect aggregate tail discrepancies to differences within bounded loss layers. The study develops diagnostic and inferential procedures for assessing where fitted tail models and empirical loss distributions disagree.\nSimulation studies and an application to structure-fire damage records from the 2016–2025 National Fire Incident Reporting System releases examine sparse tail observations, influential incidents, and the distinction between discrepancy detection and localization.\nApplied analysis · Conference presentation"
+  },
+  {
+    "objectID": "research.html#completed-unpublished-manuscript",
+    "href": "research.html#completed-unpublished-manuscript",
+    "title": "Research",
+    "section": "Completed unpublished manuscript",
+    "text": "Completed unpublished manuscript\n\nridgeShift: Evaluating Ridge-Regression Model Updating and Target-Sample Allocation in R\nSilas Bambil, Shudeshna Nandy, and Yasmeen Babagana\nCompleted manuscript, 2026. Not submitted for publication.\nWhen a regression model is transferred to another population, a limited target sample must support both candidate estimation and model selection. Allocating additional observations to estimation may improve candidate predictors while reducing the information available for selecting among them.\nThe study examines this allocation problem within ridge-regression model updating. Its framework distinguishes candidate construction from candidate selection and characterizes their contributions to predictive risk through allocation and selection-regret decompositions.\nNumerical verification, computational benchmarking, controlled simulations, and an empirical application to Beijing PM2.5 data support the investigation.\nAssociated statistical software"
+  },
+  {
+    "objectID": "research.html#earlier-research",
+    "href": "research.html#earlier-research",
+    "title": "Research",
+    "section": "Earlier research",
+    "text": "Earlier research\n\nGraduate admissions predictive analysis\nGeorgia State University.\nConsolidated admissions records, constructed applicant-level predictors, and contributed to predictive enrollment-model evaluation.\n\n\nApplication of Extreme Value Theory to Fire Insurance\nUndergraduate thesis, Kwame Nkrumah University of Science and Technology, 2020.\nExamined the application of extreme-value methods to the statistical modeling of severe fire-insurance losses."
+  }
+]
