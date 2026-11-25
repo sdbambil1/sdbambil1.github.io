@@ -32,6 +32,10 @@ description: "Professional experience of Silas Bambil in financial research, sta
 
 **Survey and data work:** survey research, economic and population data management, statistical analysis, and research reporting.
 
+## Statistical software development
+
+**ridgeShift (v0.1.0).** Co-developed an R package for updating predictive models under distribution shift. The work includes regularized estimation, validation-based model selection, numerical verification, and reproducible performance assessment. [Software details](projects.qmd#ridge-package).
+
 ## FINRA examinations
 
 - **Series 63 — Uniform Securities Agent State Law Examination:** August 2025.
