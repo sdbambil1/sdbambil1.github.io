@@ -18,7 +18,7 @@ include-in-header:
 
 ```{=html}
 <!-- ACADEMIC-IDENTITY-BEGIN -->
-<section class="academic-identity" aria-label="Academic identity"><div class="identity-text"><div class="identity-name">Silas Bambil</div><div class="identity-affiliation">Graduate Student in Mathematics (Statistics)</div><div class="identity-institution">Georgia State University</div><div class="identity-links academic-contact-row" aria-label="Contact information and academic profiles"><a class="academic-contact-icon" href="https://github.com/sdbambil1" aria-label="GitHub" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.5-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.94-2.63c3.14-.35 6.44-1.54 6.44-7A5.4 5.4 0 0 019 4.77 5 5 0 0 0 18.91 1S17.73.65 15 2.48a13.38 13.38 0 0 0-7 0C5.27.65 4.09 1 4.09 1A5 5 0 0 0 4 4.77 5.4 5.4 0 0 0 2.5 8.5c0 5.42 3.3 6.61 6.44 7A3.4 3.4 0 0 08 18.1V22"/></svg></a><a class="academic-contact-icon" href="tel:+14044687274" aria-label="Telephone" title="Telephone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7l.6 3a2 2 0 0 1-.6 2.1l-1.3 1.3a16 16 0 0 0 4.2 4.2l1.3-1.3a2 2 0 0 1 2.1-.6l3 .6a2 2 0 0 1 1.7 2z"/></svg></a><a class="academic-contact-icon" href="https://www.google.com/maps/search/?api=1&amp;query=Georgia%20State%20University%2C%20Atlanta%2C%20Georgia" aria-label="Georgia State University, Atlanta" title="Georgia State University, Atlanta"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></svg></a><a class="academic-contact-icon" href="https://orcid.org/0009-0002-5110-8102" aria-label="ORCID" title="ORCID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="7.5" cy="7" r=".7" fill="currentColor"/><path d="M7.5 10v7M11 7h3a5 5 0 0 1 0 10h-3z"/></svg></a><a class="academic-contact-icon" href="cv.html" aria-label="Curriculum Vitae" title="Curriculum Vitae"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></a><a class="academic-contact-email" href="mailto:sdbambil98@gmail.com" aria-label="Email correspondence">sdbambil98@gmail.com</a></div></div></section>
+<section class="academic-identity" aria-label="Academic identity"><div class="identity-text"><div class="identity-name">Silas Bambil</div><div class="identity-affiliation">Graduate Student in Mathematics (Statistics)</div><div class="identity-institution">Georgia State University</div><div class="identity-links academic-contact-row" aria-label="Contact information and academic profiles"><a class="academic-contact-icon" href="https://github.com/sdbambil1" aria-label="GitHub" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.5-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.94-2.63c3.14-.35 6.44-1.54 6.44-7A5.4 5.4 0 0 019 4.77 5 5 0 0 0 18.91 1S17.73.65 15 2.48a13.38 13.38 0 0 0-7 0C5.27.65 4.09 1 4.09 1A5 5 0 0 0 4 4.77 5.4 5.4 0 0 0 2.5 8.5c0 5.42 3.3 6.61 6.44 7A3.4 3.4 0 0 08 18.1V22"/></svg></a><a class="academic-contact-icon" href="tel:+14044687274" aria-label="Telephone" title="Telephone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7l.6 3a2 2 0 0 1-.6 2.1l-1.3 1.3a16 16 0 0 0 4.2 4.2l1.3-1.3a2 2 0 0 1 2.1-.6l3 .6a2 2 0 0 1 1.7 2z"/></svg></a><a class="academic-contact-icon" href="https://www.google.com/maps/search/?api=1&amp;query=Georgia%20State%20University%2C%20Atlanta%2C%20Georgia" aria-label="Georgia State University, Atlanta" title="Georgia State University, Atlanta"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></svg></a><a class="academic-contact-icon" href="https://orcid.org/0009-0002-5110-8102" aria-label="ORCID" title="ORCID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="7.5" cy="7" r=".7" fill="currentColor"/><path d="M7.5 10v7M11 7h3a5 5 0 0 1 0 10h-3z"/></svg></a><a class="academic-contact-icon" href="cv.html" aria-label="Curriculum Vitae" title="Curriculum Vitae"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></a><a class="academic-contact-icon" href="mailto:sdbambil98@gmail.com" aria-label="Email correspondence: sdbambil98@gmail.com" title="sdbambil98@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a></div></div></section>
 <!-- ACADEMIC-IDENTITY-END -->
 ```
 
@@ -42,11 +42,30 @@ include-in-header:
 
 # About
 
-Silas Bambil is a graduate student in Mathematics, with a concentration in Statistics, at Georgia State University. He holds an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from Kwame Nkrumah University of Science and Technology.
+**Hello / Akwaaba!**
 
-His research concerns credit-risk model updating and tail-risk measurement. He investigates how limited recent observations can be used to adapt predictive models under distribution shift. His work in extreme-value theory examines discrepancies between empirical and fitted tail-loss distributions, particularly within bounded insurance layers.
+I am a graduate student in Mathematics, with a concentration in Statistics, at [Georgia State University](https://www.gsu.edu/). I hold an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from [Kwame Nkrumah University of Science and Technology](https://www.knust.edu.gh/), Ghana.
 
-His computational work includes the development and numerical evaluation of statistical software in R. His professional experience is in financial-risk analysis and statistical research.
+My research focuses on statistical methods for prediction and risk measurement, particularly how distributional changes and limited observations affect model selection, predictive performance, and estimates of extreme losses.
+
+My research interests include:
+
+- [Statistical learning and predictive model validation](#research).
+- [Model updating under distribution shift](#research).
+- [Credit-risk modeling and model-selection regret](#research).
+- [Extreme-value theory and tail-risk measurement](#research).
+- Statistical inference and computational statistics.
+- [Statistical software development in R](#software).
+
+I develop statistical software for inference and predictive model updating. My academic experience includes graduate research and mathematics instruction, while my professional background includes financial analysis and statistical research.
+
+My current research applications include credit-risk prediction and insurance loss modeling. I am also interested in applications of statistical methods to banking, financial risk management, and institutional analytics.
+
+Beyond my academic work, I enjoy writing about personal experiences and questions that have influenced how I understand life. My [Stories](#stories) section contains essays, memories, open letters, and reflections on education, faith, relationships, personal growth, Ghanaian society, and public accountability. These writings offer a more personal account of the experiences and convictions that have shaped my thinking.
+
+## Contact
+
+For academic, research, or professional correspondence, please use the contact links above.
 
 <!-- ACADEMIC-HOME-END -->
 
@@ -357,159 +376,165 @@ Education, professional experience, quantitative projects, statistical computing
 
 # Stories
 
-Personal experiences, memories, and reflections.
+A collection of personal essays, open letters, memories, and reflections written at different stages of my life.
 
-### [What Do You Want to Become in Future?](stories/what-do-you-want-to-become-in-future.qmd)
+These writings explore education, faith, relationships, friendship, personal growth, uncertainty, and the experiences of being Ghanaian both at home and abroad. Some reflect on questions of governance, public accountability, and opportunity; others concern more intimate experiences that have influenced the person I am becoming.
+
+Many originated as private messages, spontaneous observations, or reflections written in response to particular experiences. They preserve my thoughts and feelings at the time of writing, even where my understanding may have subsequently evolved.
+
+Together, they offer a more personal account of the experiences, questions, convictions, and contradictions that have shaped how I think about life.
+
+### [What Do You Want to Become in Future?](stories/what-do-you-want-to-become-in-future.html)
 
 [November 2026]{.meta}
 
 A personal reflection on chance, changing ambitions, professional uncertainty, and the experiences that shape what we want to become.
 
-[Read story →](stories/what-do-you-want-to-become-in-future.qmd)
+[Read story →](stories/what-do-you-want-to-become-in-future.html)
 
-### [Be Excellent Where You Are](stories/be-excellent-where-you-are.qmd)
+### [Be Excellent Where You Are](stories/be-excellent-where-you-are.html)
 
 [October 2026]{.meta}
 
 A personal reflection on the compounding value of learning, research, professional development, and growth in character.
 
-[Read story →](stories/be-excellent-where-you-are.qmd)
+[Read story →](stories/be-excellent-where-you-are.html)
 
-### [Lessons and Lashes: The Cane, Monsieur, and Owuo](stories/lessons-and-lashes.qmd)
+### [Lessons and Lashes: The Cane, Monsieur, and Owuo](stories/lessons-and-lashes.html)
 
 [June 2026]{.meta}
 
 Memories of my school days in Ghana and reflections on the lasting impressions teachers leave on their students.
 
-[Read story →](stories/lessons-and-lashes.qmd)
+[Read story →](stories/lessons-and-lashes.html)
 
-### [Beyond Being Right](stories/beyond-being-right.qmd)
+### [Beyond Being Right](stories/beyond-being-right.html)
 
 [December 2025]{.meta}
 
 Reflections on intellectual humility, listening, and extending grace to people whose experiences and circumstances differ from our own.
 
-[Read story →](stories/beyond-being-right.qmd)
+[Read story →](stories/beyond-being-right.html)
 
-### [And Still, I Had to Smile](stories/and-still-i-had-to-smile.qmd)
+### [And Still, I Had to Smile](stories/and-still-i-had-to-smile.html)
 
 [June 2025]{.meta}
 
 A personal reflection on unemployment after graduation, quiet struggles with faith and self-doubt, and the reassurance of belonging to a family.
 
-[Read story →](stories/and-still-i-had-to-smile.qmd)
+[Read story →](stories/and-still-i-had-to-smile.html)
 
-### [To Emmanuel, After Months of Silence](stories/to-emmanuel-after-months-of-silence.qmd)
+### [To Emmanuel, After Months of Silence](stories/to-emmanuel-after-months-of-silence.html)
 
 [June 2025]{.meta}
 
 An open letter to my cousin about an accident, months of silence, and the importance of communicating with the people we love.
 
-[Read story →](stories/to-emmanuel-after-months-of-silence.qmd)
+[Read story →](stories/to-emmanuel-after-months-of-silence.html)
 
-### [Dear Malik Basintale, What About Those Who Cannot Get Your Attention?](stories/dear-malik-basintale.qmd)
+### [Dear Malik Basintale, What About Those Who Cannot Get Your Attention?](stories/dear-malik-basintale.html)
 
 [May 2025]{.meta}
 
 An open letter on institutional accessibility, transparent procedures, and the evaluation of youth employment initiatives in Ghana.
 
-[Read story →](stories/dear-malik-basintale.qmd)
+[Read story →](stories/dear-malik-basintale.html)
 
-### [It Would Have Been Enough to Say Sorry](stories/it-would-have-been-enough-to-say-sorry.qmd)
+### [It Would Have Been Enough to Say Sorry](stories/it-would-have-been-enough-to-say-sorry.html)
 
 [March 2025]{.meta}
 
 A personal reflection on accountability, sincere apologies, and the importance of acknowledging hurt in friendships.
 
-[Read story →](stories/it-would-have-been-enough-to-say-sorry.qmd)
+[Read story →](stories/it-would-have-been-enough-to-say-sorry.html)
 
-### [Ghana, What Are We Celebrating?](stories/ghana-what-are-we-celebrating.qmd)
+### [Ghana, What Are We Celebrating?](stories/ghana-what-are-we-celebrating.html)
 
 [March 2025]{.meta}
 
 A personal reflection on Ghana's Independence Day, the economic independence of young Ghanaians, and the opportunities they hope to find at home.
 
-[Read story →](stories/ghana-what-are-we-celebrating.qmd)
+[Read story →](stories/ghana-what-are-we-celebrating.html)
 
-### [The Years We Never Got Back](stories/the-years-we-never-got-back.qmd)
+### [The Years We Never Got Back](stories/the-years-we-never-got-back.html)
 
 [December 2024]{.meta}
 
 A personal reflection on graduate-school experiences, professional opportunities, and the years spent seeking economic independence.
 
-[Read story →](stories/the-years-we-never-got-back.qmd)
+[Read story →](stories/the-years-we-never-got-back.html)
 
-### [Wear Your Jersey? Keep Your Jersey.](stories/wear-your-jersey-keep-your-jersey.qmd)
+### [Wear Your Jersey? Keep Your Jersey.](stories/wear-your-jersey-keep-your-jersey.html)
 
 [December 2024]{.meta}
 
 A personal reflection on political loyalty, accountability, and independent judgement in Ghana, through the lens of football fandom.
 
-[Read story →](stories/wear-your-jersey-keep-your-jersey.qmd)
+[Read story →](stories/wear-your-jersey-keep-your-jersey.html)
 
-### [Even Then, I Was Grateful](stories/even-then-i-was-grateful.qmd)
+### [Even Then, I Was Grateful](stories/even-then-i-was-grateful.html)
 
 [December 2024]{.meta}
 
 A personal reflection on faith and gratitude during a period of professional disappointment, financial uncertainty, and delayed plans.
 
-[Read story →](stories/even-then-i-was-grateful.qmd)
+[Read story →](stories/even-then-i-was-grateful.html)
 
-### [A Life Worth Sharing](stories/a-life-worth-sharing.qmd)
+### [A Life Worth Sharing](stories/a-life-worth-sharing.html)
 
 [November 2024]{.meta}
 
 Reflections on love, companionship, marriage, and the pleasure of sharing an ordinary life with another person.
 
-[Read story →](stories/a-life-worth-sharing.qmd)
+[Read story →](stories/a-life-worth-sharing.html)
 
-### [The Life I No Longer Have to Postpone](stories/the-life-i-no-longer-have-to-postpone.qmd)
+### [The Life I No Longer Have to Postpone](stories/the-life-i-no-longer-have-to-postpone.html)
 
 [November 2024]{.meta}
 
 Reflections on how moving to America changed my understanding of financial security, marriage, and building a life together.
 
-[Read story →](stories/the-life-i-no-longer-have-to-postpone.qmd)
+[Read story →](stories/the-life-i-no-longer-have-to-postpone.html)
 
-### [The God I Sometimes Forget](stories/the-god-i-sometimes-forget.qmd)
+### [The God I Sometimes Forget](stories/the-god-i-sometimes-forget.html)
 
 [November 2024]{.meta}
 
 A personal reflection on faith, friendship, and learning to trust God in the midst of uncertainty.
 
-[Read story →](stories/the-god-i-sometimes-forget.qmd)
+[Read story →](stories/the-god-i-sometimes-forget.html)
 
-### [Even Michael Has a Point](stories/even-michael-has-a-point.qmd)
+### [Even Michael Has a Point](stories/even-michael-has-a-point.html)
 
 [November 2024]{.meta}
 
 A personal reflection on friendship, disagreement, independent judgement, and consistent standards of accountability.
 
-[Read story →](stories/even-michael-has-a-point.qmd)
+[Read story →](stories/even-michael-has-a-point.html)
 
-### [Dear Ghana, What Have They Done with Our Money?](stories/dear-ghana-what-have-they-done-with-our-money.qmd)
+### [Dear Ghana, What Have They Done with Our Money?](stories/dear-ghana-what-have-they-done-with-our-money.html)
 
 [March 2024]{.meta}
 
 An Independence Day open letter reflecting on public expenditure, opportunity costs, and accountability in the management of Ghana's national resources.
 
-[Read story →](stories/dear-ghana-what-have-they-done-with-our-money.qmd)
+[Read story →](stories/dear-ghana-what-have-they-done-with-our-money.html)
 
-### [To My Girlfriend Who Never Was](stories/to-my-girlfriend-who-never-was.qmd)
+### [To My Girlfriend Who Never Was](stories/to-my-girlfriend-who-never-was.html)
 
 [August 2023]{.meta}
 
 A birthday letter reflecting on friendship, affection, faith, and gratitude for someone whose presence makes life more beautiful.
 
-[Read story →](stories/to-my-girlfriend-who-never-was.qmd)
+[Read story →](stories/to-my-girlfriend-who-never-was.html)
 
-### [The Day I Walked Again](stories/the-day-i-walked-again.qmd)
+### [The Day I Walked Again](stories/the-day-i-walked-again.html)
 
 [August 2021]{.meta}
 
 Reflections on recovering from a serious injury, learning to walk again, and reconsidering ambition, family, and the value of everyday life.
 
-[Read story →](stories/the-day-i-walked-again.qmd)
+[Read story →](stories/the-day-i-walked-again.html)
 
 ::::::::
 
