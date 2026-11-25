@@ -1,92 +1,472 @@
 ---
-title: "Academic Profile"
-description: "Silas Bambil's education, graduate research appointment, academic skills, and awards."
+title: "Academic"
+description: "Education, academic appointments, teaching, research methodology, and statistical competencies."
+include-in-header:
+  - text: |
+      <!-- WEBSITE-METADATA-BEGIN -->
+      <meta property="og:title" content="Academic – Silas Bambil">
+      <meta property="og:description" content="Education, academic appointments, teaching, research methodology, and statistical competencies.">
+      <meta property="og:url" content="https://sdbambil1.github.io/academic.html">
+      <meta property="og:site_name" content="Silas Bambil">
+      <meta property="og:type" content="website">
+      <!-- WEBSITE-METADATA-END -->
 ---
 
-<p class="eyebrow">Academic background</p>
-<p class="lede">My academic training is in actuarial science, quantitative risk analysis, and statistics. My graduate research experience includes predictive modeling, statistical data analysis, and support for faculty research.</p>
+```{=html}
+<!-- ACADEMIC-IDENTITY-BEGIN -->
+<section class="academic-identity" aria-label="Academic identity"><div class="identity-text"><div class="identity-name">Silas Bambil</div><div class="identity-affiliation">Graduate Student in Mathematics (Statistics)</div><div class="identity-institution">Georgia State University</div><div class="identity-links academic-contact-row" aria-label="Contact information and academic profiles"><a class="academic-contact-icon" href="https://github.com/sdbambil1" aria-label="GitHub" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.5-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.94-2.63c3.14-.35 6.44-1.54 6.44-7A5.4 5.4 0 0 019 4.77 5 5 0 0 0 18.91 1S17.73.65 15 2.48a13.38 13.38 0 0 0-7 0C5.27.65 4.09 1 4.09 1A5 5 0 0 0 4 4.77 5.4 5.4 0 0 0 2.5 8.5c0 5.42 3.3 6.61 6.44 7A3.4 3.4 0 0 08 18.1V22"/></svg></a><a class="academic-contact-icon" href="tel:+14044687274" aria-label="Telephone" title="Telephone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7l.6 3a2 2 0 0 1-.6 2.1l-1.3 1.3a16 16 0 0 0 4.2 4.2l1.3-1.3a2 2 0 0 1 2.1-.6l3 .6a2 2 0 0 1 1.7 2z"/></svg></a><a class="academic-contact-icon" href="https://www.google.com/maps/search/?api=1&amp;query=Georgia%20State%20University%2C%20Atlanta%2C%20Georgia" aria-label="Georgia State University, Atlanta" title="Georgia State University, Atlanta"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></svg></a><a class="academic-contact-icon" href="https://orcid.org/0009-0002-5110-8102" aria-label="ORCID" title="ORCID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="7.5" cy="7" r=".7" fill="currentColor"/><path d="M7.5 10v7M11 7h3a5 5 0 0 1 0 10h-3z"/></svg></a><a class="academic-contact-icon" href="cv.html" aria-label="Curriculum Vitae" title="Curriculum Vitae"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></a><a class="academic-contact-email" href="mailto:sdbambil98@gmail.com" aria-label="Email correspondence">sdbambil98@gmail.com</a></div></div></section>
+<!-- ACADEMIC-IDENTITY-END -->
+```
 
-<nav class="jump-links" aria-label="Academic sections"><a href="#education">Education</a><a href="#academic-research-appointments">Research appointment</a><a href="#teaching-and-research-skills">Teaching and research skills</a><a href="#statistical-and-computational-skills">Statistical methods</a><a href="#academic-awards">Awards</a></nav>
+```{=html}
+<nav class="academic-tabs" aria-label="Main navigation"><div class="academic-tab-links"><a class="academic-tab" data-tab="home" href="index.html#home" id="tab-home">Home</a>
+<a class="academic-tab" data-tab="research" href="index.html#research" id="tab-research">Research</a>
+<a class="academic-tab" data-tab="software" href="index.html#software" id="tab-software">Software</a>
+<a class="academic-tab" data-tab="academic" href="index.html#academic" id="tab-academic">Academic</a>
+<a class="academic-tab" data-tab="professional" href="index.html#professional" id="tab-professional">Professional</a>
+<a class="academic-tab" data-tab="conferences" href="index.html#conferences" id="tab-conferences">Conferences</a>
+<a class="academic-tab" data-tab="cv" href="index.html#cv" id="tab-cv">CV</a></div><div class="academic-mode-controls" role="group" aria-label="Website appearance"><button type="button" data-mode="light" aria-label="Light mode" title="Light mode">☀</button><button type="button" data-mode="dark" aria-label="Dark mode" title="Dark mode">☾</button></div></nav>
+```
+
+
+
+
+
+
 
 ## Education
 
-::: {.cv-entry}
 ### Georgia State University
 
-**MS Mathematics, concentration in Statistics**  
-August 2026–present · Atlanta, Georgia
-:::
+**MS Mathematics, concentration in Statistics**
 
-::: {.cv-entry}
+August 2026–present · Atlanta, Georgia.
+
+Expected graduation: Spring 2028.
+
 ### Georgia State University
 
-**MS Quantitative Risk Analysis and Management**  
-May 2025 · Atlanta, Georgia
-:::
+**MS Quantitative Risk Analysis and Management**
 
-::: {.cv-entry}
+May 2025 · Atlanta, Georgia.
+
 ### Kwame Nkrumah University of Science and Technology
 
-**BSc Actuarial Science**  
-July 2020 · Kumasi, Ghana
-:::
+**BSc Actuarial Science**
 
-## Academic research appointments
+July 2020 · Kumasi, Ghana.
 
-::: {.cv-entry}
+## Academic appointments {#academic-research-appointments}
+
+### Graduate Lab Assistant · Georgia State University
+
+August 2026–present · Atlanta, Georgia.
+
+Supports instruction in MATH 1111 (College Algebra) and MATH 0999 through guided problem solving, mathematical explanations, and individualized academic support.
+
 ### Graduate Assistant · Georgia State University
 
-**August 2023–June 2025 · Atlanta, Georgia**
+August 2023–June 2025 · Atlanta, Georgia.
 
-- Assisted in developing predictive models for student enrollment and analyzing data to inform recruitment strategies.
-- Supported faculty risk-analysis projects through research assistance and data management.
-- Coordinated events and seminars on quantitative risk and risk management.
-:::
+Consolidated graduate admissions records, constructed applicant-level predictors, and contributed to predictive enrollment-model development and evaluation. Supported faculty quantitative-risk research through statistical analysis and research reporting.
 
-## Research contributions
+## Teaching experience
 
-### Research software
+### AP Mathematics Teacher · Osceola County School for the Arts
 
-**ridgeShift (v0.1.0).** Co-developed an R package for ridge-based model updating under distribution shift, including strategy selection, allocation sensitivity, and paired predictive-risk comparisons. [Software details](projects.qmd#ridge-package).
+January–June 2026 · Florida.
 
-### Research manuscript
+Taught AP Calculus, AP Precalculus, and AP Statistics. Developed instructional materials, designed assessments, and evaluated student learning. The reported AP examination pass rate was 70%.
 
-**Ridge-based model updating under distribution shift.** Joint work with Shudeshna Nandy and Yasmeen Babagana. Completed, unpublished manuscript; not submitted. [Research summary](research.qmd#ridgeshift-research).
-
-## Teaching and Research Skills
-
-**Teaching credential:** Florida Non-Renewable Temporary Educator Certificate, Mathematics (Grades 6–12); valid July 2025–June 2030. [Credential and teaching experience](teaching.qmd#educator-certification).
-
-### Teaching
-
-- **Lesson planning:** prepare sequenced explanations and worked examples for algebra, precalculus, calculus, and statistics.
-- **Classroom management:** organize instructional activities, set expectations, and respond to differences in students' preparation.
-- **Assessment:** prepare problem sets and evaluations, review student work, and give feedback on mathematical reasoning and common errors.
-- **Student support:** explain foundational concepts in different ways and guide students through quantitative problem solving.
-
-[Teaching appointments](teaching.qmd)
+## Teaching and research skills
 
 ### Research
 
-- **Research design:** translate a statistical question into a study design, identify comparison methods, and state assumptions and evaluation targets.
-- **Simulation methodology:** specify data-generating mechanisms, organize Monte Carlo experiments, and assess operating characteristics across scenarios.
-- **Model validation:** separate model fitting, selection, and final evaluation; compare predictive accuracy, calibration, and uncertainty measures.
-- **Sensitivity and uncertainty:** use resampling and sensitivity analyses to examine how conclusions depend on assumptions and influential observations.
-- **Academic writing:** describe research questions, assumptions, methods, results, and limitations in manuscripts and technical reports.
+- Research design and methodological framework development.
+- Experimental design and simulation methodology.
+- Statistical validation and sensitivity analysis.
+- Statistical inference and uncertainty assessment.
+- Numerical verification and reproducible computing.
+- Academic writing and research presentation.
 
-Examples of these methods appear in my [current research manuscripts](research.qmd) and [statistical software and computational projects](projects.qmd). These are documented separately from my graduate research appointment.
+### Teaching
+
+- Mathematics and statistics instruction.
+- Lesson planning and instructional material development.
+- Classroom management.
+- Assessment design and evaluation.
+- Individualized academic support.
 
 ## Statistical and computational skills
 
-**Programming:** R and Python; Microsoft Excel for data analysis and reporting.
+**Computational tools:** R, Python, and Microsoft Excel.
 
-**Statistical methods:** regression, Monte Carlo simulation, bootstrap inference, model calibration, predictive validation, and statistical visualization.
+**Statistical methods:** regression, statistical inference, Monte Carlo simulation, bootstrap methods, cross-validation, calibration, and statistical visualization.
 
-**Risk methods:** Peaks-Over-Threshold modeling, Generalized Pareto distributions, Value-at-Risk, Expected Shortfall, and credit-risk modeling.
+**Quantitative risk:** credit-risk modeling, extreme-value theory, generalized Pareto modeling, Value-at-Risk, and Expected Shortfall.
 
 ## Academic awards
 
-- **Graduate Merit Scholarship**, Department of Mathematics and Statistics, Georgia State University · August 2026.
-- **Graduate Merit Scholarship**, Robinson College of Business, Georgia State University · August 2023–May 2025.
+- Graduate Merit Scholarship, Department of Mathematics and Statistics, Georgia State University, 2026.
+- Graduate Merit Scholarship, Robinson College of Business, Georgia State University, 2023–2025.
 
-[Academic CV (PDF)](files/Silas_Bambil_PhD_CV.pdf)
+[Research](research.qmd) · [Academic CV (PDF)](files/Silas_Bambil_PhD_CV.pdf)
+
+```{=html}
+<!-- ACADEMIC-TABS-SCRIPT-BEGIN -->
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+
+(function(){
+
+  "use strict";
+
+  const themeKey = "academic-website-theme";
+
+  const validTabs = [
+    "home", "research", "software", "academic",
+    "professional", "conferences", "cv"
+  ];
+
+  const code = "";
+
+  const panels = Array.from(
+    document.querySelectorAll("[data-panel]")
+  );
+
+  const links = Array.from(
+    document.querySelectorAll(".academic-tab")
+  );
+
+  const themeButtons = Array.from(
+    document.querySelectorAll("[data-mode]")
+  );
+
+  const isHomepage = panels.length > 0;
+
+  function storedTheme(){
+
+    try{
+      return localStorage.getItem(themeKey);
+    }catch(e){
+      return null;
+    }
+  }
+
+  function setTheme(mode, persist){
+
+    document.documentElement.dataset.academicTheme = mode;
+
+    document.documentElement.style.colorScheme = mode;
+
+    document.documentElement.setAttribute(
+      "data-bs-theme", mode
+    );
+
+    themeButtons.forEach(button=>{
+
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.mode === mode)
+      );
+    });
+
+    if(persist){
+
+      try{
+        localStorage.setItem(themeKey, mode);
+      }catch(e){}
+    }
+  }
+
+  const initialTheme = storedTheme();
+
+  setTheme(
+    initialTheme === "light" || initialTheme === "dark"
+      ? initialTheme
+      : (
+        matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light"
+      ),
+    false
+  );
+
+  themeButtons.forEach(button=>{
+
+    button.addEventListener("click",()=>{
+
+      setTheme(button.dataset.mode, true);
+    });
+  });
+
+  function selectTab(key){
+
+    if(!validTabs.includes(key)) key = "home";
+
+    if(isHomepage){
+
+      panels.forEach(panel=>{
+
+        const active = panel.dataset.panel === key;
+
+        panel.hidden = !active;
+
+        panel.setAttribute(
+          "aria-hidden",
+          String(!active)
+        );
+      });
+    }
+
+    links.forEach(link=>{
+
+      const active = link.dataset.tab === key;
+
+      link.classList.toggle("is-active", active);
+
+      if(active){
+
+        link.setAttribute("aria-current", "page");
+
+      }else{
+
+        link.removeAttribute("aria-current");
+      }
+    });
+  }
+
+  function updateFromHash(){
+
+    const key = decodeURIComponent(
+      location.hash.slice(1)
+    );
+
+    if(validTabs.includes(key)){
+
+      selectTab(key);
+      return;
+    }
+
+    // Support pre-existing internal heading links.
+
+    if(key){
+
+      const element = document.getElementById(key);
+
+      const panel = element
+        ? element.closest("[data-panel]")
+        : null;
+
+      if(panel){
+
+        selectTab(panel.dataset.panel);
+
+        requestAnimationFrame(()=>{
+          element.scrollIntoView();
+        });
+
+        return;
+      }
+    }
+
+    selectTab("home");
+  }
+
+  if(isHomepage){
+
+    links.forEach(link=>{
+
+      link.setAttribute(
+        "href",
+        "#" + link.dataset.tab
+      );
+
+      link.addEventListener("click", event=>{
+
+        if(
+          event.metaKey ||
+          event.ctrlKey ||
+          event.shiftKey ||
+          event.altKey
+        ) return;
+
+        event.preventDefault();
+
+        const key = link.dataset.tab;
+
+        if(location.hash !== "#" + key){
+
+          history.pushState(
+            null,
+            "",
+            "#" + key
+          );
+        }
+
+        selectTab(key);
+
+        window.scrollTo({
+          top: 0,
+          behavior: "instant"
+        });
+      });
+    });
+
+    window.addEventListener(
+      "hashchange",
+      updateFromHash
+    );
+
+    window.addEventListener(
+      "popstate",
+      updateFromHash
+    );
+
+    updateFromHash();
+
+    // Improve links from one embedded subject page to another.
+
+    const pageMap = {
+      "research.html": "research",
+      "software.html": "software",
+      "academic.html": "academic",
+      "professional-cv.html": "professional",
+      "conferences.html": "conferences",
+      "cv.html": "cv"
+    };
+
+    panels.forEach(panel=>{
+
+      panel.querySelectorAll("a[href]").forEach(link=>{
+
+        const raw = link.getAttribute("href");
+
+        if(!raw || raw.startsWith("#")) return;
+
+        let url;
+
+        try{
+          url = new URL(raw, location.href);
+        }catch(e){
+          return;
+        }
+
+        if(url.origin !== location.origin) return;
+
+        const filename = url.pathname.split("/").pop();
+
+        const key = pageMap[filename];
+
+        // Preserve detailed destination anchors on their
+        // original standalone pages.
+
+        if(key && !url.hash){
+
+          link.setAttribute("href", "#" + key);
+        }
+      });
+    });
+
+  }else{
+
+    const filename = location.pathname.split("/").pop();
+
+    const standalone = {
+      "research.html": "research",
+      "software.html": "software",
+      "academic.html": "academic",
+      "professional-cv.html": "professional",
+      "conferences.html": "conferences",
+      "cv.html": "cv"
+    };
+
+    if(standalone[filename]){
+      selectTab(standalone[filename]);
+    }
+  }
+
+  // Visitor analytics: never activate on localhost or file URLs.
+
+  const footer = document.querySelector(".nav-footer")
+    || document.querySelector("footer")
+    || document.querySelector("main");
+
+  if(footer){
+
+    const visitor = document.createElement("span");
+
+    visitor.className = "academic-visitors";
+
+    visitor.textContent = "🧋";
+
+    visitor.setAttribute(
+      "aria-label",
+      "Visitor statistics"
+    );
+
+    footer.appendChild(visitor);
+
+    if(code && location.hostname === "sdbambil1.github.io"){
+
+      const endpoint = "https://" + code + ".goatcounter.com";
+
+      const tracking = document.createElement("script");
+
+      tracking.async = true;
+
+      tracking.src = "https://gc.zgo.at/count.js";
+
+      tracking.dataset.goatcounter = endpoint + "/count";
+
+      document.head.appendChild(tracking);
+
+      fetch(endpoint + "/counter/TOTAL.json", {
+        credentials: "omit",
+        cache: "no-store"
+      })
+
+      .then(response=>{
+
+        if(!response.ok){
+          throw new Error("Counter unavailable");
+        }
+
+        return response.json();
+      })
+
+      .then(data=>{
+
+        if(
+          typeof data.count === "number" ||
+          typeof data.count === "string"
+        ){
+
+          visitor.textContent = "🧋 " + data.count + " visits";
+        }
+      })
+
+      .catch(()=>{
+
+        visitor.title = "Visitor count temporarily unavailable";
+      });
+
+    }else{
+
+      visitor.title = code
+        ? "Analytics disabled during local preview"
+        : "Visitor analytics not configured";
+    }
+  }
+
+  document.documentElement.classList.add(
+    "academic-tabs-ready"
+  );
+
+})();
+
+});
+</script>
+<!-- ACADEMIC-TABS-SCRIPT-END -->
+```
+

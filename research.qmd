@@ -1,130 +1,462 @@
 ---
 title: "Research"
-description: "Research by Silas Bambil on credit-risk model updating, selection regret under distribution shift, and Expected Shortfall diagnostics for extreme fire losses."
+description: "Credit-risk model updating, selection regret, extreme-loss diagnostics, and ridge regression."
+include-in-header:
+  - text: |
+      <!-- WEBSITE-METADATA-BEGIN -->
+      <meta property="og:title" content="Research – Silas Bambil">
+      <meta property="og:description" content="Credit-risk model updating, selection regret, extreme-loss diagnostics, and ridge regression.">
+      <meta property="og:url" content="https://sdbambil1.github.io/research.html">
+      <meta property="og:site_name" content="Silas Bambil">
+      <meta property="og:type" content="website">
+      <!-- WEBSITE-METADATA-END -->
 ---
 
-<p class="eyebrow">Research questions, contributions, and methods</p>
-<p class="lede">My research concerns credit-risk model updating under distribution shift and diagnostic methods for extreme losses. I examine how limited data affect model selection, predictive accuracy, and the reliability of tail-risk estimates.</p>
+```{=html}
+<!-- ACADEMIC-IDENTITY-BEGIN -->
+<section class="academic-identity" aria-label="Academic identity"><div class="identity-text"><div class="identity-name">Silas Bambil</div><div class="identity-affiliation">Graduate Student in Mathematics (Statistics)</div><div class="identity-institution">Georgia State University</div><div class="identity-links academic-contact-row" aria-label="Contact information and academic profiles"><a class="academic-contact-icon" href="https://github.com/sdbambil1" aria-label="GitHub" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.5-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.94-2.63c3.14-.35 6.44-1.54 6.44-7A5.4 5.4 0 0 019 4.77 5 5 0 0 0 18.91 1S17.73.65 15 2.48a13.38 13.38 0 0 0-7 0C5.27.65 4.09 1 4.09 1A5 5 0 0 0 4 4.77 5.4 5.4 0 0 0 2.5 8.5c0 5.42 3.3 6.61 6.44 7A3.4 3.4 0 0 08 18.1V22"/></svg></a><a class="academic-contact-icon" href="tel:+14044687274" aria-label="Telephone" title="Telephone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7l.6 3a2 2 0 0 1-.6 2.1l-1.3 1.3a16 16 0 0 0 4.2 4.2l1.3-1.3a2 2 0 0 1 2.1-.6l3 .6a2 2 0 0 1 1.7 2z"/></svg></a><a class="academic-contact-icon" href="https://www.google.com/maps/search/?api=1&amp;query=Georgia%20State%20University%2C%20Atlanta%2C%20Georgia" aria-label="Georgia State University, Atlanta" title="Georgia State University, Atlanta"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></svg></a><a class="academic-contact-icon" href="https://orcid.org/0009-0002-5110-8102" aria-label="ORCID" title="ORCID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="7.5" cy="7" r=".7" fill="currentColor"/><path d="M7.5 10v7M11 7h3a5 5 0 0 1 0 10h-3z"/></svg></a><a class="academic-contact-icon" href="cv.html" aria-label="Curriculum Vitae" title="Curriculum Vitae"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></a><a class="academic-contact-email" href="mailto:sdbambil98@gmail.com" aria-label="Email correspondence">sdbambil98@gmail.com</a></div></div></section>
+<!-- ACADEMIC-IDENTITY-END -->
+```
 
-<p class="meta">The studies below are unpublished manuscripts; none is submitted or accepted for publication. <a href="https://orcid.org/0009-0002-5110-8102">ORCID profile</a> · <a href="https://github.com/sdbambil1">GitHub</a></p>
+```{=html}
+<nav class="academic-tabs" aria-label="Main navigation"><div class="academic-tab-links"><a class="academic-tab" data-tab="home" href="index.html#home" id="tab-home">Home</a>
+<a class="academic-tab" data-tab="research" href="index.html#research" id="tab-research">Research</a>
+<a class="academic-tab" data-tab="software" href="index.html#software" id="tab-software">Software</a>
+<a class="academic-tab" data-tab="academic" href="index.html#academic" id="tab-academic">Academic</a>
+<a class="academic-tab" data-tab="professional" href="index.html#professional" id="tab-professional">Professional</a>
+<a class="academic-tab" data-tab="conferences" href="index.html#conferences" id="tab-conferences">Conferences</a>
+<a class="academic-tab" data-tab="cv" href="index.html#cv" id="tab-cv">CV</a></div><div class="academic-mode-controls" role="group" aria-label="Website appearance"><button type="button" data-mode="light" aria-label="Light mode" title="Light mode">☀</button><button type="button" data-mode="dark" aria-label="Dark mode" title="Dark mode">☾</button></div></nav>
+```
 
-<nav class="jump-links" aria-label="Research sections"><a href="#fire-loss">Tail-risk diagnostics</a><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Model updating</a><a href="#ridgeshift-research">Ridge model updating</a><a href="#earlier-research">Earlier research</a></nav>
 
-::: {.paper}
-<div class="status-line"><span class="badge">Manuscript in preparation</span><span>2026 · Extreme value theory</span></div>
 
-## Tail Model Diagnostics Using Expected Shortfall and Bounded Loss Layers with an Application to Fire Losses {#fire-loss}
 
-<p class="authors">Silas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh</p>
 
-**Research question.** Can fitted tail models agree on high-loss quantiles while giving materially different estimates of expected tail losses?
 
-::: {.finding}
-**Contribution.** Using established stop-loss identities, the study develops bounded-layer diagnostics and inferential procedures to assess where empirical loss distributions and fitted tail models disagree.
 
-**Principal finding.** Agreement in aggregate tail summaries need not imply agreement within relevant loss layers. Simulations distinguish discrepancy detection from localization and show why identifying a difference does not establish where it occurs.
-:::
+## Manuscripts in preparation
 
-<details class="methods"><summary>Study design and application</summary>
+### Selecting and Estimating Credit-Risk Model Updates Under Distribution Shift {#distribution-shift}
 
-The study uses Peaks-Over-Threshold and Generalized Pareto modeling, bounded-layer expectations, simulation, and uncertainty assessment. Its empirical application considers structure-fire losses recorded in the 2016–2025 U.S. National Fire Incident Reporting System releases. Particular attention is given to sparse extreme observations and the influence of exceptionally large incidents.
+**Silas Bambil and Shudeshna Nandy**
 
-</details>
+*Manuscript in preparation, 2026.*
 
-<div class="tags"><span>Expected Shortfall</span><span>Bounded insurance layers</span><span>Extreme value theory</span><span>Fire-loss severity</span></div>
+Credit-risk models are developed using historical borrower information but applied to populations whose characteristics or regression relationships may have changed. Retaining an existing model may preserve systematic prediction error, whereas unrestricted refitting with limited recent observations may introduce substantial estimation variability.
 
-[Computational methods](projects.qmd#nfirs-analysis) · [Conference poster presentation](conferences.qmd#research-presentations) · [Poster references](evt-fireloss-references.qmd)
-:::
+The study compares retention, recalibration, refitting, and regularized estimation under common labeled-data budgets. Controlled simulations and historical mortgage cohorts distinguish the consequences of selecting an updating strategy from those of estimating its parameters.
 
-::: {.paper}
-<div class="status-line"><span class="badge">Manuscript in preparation</span><span>2026 · Independent credit-risk research</span></div>
+[Applied project](projects.qmd#credit-risk)
 
-## Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information {#selection-regret}
+### Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information {#selection-regret}
 
-<p class="authors">Silas Bambil</p>
+**Silas Bambil**
 
-**Research question.** Does more frequent selection of the best fitted updating policy necessarily reduce the predictive cost of choosing another policy?
+*Independent manuscript in preparation, 2026.*
 
-::: {.finding}
-**Contribution.** The study distinguishes how often an updating policy is selected correctly from the predictive regret of choosing a different fitted candidate, and evaluates how both measures change with the amount of recent labeled data.
+The probability of selecting the best fitted candidate does not fully characterize predictive performance. Incorrect selections may have limited consequences when candidate predictors have similar risks.
 
-**Principal finding.** In simulations, a larger recent labeled sample reduced mean selection regret without consistently improving agreement with the best fitted candidate. Selection frequency alone is therefore insufficient to characterize decision quality.
-:::
+This investigation distinguishes candidate-selection accuracy from the predictive regret associated with selecting another fitted candidate. Simulations and historical mortgage data examine how the amount of recent labeled information affects these quantities under distribution shift.
 
-<details class="methods"><summary>Study design and evidence</summary>
+### Tail Model Diagnostics Using Expected Shortfall and Bounded Loss Layers with an Application to Fire Losses {#fire-loss}
 
-Simulation experiments compare model-updating choices under different shift conditions and adaptation-sample sizes. Stratified cross-validation is used for policy selection, and independent evaluation data are used to measure predictive loss. A historical mortgage-data application provides an additional comparison. Results are interpreted in terms of fitted-candidate regret rather than an unattainable population oracle.
+**Silas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh**
 
-</details>
+*Manuscript in preparation, 2026.*
 
-<div class="tags"><span>Credit risk</span><span>Selection regret</span><span>Validation</span><span>Distribution shift</span></div>
-:::
+Agreement between empirical and fitted high-loss quantiles does not ensure agreement in expected tail losses. For high-excess insurance applications, model adequacy may depend on expected losses between specified attachment and exhaustion points.
 
-::: {.paper}
-<div class="status-line"><span class="badge">Manuscript in preparation</span><span>2026 · Credit-risk modeling</span></div>
+Established stop-loss identities and an Expected Shortfall decomposition connect aggregate tail discrepancies to differences within bounded loss layers. The study develops diagnostic and inferential procedures for assessing where fitted tail models and empirical loss distributions disagree.
 
-## Selecting and Estimating Credit-Risk Model Updates Under Distribution Shift {#distribution-shift}
+Simulation studies and an application to structure-fire damage records from the 2016–2025 National Fire Incident Reporting System releases examine sparse tail observations, influential incidents, and the distinction between discrepancy detection and localization.
 
-<p class="authors">Silas Bambil and Shudeshna Nandy</p>
+[Applied analysis](projects.qmd#nfirs-analysis) · [Conference presentation](conferences.qmd#research-presentations)
 
-**Research question.** How should limited labeled data be allocated between selecting a credit-risk model update and estimating the updated model?
+## Completed unpublished manuscript
 
-::: {.finding}
-**Contribution.** The study compares validation-guided selection with unrestricted and regularized refitting under a common labeled-data budget, separating the costs of intervention selection and parameter estimation.
+### ridgeShift: Evaluating Ridge-Regression Model Updating and Target-Sample Allocation in R {#ridgeshift-research}
 
-**Principal finding.** Validation-guided selection can improve on unrestricted full-budget refitting when adaptation data are scarce, but does not uniformly outperform regularized full-budget estimation. The best use of labeled data depends on the shift and the available sample.
-:::
+**Silas Bambil, Shudeshna Nandy, and Yasmeen Babagana**
 
-<details class="methods"><summary>Study design and methods</summary>
+*Completed manuscript, 2026. Not submitted for publication.*
 
-The study uses historical mortgage cohorts and controlled simulations under covariate, baseline-risk, and predictor-effect shifts. It compares retention, recalibration, unrestricted and regularized refitting, validation allocation, and post-selection refitting, with independent assessment of predictive performance.
+When a regression model is transferred to another population, a limited target sample must support both candidate estimation and model selection. Allocating additional observations to estimation may improve candidate predictors while reducing the information available for selecting among them.
 
-</details>
+The study examines this allocation problem within ridge-regression model updating. Its framework distinguishes candidate construction from candidate selection and characterizes their contributions to predictive risk through allocation and selection-regret decompositions.
 
-<div class="tags"><span>Calibration</span><span>Predictive stability</span><span>Logistic regression</span><span>Model updating</span></div>
+Numerical verification, computational benchmarking, controlled simulations, and an empirical application to Beijing PM2.5 data support the investigation.
 
-[Related R package: shiftadapt](projects.qmd#shiftadapt)
-:::
-
-::: {.paper}
-<div class="status-line"><span class="badge">Unpublished manuscript</span><span>2026 · Statistical computing</span></div>
-
-## Ridge-based model updating under distribution shift {#ridgeshift-research}
-
-<p class="authors">Silas Bambil, Shudeshna Nandy, and Yasmeen Babagana</p>
-
-**Research question.** How should a limited target-domain sample be allocated between fitting candidate ridge-based updates and selecting an updating strategy?
-
-::: {.finding}
-**Contribution.** The study compares updating strategies under a common data budget using paired predictive-risk comparisons. It examines the sensitivity of strategy selection to the adaptation–validation allocation.
-:::
-
-The manuscript includes simulation studies, numerical verification, computational benchmarks, and an empirical application to Beijing PM2.5 data. The manuscript is complete but has not been submitted for publication.
-
-[Related R software: ridgeShift](projects.qmd#ridge-package)
-:::
+[Associated statistical software](software.qmd#ridge-package)
 
 ## Earlier research {#earlier-research}
 
-::: {.timeline}
-::: {}
-<p class="meta">2024 · Georgia State University</p>
-
 ### Graduate admissions predictive analysis
 
-Contributed to a graduate admissions analysis through data preparation, construction of candidate predictors, and model evaluation. This work formed part of a graduate research appointment.
-:::
-::: {}
-<p class="meta">2020 · Undergraduate thesis · KNUST</p>
+Georgia State University.
+
+Consolidated admissions records, constructed applicant-level predictors, and contributed to predictive enrollment-model evaluation.
 
 ### Application of Extreme Value Theory to Fire Insurance
 
-An undergraduate study of extreme value methods for severe fire-insurance losses.
-:::
-:::
+Undergraduate thesis, Kwame Nkrumah University of Science and Technology, 2020.
 
-::: {.contact-band}
-### Research correspondence
+Examined the application of extreme-value methods to the statistical modeling of severe fire-insurance losses.
 
-[Get in touch](contact.qmd){.button .primary}
-:::
+```{=html}
+<!-- ACADEMIC-TABS-SCRIPT-BEGIN -->
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+
+(function(){
+
+  "use strict";
+
+  const themeKey = "academic-website-theme";
+
+  const validTabs = [
+    "home", "research", "software", "academic",
+    "professional", "conferences", "cv"
+  ];
+
+  const code = "";
+
+  const panels = Array.from(
+    document.querySelectorAll("[data-panel]")
+  );
+
+  const links = Array.from(
+    document.querySelectorAll(".academic-tab")
+  );
+
+  const themeButtons = Array.from(
+    document.querySelectorAll("[data-mode]")
+  );
+
+  const isHomepage = panels.length > 0;
+
+  function storedTheme(){
+
+    try{
+      return localStorage.getItem(themeKey);
+    }catch(e){
+      return null;
+    }
+  }
+
+  function setTheme(mode, persist){
+
+    document.documentElement.dataset.academicTheme = mode;
+
+    document.documentElement.style.colorScheme = mode;
+
+    document.documentElement.setAttribute(
+      "data-bs-theme", mode
+    );
+
+    themeButtons.forEach(button=>{
+
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.mode === mode)
+      );
+    });
+
+    if(persist){
+
+      try{
+        localStorage.setItem(themeKey, mode);
+      }catch(e){}
+    }
+  }
+
+  const initialTheme = storedTheme();
+
+  setTheme(
+    initialTheme === "light" || initialTheme === "dark"
+      ? initialTheme
+      : (
+        matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light"
+      ),
+    false
+  );
+
+  themeButtons.forEach(button=>{
+
+    button.addEventListener("click",()=>{
+
+      setTheme(button.dataset.mode, true);
+    });
+  });
+
+  function selectTab(key){
+
+    if(!validTabs.includes(key)) key = "home";
+
+    if(isHomepage){
+
+      panels.forEach(panel=>{
+
+        const active = panel.dataset.panel === key;
+
+        panel.hidden = !active;
+
+        panel.setAttribute(
+          "aria-hidden",
+          String(!active)
+        );
+      });
+    }
+
+    links.forEach(link=>{
+
+      const active = link.dataset.tab === key;
+
+      link.classList.toggle("is-active", active);
+
+      if(active){
+
+        link.setAttribute("aria-current", "page");
+
+      }else{
+
+        link.removeAttribute("aria-current");
+      }
+    });
+  }
+
+  function updateFromHash(){
+
+    const key = decodeURIComponent(
+      location.hash.slice(1)
+    );
+
+    if(validTabs.includes(key)){
+
+      selectTab(key);
+      return;
+    }
+
+    // Support pre-existing internal heading links.
+
+    if(key){
+
+      const element = document.getElementById(key);
+
+      const panel = element
+        ? element.closest("[data-panel]")
+        : null;
+
+      if(panel){
+
+        selectTab(panel.dataset.panel);
+
+        requestAnimationFrame(()=>{
+          element.scrollIntoView();
+        });
+
+        return;
+      }
+    }
+
+    selectTab("home");
+  }
+
+  if(isHomepage){
+
+    links.forEach(link=>{
+
+      link.setAttribute(
+        "href",
+        "#" + link.dataset.tab
+      );
+
+      link.addEventListener("click", event=>{
+
+        if(
+          event.metaKey ||
+          event.ctrlKey ||
+          event.shiftKey ||
+          event.altKey
+        ) return;
+
+        event.preventDefault();
+
+        const key = link.dataset.tab;
+
+        if(location.hash !== "#" + key){
+
+          history.pushState(
+            null,
+            "",
+            "#" + key
+          );
+        }
+
+        selectTab(key);
+
+        window.scrollTo({
+          top: 0,
+          behavior: "instant"
+        });
+      });
+    });
+
+    window.addEventListener(
+      "hashchange",
+      updateFromHash
+    );
+
+    window.addEventListener(
+      "popstate",
+      updateFromHash
+    );
+
+    updateFromHash();
+
+    // Improve links from one embedded subject page to another.
+
+    const pageMap = {
+      "research.html": "research",
+      "software.html": "software",
+      "academic.html": "academic",
+      "professional-cv.html": "professional",
+      "conferences.html": "conferences",
+      "cv.html": "cv"
+    };
+
+    panels.forEach(panel=>{
+
+      panel.querySelectorAll("a[href]").forEach(link=>{
+
+        const raw = link.getAttribute("href");
+
+        if(!raw || raw.startsWith("#")) return;
+
+        let url;
+
+        try{
+          url = new URL(raw, location.href);
+        }catch(e){
+          return;
+        }
+
+        if(url.origin !== location.origin) return;
+
+        const filename = url.pathname.split("/").pop();
+
+        const key = pageMap[filename];
+
+        // Preserve detailed destination anchors on their
+        // original standalone pages.
+
+        if(key && !url.hash){
+
+          link.setAttribute("href", "#" + key);
+        }
+      });
+    });
+
+  }else{
+
+    const filename = location.pathname.split("/").pop();
+
+    const standalone = {
+      "research.html": "research",
+      "software.html": "software",
+      "academic.html": "academic",
+      "professional-cv.html": "professional",
+      "conferences.html": "conferences",
+      "cv.html": "cv"
+    };
+
+    if(standalone[filename]){
+      selectTab(standalone[filename]);
+    }
+  }
+
+  // Visitor analytics: never activate on localhost or file URLs.
+
+  const footer = document.querySelector(".nav-footer")
+    || document.querySelector("footer")
+    || document.querySelector("main");
+
+  if(footer){
+
+    const visitor = document.createElement("span");
+
+    visitor.className = "academic-visitors";
+
+    visitor.textContent = "🧋";
+
+    visitor.setAttribute(
+      "aria-label",
+      "Visitor statistics"
+    );
+
+    footer.appendChild(visitor);
+
+    if(code && location.hostname === "sdbambil1.github.io"){
+
+      const endpoint = "https://" + code + ".goatcounter.com";
+
+      const tracking = document.createElement("script");
+
+      tracking.async = true;
+
+      tracking.src = "https://gc.zgo.at/count.js";
+
+      tracking.dataset.goatcounter = endpoint + "/count";
+
+      document.head.appendChild(tracking);
+
+      fetch(endpoint + "/counter/TOTAL.json", {
+        credentials: "omit",
+        cache: "no-store"
+      })
+
+      .then(response=>{
+
+        if(!response.ok){
+          throw new Error("Counter unavailable");
+        }
+
+        return response.json();
+      })
+
+      .then(data=>{
+
+        if(
+          typeof data.count === "number" ||
+          typeof data.count === "string"
+        ){
+
+          visitor.textContent = "🧋 " + data.count + " visits";
+        }
+      })
+
+      .catch(()=>{
+
+        visitor.title = "Visitor count temporarily unavailable";
+      });
+
+    }else{
+
+      visitor.title = code
+        ? "Analytics disabled during local preview"
+        : "Visitor analytics not configured";
+    }
+  }
+
+  document.documentElement.classList.add(
+    "academic-tabs-ready"
+  );
+
+})();
+
+});
+</script>
+<!-- ACADEMIC-TABS-SCRIPT-END -->
+```
+

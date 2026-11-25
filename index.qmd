@@ -1,75 +1,714 @@
 ---
 title: "Silas Bambil"
-canonical-url: "https://sdbambil1.github.io/"
-body-classes: home-page
-description: "Silas Bambil — statistical research in credit risk and tail-risk measurement."
+description: "Research in credit-risk model updating, tail-risk measurement, and statistical computing."
+title-block-style: none
+include-in-header:
+  - text: |
+      <!-- WEBSITE-METADATA-BEGIN -->
+      <meta property="og:title" content="Silas Bambil">
+      <meta property="og:description" content="Research in credit-risk model updating, tail-risk measurement, and statistical computing.">
+      <meta property="og:url" content="https://sdbambil1.github.io/">
+      <meta property="og:site_name" content="Silas Bambil">
+      <meta property="og:type" content="website">
+      <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Silas Bambil","url":"https://sdbambil1.github.io/","affiliation":{"@type":"CollegeOrUniversity","name":"Georgia State University"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Georgia State University"},{"@type":"CollegeOrUniversity","name":"Kwame Nkrumah University of Science and Technology"}],"knowsAbout":["Applied statistics","Credit-risk model updating","Distribution shift","Extreme-value theory","Tail-risk measurement","Statistical computing","Quantitative risk management"],"sameAs":["https://orcid.org/0009-0002-5110-8102","https://github.com/sdbambil1"]}</script>
+      <!-- WEBSITE-METADATA-END -->
 ---
 
+
+
 ```{=html}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://sdbambil1.github.io/#person",
-  "name": "Silas Bambil",
-  "url": "https://sdbambil1.github.io/",
-  "mainEntityOfPage": "https://sdbambil1.github.io/",
-  "image": "https://sdbambil1.github.io/assets/silas-bambil-portrait.jpeg",
-  "description": "Graduate student in Statistics at Georgia State University with research interests in credit-risk model updating and tail-risk measurement.",
-  "affiliation": {
-    "@type": "CollegeOrUniversity",
-    "name": "Georgia State University",
-    "url": "https://www.gsu.edu/"
-  },
-  "alumniOf": [
-    {"@type": "CollegeOrUniversity", "name": "Georgia State University"},
-    {"@type": "CollegeOrUniversity", "name": "Kwame Nkrumah University of Science and Technology"}
-  ],
-  "knowsAbout": [
-    "Statistical methods for finance",
-    "Credit-risk model updating",
-    "Distribution shift",
-    "Extreme value theory",
-    "Tail-risk measurement"
-  ],
-  "sameAs": [
-    "https://orcid.org/0009-0002-5110-8102",
-    "https://github.com/sdbambil1"
-  ]
-}
+<!-- ACADEMIC-IDENTITY-BEGIN -->
+<section class="academic-identity" aria-label="Academic identity"><div class="identity-text"><div class="identity-name">Silas Bambil</div><div class="identity-affiliation">Graduate Student in Mathematics (Statistics)</div><div class="identity-institution">Georgia State University</div><div class="identity-links academic-contact-row" aria-label="Contact information and academic profiles"><a class="academic-contact-icon" href="https://github.com/sdbambil1" aria-label="GitHub" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.5-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.94-2.63c3.14-.35 6.44-1.54 6.44-7A5.4 5.4 0 0 019 4.77 5 5 0 0 0 18.91 1S17.73.65 15 2.48a13.38 13.38 0 0 0-7 0C5.27.65 4.09 1 4.09 1A5 5 0 0 0 4 4.77 5.4 5.4 0 0 0 2.5 8.5c0 5.42 3.3 6.61 6.44 7A3.4 3.4 0 0 08 18.1V22"/></svg></a><a class="academic-contact-icon" href="tel:+14044687274" aria-label="Telephone" title="Telephone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7l.6 3a2 2 0 0 1-.6 2.1l-1.3 1.3a16 16 0 0 0 4.2 4.2l1.3-1.3a2 2 0 0 1 2.1-.6l3 .6a2 2 0 0 1 1.7 2z"/></svg></a><a class="academic-contact-icon" href="https://www.google.com/maps/search/?api=1&amp;query=Georgia%20State%20University%2C%20Atlanta%2C%20Georgia" aria-label="Georgia State University, Atlanta" title="Georgia State University, Atlanta"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></svg></a><a class="academic-contact-icon" href="https://orcid.org/0009-0002-5110-8102" aria-label="ORCID" title="ORCID"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="7.5" cy="7" r=".7" fill="currentColor"/><path d="M7.5 10v7M11 7h3a5 5 0 0 1 0 10h-3z"/></svg></a><a class="academic-contact-icon" href="cv.html" aria-label="Curriculum Vitae" title="Curriculum Vitae"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></a><a class="academic-contact-email" href="mailto:sdbambil98@gmail.com" aria-label="Email correspondence">sdbambil98@gmail.com</a></div></div></section>
+<!-- ACADEMIC-IDENTITY-END -->
+```
+
+```{=html}
+<nav class="academic-tabs" aria-label="Main navigation"><div class="academic-tab-links"><a class="academic-tab" data-tab="home" href="index.html#home" id="tab-home">Home</a>
+<a class="academic-tab" data-tab="research" href="index.html#research" id="tab-research">Research</a>
+<a class="academic-tab" data-tab="software" href="index.html#software" id="tab-software">Software</a>
+<a class="academic-tab" data-tab="academic" href="index.html#academic" id="tab-academic">Academic</a>
+<a class="academic-tab" data-tab="professional" href="index.html#professional" id="tab-professional">Professional</a>
+<a class="academic-tab" data-tab="conferences" href="index.html#conferences" id="tab-conferences">Conferences</a>
+<a class="academic-tab" data-tab="cv" href="index.html#cv" id="tab-cv">CV</a></div><div class="academic-mode-controls" role="group" aria-label="Website appearance"><button type="button" data-mode="light" aria-label="Light mode" title="Light mode">☀</button><button type="button" data-mode="dark" aria-label="Dark mode" title="Dark mode">☾</button></div></nav>
+```
+
+
+<!-- ACADEMIC-PANELS-BEGIN -->
+
+:::::::: {.academic-panel #panel-home data-panel="home"}
+
+<!-- ACADEMIC-HOME-BEGIN -->
+
+# About
+
+Silas Bambil is a graduate student in Mathematics, with a concentration in Statistics, at Georgia State University. He holds an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from Kwame Nkrumah University of Science and Technology.
+
+His research concerns credit-risk model updating and tail-risk measurement. He investigates how limited recent observations can be used to adapt predictive models under distribution shift. His work in extreme-value theory examines discrepancies between empirical and fitted tail-loss distributions, particularly within bounded insurance layers.
+
+His computational work includes the development and numerical evaluation of statistical software in R. His professional experience is in financial-risk analysis and statistical research.
+
+<!-- ACADEMIC-HOME-END -->
+
+::::::::
+
+
+:::::::: {.academic-panel #panel-research data-panel="research"}
+
+## 📄 Manuscripts in preparation
+
+### Selecting and Estimating Credit-Risk Model Updates Under Distribution Shift {#distribution-shift}
+
+**Silas Bambil and Shudeshna Nandy**
+
+*Manuscript in preparation, 2026.*
+
+Credit-risk models are developed using historical borrower information but applied to populations whose characteristics or regression relationships may have changed. Retaining an existing model may preserve systematic prediction error, whereas unrestricted refitting with limited recent observations may introduce substantial estimation variability.
+
+The study compares retention, recalibration, refitting, and regularized estimation under common labeled-data budgets. Controlled simulations and historical mortgage cohorts distinguish the consequences of selecting an updating strategy from those of estimating its parameters.
+
+[Applied project](projects.qmd#credit-risk)
+
+### Selection Regret in Credit-Risk Model Updating Under Distribution Shift: The Role of Recent Labeled Information {#selection-regret}
+
+**Silas Bambil**
+
+*Independent manuscript in preparation, 2026.*
+
+The probability of selecting the best fitted candidate does not fully characterize predictive performance. Incorrect selections may have limited consequences when candidate predictors have similar risks.
+
+This investigation distinguishes candidate-selection accuracy from the predictive regret associated with selecting another fitted candidate. Simulations and historical mortgage data examine how the amount of recent labeled information affects these quantities under distribution shift.
+
+### Tail Model Diagnostics Using Expected Shortfall and Bounded Loss Layers with an Application to Fire Losses {#fire-loss}
+
+**Silas Bambil, Shudeshna Nandy, Clement Ampong, Prakash Karki, and Chi-Kuang Yeh**
+
+*Manuscript in preparation, 2026.*
+
+Agreement between empirical and fitted high-loss quantiles does not ensure agreement in expected tail losses. For high-excess insurance applications, model adequacy may depend on expected losses between specified attachment and exhaustion points.
+
+Established stop-loss identities and an Expected Shortfall decomposition connect aggregate tail discrepancies to differences within bounded loss layers. The study develops diagnostic and inferential procedures for assessing where fitted tail models and empirical loss distributions disagree.
+
+Simulation studies and an application to structure-fire damage records from the 2016–2025 National Fire Incident Reporting System releases examine sparse tail observations, influential incidents, and the distinction between discrepancy detection and localization.
+
+[Applied analysis](projects.qmd#nfirs-analysis) · [Conference presentation](conferences.qmd#research-presentations)
+
+## 📚 Completed unpublished manuscript
+
+### 📦 ridgeShift: Evaluating Ridge-Regression Model Updating and Target-Sample Allocation in R {#ridgeshift-research}
+
+**Silas Bambil, Shudeshna Nandy, and Yasmeen Babagana**
+
+*Completed manuscript, 2026. Not submitted for publication.*
+
+When a regression model is transferred to another population, a limited target sample must support both candidate estimation and model selection. Allocating additional observations to estimation may improve candidate predictors while reducing the information available for selecting among them.
+
+The study examines this allocation problem within ridge-regression model updating. Its framework distinguishes candidate construction from candidate selection and characterizes their contributions to predictive risk through allocation and selection-regret decompositions.
+
+Numerical verification, computational benchmarking, controlled simulations, and an empirical application to Beijing PM2.5 data support the investigation.
+
+[Associated statistical software](software.qmd#ridge-package)
+
+## 📖 Earlier research {#earlier-research}
+
+### Graduate admissions predictive analysis
+
+Georgia State University.
+
+Consolidated admissions records, constructed applicant-level predictors, and contributed to predictive enrollment-model evaluation.
+
+### Application of Extreme Value Theory to Fire Insurance
+
+Undergraduate thesis, Kwame Nkrumah University of Science and Technology, 2020.
+
+Examined the application of extreme-value methods to the statistical modeling of severe fire-insurance losses.
+
+::::::::
+
+
+:::::::: {.academic-panel #panel-software data-panel="software"}
+
+## 📦 ridgeShift {#ridge-package}
+
+**Version:** 0.1.0
+
+**Authors:** Silas Bambil, Shudeshna Nandy, and Yasmeen Babagana.
+
+**Availability:** Completed and maintained locally; not publicly released.
+
+ridgeShift implements a computational framework for evaluating ridge-regression model updating when limited target observations must be allocated between candidate estimation and validation-based selection.
+
+### Principal functions
+
+- `rs_update()` — candidate model updating and strategy selection.
+- `rs_sensitivity()` — adaptation–validation allocation sensitivity.
+- `rs_target_risk()` — target-population predictive-risk evaluation.
+- `rs_compare_risk()` — paired predictive-risk comparison.
+
+The numerical implementation uses singular value decomposition (SVD) and reuses matrix factorizations across penalty evaluations. The package supports validation-based model selection, target-sample allocation sensitivity, and paired predictive-risk comparisons. Numerical results were checked against independent reference calculations, and computational benchmarks assessed performance across repeated model fits. Documented functions support reproducible statistical workflows.
+
+The package and associated manuscript are maintained locally. Neither is publicly distributed.
+
+[Associated manuscript](research.qmd#ridgeshift-research)
+
+## 📦 bambaganaCI {#bambaganaci}
+
+**Version:** 0.3.4
+
+**Authors:** Silas Bambil and Yasmeen Babagana.
+
+**Availability:** Public GitHub release.
+
+bambaganaCI implements statistical procedures for confidence interval estimation, hypothesis testing, descriptive analysis, association measures, regression, analysis of variance, and bootstrap inference.
+
+The package provides direct statistical functions and a readable command interface through `bambagana()`.
+
+Statistical procedures are implemented in R and accompanied by input validation, numerical checks, software tests, function documentation, and reproducible examples.
+
+[Public repository](https://github.com/sdbambil1/bambaganaCI) · [Version 0.3.4 release](https://github.com/sdbambil1/bambaganaCI/releases/tag/v0.3.4)
+
+## 📦 shiftadapt {#shiftadapt}
+
+**Availability:** Under development.
+
+shiftadapt is intended to support logistic prediction-model updating under distribution shift, including retention, recalibration, coefficient refitting, validation-based selection, and independent predictive evaluation.
+
+[Associated research](research.qmd#distribution-shift)
+
+::::::::
+
+
+:::::::: {.academic-panel #panel-academic data-panel="academic"}
+
+## 🎓 Education
+
+### Georgia State University
+
+**MS Mathematics, concentration in Statistics**
+
+August 2026–present · Atlanta, Georgia.
+
+Expected graduation: Spring 2028.
+
+### Georgia State University
+
+**MS Quantitative Risk Analysis and Management**
+
+May 2025 · Atlanta, Georgia.
+
+### Kwame Nkrumah University of Science and Technology
+
+**BSc Actuarial Science**
+
+July 2020 · Kumasi, Ghana.
+
+## 📚 Academic appointments {#academic-research-appointments}
+
+### Graduate Lab Assistant · Georgia State University
+
+August 2026–present · Atlanta, Georgia.
+
+Supports instruction in MATH 1111 (College Algebra) and MATH 0999 through guided problem solving, mathematical explanations, and individualized academic support.
+
+### Graduate Assistant · Georgia State University
+
+August 2023–June 2025 · Atlanta, Georgia.
+
+Consolidated graduate admissions records, constructed applicant-level predictors, and contributed to predictive enrollment-model development and evaluation. Supported faculty quantitative-risk research through statistical analysis and research reporting.
+
+## 📚 Teaching experience
+
+### AP Mathematics Teacher · Osceola County School for the Arts
+
+January–June 2026 · Florida.
+
+Taught AP Calculus, AP Precalculus, and AP Statistics. Developed instructional materials, designed assessments, and evaluated student learning. The reported AP examination pass rate was 70%.
+
+## 📝 Teaching and research skills
+
+### Research
+
+- Research design and methodological framework development.
+- Experimental design and simulation methodology.
+- Statistical validation and sensitivity analysis.
+- Statistical inference and uncertainty assessment.
+- Numerical verification and reproducible computing.
+- Academic writing and research presentation.
+
+### Teaching
+
+- Mathematics and statistics instruction.
+- Lesson planning and instructional material development.
+- Classroom management.
+- Assessment design and evaluation.
+- Individualized academic support.
+
+## 💻 Statistical and computational skills
+
+**Computational tools:** R, Python, and Microsoft Excel.
+
+**Statistical methods:** regression, statistical inference, Monte Carlo simulation, bootstrap methods, cross-validation, calibration, and statistical visualization.
+
+**Quantitative risk:** credit-risk modeling, extreme-value theory, generalized Pareto modeling, Value-at-Risk, and Expected Shortfall.
+
+## 🏅 Academic awards
+
+- Graduate Merit Scholarship, Department of Mathematics and Statistics, Georgia State University, 2026.
+- Graduate Merit Scholarship, Robinson College of Business, Georgia State University, 2023–2025.
+
+[Research](research.qmd) · [Academic CV (PDF)](files/Silas_Bambil_PhD_CV.pdf)
+
+::::::::
+
+
+:::::::: {.academic-panel #panel-professional data-panel="professional"}
+
+## 💼 Professional experience
+
+### Finance Associate · OPH CHEM CONSULT
+
+May 2022–August 2023 · Accra, Ghana.
+
+- Examined financial misappropriation risks and community financial challenges.
+- Reviewed financial information and supporting research records to assess identified risks.
+- Prepared analytical reports and research briefs documenting findings.
+
+### Senior Researcher · Ghana Statistical Service
+
+September 2020–August 2021 · Accra, Ghana.
+
+- Organized survey observations for statistical analysis and research reporting.
+- Analyzed population and economic indicators using available survey data.
+- Interpreted statistical findings and contributed to research reports.
+
+## Professional competencies
+
+**Quantitative risk:** credit-risk modeling, predictive model evaluation, extreme-loss analysis, Value-at-Risk, Expected Shortfall, and scenario analysis.
+
+**Statistical analysis:** regression, model calibration, predictive validation, statistical inference, simulation, and resampling.
+
+**Data management:** analytical dataset construction, survey data organization, data quality assessment, and statistical reporting.
+
+**Computational tools:** R, Python, and Microsoft Excel.
+
+## FINRA examinations
+
+- **Series 63 — Uniform Securities Agent State Law Examination:** August 2025.
+- **Securities Industry Essentials (SIE) Examination:** January 2025.
+
+Academic appointments and teaching experience are presented separately.
+
+[Academic experience](academic.qmd) · [Quantitative projects](projects.qmd) · [Professional CV (PDF)](files/Silas_Bambil_Professional_CV.pdf)
+
+::::::::
+
+
+:::::::: {.academic-panel #panel-conferences data-panel="conferences"}
+
+## 🎙️ Research presentations {#research-presentations}
+
+### 5th Annual Graduate Conference for Research, Scholarship, and Creative Activity
+
+November 18, 2026 · Georgia State University, Atlanta, Georgia.
+
+**Presentation type:** Research poster.
+
+**Beyond Quantile Agreement: Decomposing Expected Shortfall Discrepancies in Fire-Loss Models.**
+
+Silas Bambil, Shudeshna Nandy, Clement Ampong, and Prakash Karki.
+
+Faculty advisor: Chi-Kuang Yeh.
+
+The presentation examined statistical diagnostics for identifying discrepancies between empirical and fitted tail-loss distributions within bounded insurance layers.
+
+[Research description](research.qmd#fire-loss)
+
+## Conference attendance
+
+### Georgia Statistics Day
+
+Conference participation.
+
+::::::::
+
+
+:::::::: {.academic-panel #panel-cv data-panel="cv"}
+
+## 📄 Academic CV
+
+Education, research, academic appointments, teaching, statistical software, conferences, and scholarly competencies.
+
+[Download academic CV (PDF, 2 pages)](files/Silas_Bambil_PhD_CV.pdf)
+
+[Academic experience](academic.qmd) · [Research](research.qmd)
+
+## 📄 Professional CV
+
+Education, professional experience, quantitative projects, statistical computing, and FINRA examinations.
+
+[Download professional CV (PDF, 1 page)](files/Silas_Bambil_Professional_CV.pdf)
+
+[Professional experience](professional-cv.qmd) · [Projects](projects.qmd)
+
+::::::::
+
+
+<!-- ACADEMIC-PANELS-END -->
+
+```{=html}
+<!-- ACADEMIC-TABS-SCRIPT-BEGIN -->
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+
+(function(){
+
+  "use strict";
+
+  const themeKey = "academic-website-theme";
+
+  const validTabs = [
+    "home", "research", "software", "academic",
+    "professional", "conferences", "cv"
+  ];
+
+  const code = "";
+
+  const panels = Array.from(
+    document.querySelectorAll("[data-panel]")
+  );
+
+  const links = Array.from(
+    document.querySelectorAll(".academic-tab")
+  );
+
+  const themeButtons = Array.from(
+    document.querySelectorAll("[data-mode]")
+  );
+
+  const isHomepage = panels.length > 0;
+
+  function storedTheme(){
+
+    try{
+      return localStorage.getItem(themeKey);
+    }catch(e){
+      return null;
+    }
+  }
+
+  function setTheme(mode, persist){
+
+    document.documentElement.dataset.academicTheme = mode;
+
+    document.documentElement.style.colorScheme = mode;
+
+    document.documentElement.setAttribute(
+      "data-bs-theme", mode
+    );
+
+    themeButtons.forEach(button=>{
+
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.mode === mode)
+      );
+    });
+
+    if(persist){
+
+      try{
+        localStorage.setItem(themeKey, mode);
+      }catch(e){}
+    }
+  }
+
+  const initialTheme = storedTheme();
+
+  setTheme(
+    initialTheme === "light" || initialTheme === "dark"
+      ? initialTheme
+      : (
+        matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light"
+      ),
+    false
+  );
+
+  themeButtons.forEach(button=>{
+
+    button.addEventListener("click",()=>{
+
+      setTheme(button.dataset.mode, true);
+    });
+  });
+
+  function selectTab(key){
+
+    if(!validTabs.includes(key)) key = "home";
+
+    if(isHomepage){
+
+      panels.forEach(panel=>{
+
+        const active = panel.dataset.panel === key;
+
+        panel.hidden = !active;
+
+        panel.setAttribute(
+          "aria-hidden",
+          String(!active)
+        );
+      });
+    }
+
+    links.forEach(link=>{
+
+      const active = link.dataset.tab === key;
+
+      link.classList.toggle("is-active", active);
+
+      if(active){
+
+        link.setAttribute("aria-current", "page");
+
+      }else{
+
+        link.removeAttribute("aria-current");
+      }
+    });
+  }
+
+  function updateFromHash(){
+
+    const key = decodeURIComponent(
+      location.hash.slice(1)
+    );
+
+    if(validTabs.includes(key)){
+
+      selectTab(key);
+      return;
+    }
+
+    // Support pre-existing internal heading links.
+
+    if(key){
+
+      const element = document.getElementById(key);
+
+      const panel = element
+        ? element.closest("[data-panel]")
+        : null;
+
+      if(panel){
+
+        selectTab(panel.dataset.panel);
+
+        requestAnimationFrame(()=>{
+          element.scrollIntoView();
+        });
+
+        return;
+      }
+    }
+
+    selectTab("home");
+  }
+
+  if(isHomepage){
+
+    links.forEach(link=>{
+
+      link.setAttribute(
+        "href",
+        "#" + link.dataset.tab
+      );
+
+      link.addEventListener("click", event=>{
+
+        if(
+          event.metaKey ||
+          event.ctrlKey ||
+          event.shiftKey ||
+          event.altKey
+        ) return;
+
+        event.preventDefault();
+
+        const key = link.dataset.tab;
+
+        if(location.hash !== "#" + key){
+
+          history.pushState(
+            null,
+            "",
+            "#" + key
+          );
+        }
+
+        selectTab(key);
+
+        window.scrollTo({
+          top: 0,
+          behavior: "instant"
+        });
+      });
+    });
+
+    window.addEventListener(
+      "hashchange",
+      updateFromHash
+    );
+
+    window.addEventListener(
+      "popstate",
+      updateFromHash
+    );
+
+    updateFromHash();
+
+    // Improve links from one embedded subject page to another.
+
+    const pageMap = {
+      "research.html": "research",
+      "software.html": "software",
+      "academic.html": "academic",
+      "professional-cv.html": "professional",
+      "conferences.html": "conferences",
+      "cv.html": "cv"
+    };
+
+    panels.forEach(panel=>{
+
+      panel.querySelectorAll("a[href]").forEach(link=>{
+
+        const raw = link.getAttribute("href");
+
+        if(!raw || raw.startsWith("#")) return;
+
+        let url;
+
+        try{
+          url = new URL(raw, location.href);
+        }catch(e){
+          return;
+        }
+
+        if(url.origin !== location.origin) return;
+
+        const filename = url.pathname.split("/").pop();
+
+        const key = pageMap[filename];
+
+        // Preserve detailed destination anchors on their
+        // original standalone pages.
+
+        if(key && !url.hash){
+
+          link.setAttribute("href", "#" + key);
+        }
+      });
+    });
+
+  }else{
+
+    const filename = location.pathname.split("/").pop();
+
+    const standalone = {
+      "research.html": "research",
+      "software.html": "software",
+      "academic.html": "academic",
+      "professional-cv.html": "professional",
+      "conferences.html": "conferences",
+      "cv.html": "cv"
+    };
+
+    if(standalone[filename]){
+      selectTab(standalone[filename]);
+    }
+  }
+
+  // Visitor analytics: never activate on localhost or file URLs.
+
+  const footer = document.querySelector(".nav-footer")
+    || document.querySelector("footer")
+    || document.querySelector("main");
+
+  if(footer){
+
+    const visitor = document.createElement("span");
+
+    visitor.className = "academic-visitors";
+
+    visitor.textContent = "🧋";
+
+    visitor.setAttribute(
+      "aria-label",
+      "Visitor statistics"
+    );
+
+    footer.appendChild(visitor);
+
+    if(code && location.hostname === "sdbambil1.github.io"){
+
+      const endpoint = "https://" + code + ".goatcounter.com";
+
+      const tracking = document.createElement("script");
+
+      tracking.async = true;
+
+      tracking.src = "https://gc.zgo.at/count.js";
+
+      tracking.dataset.goatcounter = endpoint + "/count";
+
+      document.head.appendChild(tracking);
+
+      fetch(endpoint + "/counter/TOTAL.json", {
+        credentials: "omit",
+        cache: "no-store"
+      })
+
+      .then(response=>{
+
+        if(!response.ok){
+          throw new Error("Counter unavailable");
+        }
+
+        return response.json();
+      })
+
+      .then(data=>{
+
+        if(
+          typeof data.count === "number" ||
+          typeof data.count === "string"
+        ){
+
+          visitor.textContent = "🧋 " + data.count + " visits";
+        }
+      })
+
+      .catch(()=>{
+
+        visitor.title = "Visitor count temporarily unavailable";
+      });
+
+    }else{
+
+      visitor.title = code
+        ? "Analytics disabled during local preview"
+        : "Visitor analytics not configured";
+    }
+  }
+
+  document.documentElement.classList.add(
+    "academic-tabs-ready"
+  );
+
+})();
+
+});
 </script>
+<!-- ACADEMIC-TABS-SCRIPT-END -->
 ```
 
-:::: {.academic-layout}
-::: {.profile-rail}
-```{=html}
-<div class="profile-bio" role="complementary" aria-label="About Silas Bambil">
-<img class="profile-portrait" src="assets/silas-bambil-portrait.jpeg" alt="Portrait of Silas Bambil" width="1280" height="1920" fetchpriority="high">
-<p class="profile-name">Silas Bambil</p>
-<p class="profile-role">Graduate student in Statistics<br>Georgia State University</p>
-<p class="profile-location">Atlanta, Georgia</p>
-<div class="profile-contact"><a href="mailto:sdbambil98@gmail.com" aria-label="Email Silas Bambil">Email</a><a href="https://github.com/sdbambil1" aria-label="Silas Bambil GitHub profile">GitHub ↗</a></div>
-</div>
-```
-:::
-
-::: {.academic-main}
-<p class="eyebrow">Statistics & quantitative risk</p>
-
-# About me
-
-I am a graduate student in Mathematics, with a concentration in Statistics, at Georgia State University. I hold an MS in Quantitative Risk Analysis and Management from Georgia State University and a BSc in Actuarial Science from Kwame Nkrumah University of Science and Technology.
-
-My research interests are in statistical methods for finance, particularly credit-risk model updating and tail-risk measurement. I am interested in how predictive models perform when data distributions change, and how statistical methods can be evaluated when extreme observations are sparse.
-
-My academic and professional experience includes statistical research, teaching, and quantitative analysis.
-
-::: {.contact-band}
-## Get in touch
-
-I welcome correspondence about statistical research, quantitative risk, and potential collaborations.
-
-[Email me](mailto:sdbambil98@gmail.com){.button .primary} [Contact details](contact.qmd){.button}
-:::
-:::
-::::
