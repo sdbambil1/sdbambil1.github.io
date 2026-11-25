@@ -359,6 +359,14 @@ Education, professional experience, quantitative projects, statistical computing
 
 Personal experiences, memories, and reflections.
 
+### [What Do You Want to Become in Future?](stories/what-do-you-want-to-become-in-future.qmd)
+
+[November 2026]{.meta}
+
+A personal reflection on chance, changing ambitions, professional uncertainty, and the experiences that shape what we want to become.
+
+[Read story →](stories/what-do-you-want-to-become-in-future.qmd)
+
 ### [Lessons and Lashes: The Cane, Monsieur, and Owuo](stories/lessons-and-lashes.qmd)
 
 [June 2026]{.meta}
