@@ -29,6 +29,7 @@ include-in-header:
 <a class="academic-tab" data-tab="academic" href="index.html#academic" id="tab-academic">Academic</a>
 <a class="academic-tab" data-tab="professional" href="index.html#professional" id="tab-professional">Professional</a>
 <a class="academic-tab" data-tab="conferences" href="index.html#conferences" id="tab-conferences">Conferences</a>
+<a class="academic-tab" data-tab="stories" href="index.html#stories" id="tab-stories">Stories</a>
 <a class="academic-tab" data-tab="cv" href="index.html#cv" id="tab-cv">CV</a></div><div class="academic-mode-controls" role="group" aria-label="Website appearance"><button type="button" data-mode="light" aria-label="Light mode" title="Light mode">☀</button><button type="button" data-mode="dark" aria-label="Dark mode" title="Dark mode">☾</button></div></nav>
 ```
 
@@ -352,6 +353,22 @@ Education, professional experience, quantitative projects, statistical computing
 ::::::::
 
 
+:::::::: {.academic-panel #panel-stories data-panel="stories"}
+
+# Stories
+
+Personal experiences, memories, and reflections.
+
+### [Lessons and Lashes: The Cane, Monsieur, and Owuo](stories/lessons-and-lashes.qmd)
+
+[June 2026]{.meta}
+
+Memories of my school days in Ghana and reflections on the lasting impressions teachers leave on their students.
+
+[Read story →](stories/lessons-and-lashes.qmd)
+
+::::::::
+
 <!-- ACADEMIC-PANELS-END -->
 
 ```{=html}
@@ -367,7 +384,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   const validTabs = [
     "home", "research", "software", "academic",
-    "professional", "conferences", "cv"
+    "professional", "conferences", "stories", "cv"
   ];
 
   const code = "";
