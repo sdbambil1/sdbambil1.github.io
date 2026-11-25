@@ -391,6 +391,14 @@ A personal reflection on unemployment after graduation, quiet struggles with fai
 
 [Read story →](stories/and-still-i-had-to-smile.qmd)
 
+### [To Emmanuel, After Months of Silence](stories/to-emmanuel-after-months-of-silence.qmd)
+
+[June 2025]{.meta}
+
+An open letter to my cousin about an accident, months of silence, and the importance of communicating with the people we love.
+
+[Read story →](stories/to-emmanuel-after-months-of-silence.qmd)
+
 ### [The Years We Never Got Back](stories/the-years-we-never-got-back.qmd)
 
 [December 2024]{.meta}
