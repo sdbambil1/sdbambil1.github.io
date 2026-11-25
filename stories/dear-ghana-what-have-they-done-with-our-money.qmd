@@ -1,0 +1,51 @@
+---
+title: "Dear Ghana, What Have They Done with Our Money?"
+description: "An Independence Day open letter reflecting on public expenditure, opportunity costs, and accountability in the management of Ghana's national resources."
+title-block-style: none
+---
+
+[← All stories](../index.qmd#panel-stories)
+
+# Dear Ghana, What Have They Done with Our Money?
+
+[Silas Bambil · March 2024]{.meta}
+
+Dear Ghana,
+
+On 6 March 2024, you celebrated sixty-seven years of independence. It should have been an occasion for me to reflect on your history, appreciate the sacrifices of those who fought for your independence, and celebrate how far you have come. Instead, I found myself thinking about money. More specifically, I found myself wondering whether the people entrusted with managing your resources genuinely appreciate their value. Sixty-seven years after acquiring the right to determine our own affairs, I would have loved to spend Independence Day celebrating what we had accomplished with that privilege rather than questioning what we had done with it.
+
+On 5 March, I came across reports that approximately [US$16 million had been spent on the African Games Village](https://www.ghanabusinessnews.com/2024/03/05/sports-minister-clarifies-47m-operational-expenses-says-195m-spent-on-accra-2023-facilities/?utm_source=chatgpt.com) at the University of Ghana. The Minister for Youth and Sports had disclosed the expenditure as part of the preparations for hosting the African Games. The project covered the refurbishment of four student hostels and the construction of four domes to accommodate catering, medical and anti-doping services. Even after considering the wider scope of the project, I struggled to get past the amount involved.
+
+**Sixteen million dollars. Read that again.**
+
+Ghana, I sometimes wonder whether we have become so accustomed to hearing about millions of dollars that we have forgotten how much money a million dollars actually represents. Another government expenditure is announced, another enormous figure appears in the news, and after a few days of public discussion, we move on to something else. Judging by the casualness with which some of these amounts are discussed, one could be forgiven for thinking we were talking about somebody spending GH₵50. A million dollars remains a million dollars, irrespective of how casually it appears in a government expenditure report.
+
+Imagine receiving GH₵1,000 every single day. Not every month. Not every week. Every single day. At an [exchange rate of approximately GH₵12.75 to the dollar](https://www.exchange-rates.org/exchange-rate-history/usd-ghs-2024?utm_source=chatgpt.com), as recorded on 6 March 2024, it would take approximately thirty-five years to accumulate the equivalent of US$1 million. That assumes uninterrupted daily payments, no expenditure, no investment returns, and a constant exchange rate. Imagine starting at twenty-five and receiving GH₵1,000 every day throughout your remaining twenties, your thirties, your forties, and your fifties, merely to accumulate the equivalent of one million dollars.
+
+Now imagine trying to accumulate sixteen million dollars under those same assumptions. You would need approximately 559 years. Had somebody started receiving GH₵1,000 every day in the fifteenth century, they might just about have accumulated the equivalent of that expenditure by our sixty-seventh Independence Day. Think about how many generations of a family could have lived and died during that period. And yet, here we are, discussing that amount as one component of the expenditure associated with hosting a sporting competition. Perhaps expressing these figures in centuries rather than dollars might occasionally help us appreciate their magnitude.
+
+And then, my dear Ghana, there is your National Cathedral. In August 2023, [Parliament heard that approximately US$58 million had reportedly been spent on the project](https://gna.org.gh/2023/08/parliament-to-constitute-committee-to-conduct-enquiry-into-national-cathedral-project/?utm_source=chatgpt.com). Under my rather generous arrangement of receiving GH₵1,000 every day, accumulating even US$50 million would take approximately 1,747 years. The reported expenditure concerned the entire project, not merely the excavation, yet somehow, somewhere in Accra, we had managed to associate tens of millions of dollars with an extraordinarily expensive hole in the ground. Perhaps we should have invited representatives of Guinness World Records to come and admire it.
+
+What bothers me about public expenditure is that every decision to spend money on something is also a decision about what else that money will not be available for. When I hear about these amounts, I cannot help thinking about healthcare facilities, classrooms, roads, educational opportunities, and the infrastructure ordinary Ghanaians need. I do not know precisely how many schools or hospitals those amounts could have provided, but surely those alternatives deserve consideration. I want to understand not merely what we purchased, but why purchasing it at that cost represented a sensible use of our resources.
+
+I think about the Ghanaian parent who must carefully consider how much money can be committed to educating a child without compromising the family's other needs. I think about someone who needs medical treatment but must first determine whether they can afford it. I think about the young person who has an idea for a business but struggles to obtain the resources necessary to pursue it. These people understand the value of money because even relatively modest expenditures have consequences for their lives. I wish I could recognise that same degree of care in the management of our national resources.
+
+Having spent much of my education studying mathematics, finance, and risk management, I am particularly interested in what we obtain in return for the money we spend. I do not object to a project merely because it is expensive. Important infrastructure can require substantial investment, and I would love to see Ghana possess excellent sporting facilities that future generations can enjoy. My concern is whether the benefits reasonably justify the resources committed to obtaining them. Surely, I can appreciate the importance of a project while still questioning whether we are paying a reasonable amount for it.
+
+What frustrates me almost as much as the expenditure itself is how easily these conversations become exercises in political allegiance. Our money does not become less valuable because the people spending it belong to a party we like. Nor does a worthwhile project become a waste of resources because it was undertaken by a party we dislike. An enormous expenditure does not, by itself, establish wrongdoing, but citizens deserve to know what was purchased, why it cost that much, and what value was obtained. I wish we were as interested in defending the value of our money as we sometimes appear to be in defending the people who spend it.
+
+What did we do to deserve these leaders? That was one of the questions occupying my mind on Independence Day. I was angry because I wanted so much more for you. I wanted young Ghanaians to have opportunities to establish themselves, parents to experience some comfort after years of sacrifice, and ordinary citizens to enjoy the benefits of living in a country whose resources were managed thoughtfully. Despite everything, Ghanaians still hold their heads high as proud sons and daughters of the land. I admire that about us, and I wish our pride in Ghana were more frequently rewarded by the decisions made on our behalf.
+
+Sixty-seven years of independence is something worth celebrating, but I cannot help wondering what the people who fought for your independence would have wanted us to accomplish with it. Surely, governing ourselves should mean more than having our own people decide how our resources are spent. It should also mean expecting those decisions to reflect an appreciation for the people to whom those resources belong. I genuinely look forward to celebrating an Independence Day on which the management of our national resources gives me more reasons for pride than occasions for sarcasm.
+
+Happy sixty-seventh Independence Day, my dear Ghana. I love you, and I wish I had spent considerably less of your birthday trying to calculate how many centuries it would take an ordinary person to accumulate the money we sometimes discuss so casually.
+
+But seriously, Ghana, what have they done with our money?
+
+God bless our homeland Ghana and make us great and strong.
+
+With love,
+
+SB
+
+*The original reflection that inspired this open letter was written on 6 March 2024, Ghana's 67th Independence Day.*
