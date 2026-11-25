@@ -13,8 +13,12 @@ Two versions of my CV are available below. The academic CV emphasizes education,
 
 [Academic profile](academic.qmd) · [Research](research.qmd) · [Teaching](teaching.qmd)
 
+Academic research includes the [unpublished ridgeShift manuscript](research.qmd#ridgeshift-research) and [ridgeShift software](projects.qmd#ridge-package).
+
 ## Professional CV
 
 [Download professional CV (PDF)](files/Silas_Bambil_Professional_CV.pdf){.button .primary}
 
 [Professional experience and FINRA examinations](professional-cv.qmd)
+
+Statistical software: [ridgeShift (v0.1.0)](projects.qmd#ridge-package).
