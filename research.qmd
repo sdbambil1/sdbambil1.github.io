@@ -6,9 +6,9 @@ description: "Research by Silas Bambil on credit-risk model updating, selection 
 <p class="eyebrow">Research questions, contributions, and methods</p>
 <p class="lede">My research concerns credit-risk model updating under distribution shift and diagnostic methods for extreme losses. I examine how limited data affect model selection, predictive accuracy, and the reliability of tail-risk estimates.</p>
 
-<p class="meta">The three studies below are manuscripts in preparation, not published or accepted papers. <a href="https://orcid.org/0009-0002-5110-8102">ORCID profile</a> · <a href="https://github.com/sdbambil1">GitHub</a></p>
+<p class="meta">The studies below are unpublished manuscripts; none is submitted or accepted for publication. <a href="https://orcid.org/0009-0002-5110-8102">ORCID profile</a> · <a href="https://github.com/sdbambil1">GitHub</a></p>
 
-<nav class="jump-links" aria-label="Research sections"><a href="#fire-loss">Tail-risk diagnostics</a><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Model updating</a><a href="#earlier-research">Earlier research</a></nav>
+<nav class="jump-links" aria-label="Research sections"><a href="#fire-loss">Tail-risk diagnostics</a><a href="#selection-regret">Selection regret</a><a href="#distribution-shift">Model updating</a><a href="#ridgeshift-research">Ridge model updating</a><a href="#earlier-research">Earlier research</a></nav>
 
 ::: {.paper}
 <div class="status-line"><span class="badge">Manuscript in preparation</span><span>2026 · Extreme value theory</span></div>
@@ -84,6 +84,24 @@ The study uses historical mortgage cohorts and controlled simulations under cova
 <div class="tags"><span>Calibration</span><span>Predictive stability</span><span>Logistic regression</span><span>Model updating</span></div>
 
 [Related R package: shiftadapt](projects.qmd#shiftadapt)
+:::
+
+::: {.paper}
+<div class="status-line"><span class="badge">Unpublished manuscript</span><span>2026 · Statistical computing</span></div>
+
+## Ridge-based model updating under distribution shift {#ridgeshift-research}
+
+<p class="authors">Silas Bambil, Shudeshna Nandy, and Yasmeen Babagana</p>
+
+**Research question.** How should a limited target-domain sample be allocated between fitting candidate ridge-based updates and selecting an updating strategy?
+
+::: {.finding}
+**Contribution.** The study compares updating strategies under a common data budget using paired predictive-risk comparisons. It examines the sensitivity of strategy selection to the adaptation–validation allocation.
+:::
+
+The manuscript includes simulation studies, numerical verification, computational benchmarks, and an empirical application to Beijing PM2.5 data. The manuscript is complete but has not been submitted for publication.
+
+[Related R software: ridgeShift](projects.qmd#ridge-package)
 :::
 
 ## Earlier research {#earlier-research}
