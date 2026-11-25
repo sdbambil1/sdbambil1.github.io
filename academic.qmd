@@ -43,6 +43,16 @@ July 2020 · Kumasi, Ghana
 - Coordinated events and seminars on quantitative risk and risk management.
 :::
 
+## Research contributions
+
+### Research software
+
+**ridgeShift (v0.1.0).** Co-developed an R package for ridge-based model updating under distribution shift, including strategy selection, allocation sensitivity, and paired predictive-risk comparisons. [Software details](projects.qmd#ridge-package).
+
+### Research manuscript
+
+**Ridge-based model updating under distribution shift.** Joint work with Shudeshna Nandy and Yasmeen Babagana. Completed, unpublished manuscript; not submitted. [Research summary](research.qmd#ridgeshift-research).
+
 ## Teaching and Research Skills
 
 **Teaching credential:** Florida Non-Renewable Temporary Educator Certificate, Mathematics (Grades 6–12); valid July 2025–June 2030. [Credential and teaching experience](teaching.qmd#educator-certification).
