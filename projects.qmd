@@ -1,12 +1,12 @@
 ---
 title: "Projects & Software"
-description: "R packages for confidence interval estimation and model adaptation, planned ridge regression software, and computational extreme-value research."
+description: "R packages for confidence interval estimation and model adaptation, ridge-based model updating software, and computational extreme-value research."
 ---
 
 <p class="eyebrow">Statistical software and reproducible analysis</p>
-<p class="lede">My computational work covers statistical inference, credit-risk model updating, and extreme-loss analysis. The projects below distinguish publicly released software from ongoing research code and planned development.</p>
+<p class="lede">My computational work covers statistical inference, credit-risk model updating, and extreme-loss analysis. The projects below distinguish publicly released software from completed local software, ongoing research code, and planned development.</p>
 
-<nav class="jump-links" aria-label="Project sections"><a href="#bambaganaci">bambaganaCI</a><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#ridge-package">Ridge regression package</a><a href="#computational-project">Other planned work</a></nav>
+<nav class="jump-links" aria-label="Project sections"><a href="#bambaganaci">bambaganaCI</a><a href="#shiftadapt">shiftadapt</a><a href="#nfirs-analysis">NFIRS analysis</a><a href="#ridge-package">ridgeShift</a><a href="#computational-project">Other planned work</a></nav>
 
 ::: {.software-header}
 <div class="status-line"><span class="badge">Public release · v0.3.4</span><span>Submitted to CRAN · Review pending</span></div>
@@ -89,11 +89,17 @@ Computational work for extreme value analysis of U.S. structure-fire losses, inc
 
 [Research summary](research.qmd#fire-loss) · [Conference poster presentation](conferences.qmd#research-presentations)
 
-## Ridge regression package {#ridge-package}
+## ridgeShift {#ridge-package}
 
-<div class="status-line"><span class="badge planned">Planned project</span><span>R package · Regularized regression</span></div>
+<div class="status-line"><span class="badge">Completed local version · v0.1.0</span><span>R package · Model updating</span></div>
 
-A planned R package for ridge regression, with an emphasis on coefficient shrinkage, penalty selection through cross-validation, and out-of-sample prediction assessment. The package is at the planning stage; no completed implementation or release is claimed.
+**Authors:** Silas Bambil, Shudeshna Nandy, and Yasmeen Babagana.
+
+An R package for ridge-based prediction model updating under distribution shift. It compares candidate updating strategies, evaluates sensitivity to adaptation–validation allocation, and supports paired predictive-risk comparisons.
+
+**Verification:** Numerical accuracy, reproducibility, and computational performance were assessed through controlled experiments and an empirical application. Version 0.1.0 is maintained locally; no public release or CRAN submission is claimed.
+
+[Related research](research.qmd#ridgeshift-research)
 
 ## Planned computational study {#computational-project}
 
