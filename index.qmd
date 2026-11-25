@@ -367,6 +367,14 @@ Memories of my school days in Ghana and reflections on the lasting impressions t
 
 [Read story →](stories/lessons-and-lashes.qmd)
 
+### [The Day I Walked Again](stories/the-day-i-walked-again.qmd)
+
+[August 2021]{.meta}
+
+Reflections on recovering from a serious injury, learning to walk again, and reconsidering ambition, family, and the value of everyday life.
+
+[Read story →](stories/the-day-i-walked-again.qmd)
+
 ::::::::
 
 <!-- ACADEMIC-PANELS-END -->
